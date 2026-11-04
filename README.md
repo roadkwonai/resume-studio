@@ -5,7 +5,7 @@
 <a id="resume-studio"></a>
 <h1 align="center">Resume Studio</h1>
 
-<p align="center"><strong>템플릿을 고르고 이력서를 넘기면 AI가 내용을 옮겨 웹 이력서를 완성합니다.</strong></p>
+<p align="center"><strong>템플릿을 고르고 이력서와 사진, 포트폴리오 자료를 넘기면 AI가 웹 이력서를 완성합니다.</strong></p>
 <p align="center">템플릿 6종 · PDF, DOCX, 노션 자료 · 한국어와 영어 · 개인정보 점검 · 독립 배포</p>
 
 <p align="center">

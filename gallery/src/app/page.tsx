@@ -41,7 +41,7 @@ export default function Home() {
         <header className="hero">
           <div>
             <h1>이력서를 웹사이트로 만듭니다</h1>
-            <p className="standfirst">템플릿을 고르고 이력서를 넘기면 AI가 내용을 옮겨 사이트를 완성합니다.</p>
+            <p className="standfirst">템플릿을 고르고 이력서와 사진, 포트폴리오 자료를 넘기면 AI가 사이트를 완성합니다.</p>
             <div className="actions">
               <a className="primary" href="#templates">
                 템플릿 보기
@@ -62,8 +62,8 @@ export default function Home() {
             <li>
               <span>2</span>
               <div>
-                <h2>이력서 넘기기</h2>
-                <p>PDF 파일이나 노션 주소를 AI에 전달합니다.</p>
+                <h2>자료 넘기기</h2>
+                <p>이력서, 프로필 사진, 포트폴리오 주소와 프로젝트 정보를 AI에 전달합니다.</p>
               </div>
             </li>
             <li>
