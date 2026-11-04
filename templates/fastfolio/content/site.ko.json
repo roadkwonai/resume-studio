@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "skills": "기술",
+    "projects": "프로젝트",
+    "experience": "경력",
+    "testimonials": "후기",
+    "contact": "연락하기",
+    "menu": "메뉴 열기",
+    "close": "메뉴 닫기"
+  },
+  "hero": {
+    "works": "프로젝트 보기"
+  },
+  "skills": {
+    "tag": "기술 스택",
+    "title": "사용하는 기술",
+    "sub": "제품을 만들 때 주로 쓰는 기술입니다"
+  },
+  "projects": {
+    "tag": "프로젝트",
+    "title": "만든 프로젝트",
+    "sub": "직접 만들고 운영한 주요 프로젝트입니다",
+    "source": "소스 코드",
+    "live": "사이트 보기"
+  },
+  "experience": {
+    "tag": "경력",
+    "title": "일한 곳",
+    "sub": "지금까지의 경력과 맡은 일입니다",
+    "cv": "이력서 내려받기",
+    "toggle": "상세 내용 열기 또는 닫기"
+  },
+  "testimonials": {
+    "tag": "후기",
+    "title": "함께 일한 분들의 후기",
+    "sub": "같이 일한 동료와 고객이 남긴 말입니다"
+  },
+  "contact": {
+    "headline": "함께 만들어 볼까요"
+  },
+  "footer": {
+    "copyright": "© {year} 모든 권리 보유"
+  },
+  "notFound": {
+    "title": "페이지를 찾을 수 없습니다",
+    "home": "처음으로 돌아가기"
+  }
+}

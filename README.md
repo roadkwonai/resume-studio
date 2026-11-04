@@ -6,7 +6,7 @@
 <h1 align="center">Resume Studio</h1>
 
 <p align="center"><strong>템플릿을 고르고 이력서를 넘기면 AI가 내용을 옮겨 웹 이력서를 완성합니다.</strong></p>
-<p align="center">템플릿 5종 · PDF, DOCX, 노션 자료 · 한국어와 영어 · 개인정보 점검 · 독립 배포</p>
+<p align="center">템플릿 6종 · PDF, DOCX, 노션 자료 · 한국어와 영어 · 개인정보 점검 · 독립 배포</p>
 
 <p align="center">
   <a href="https://roadkwonai.github.io/resume-studio/"><img src="https://img.shields.io/badge/demo-GitHub%20Pages-172942?style=flat-square" alt="GitHub Pages 데모"></a>
@@ -20,7 +20,7 @@
   <a href="https://roadkwonai.github.io/resume-studio/">템플릿 미리보기</a> · <a href="#toc-1">빠른 시작</a> · <a href="#toc-3">작성 가이드</a> · <a href="#toc-4">샘플 프롬프트</a> · <a href="#toc-5">스킬 규칙</a> · <a href=".claude/skills/resume-portfolio/SKILL.md">스킬 원문</a>
 </p>
 
-사이트는 이미 만들어져 있습니다. `resume-portfolio` 스킬은 레이아웃을 새로 짜지 않고, 이력서의 사실을 `content/profile.json` 하나에 정확하게 옮기는 일을 맡습니다. 다섯 템플릿이 같은 형식을 쓰기 때문에 내용을 다시 쓰지 않고 템플릿을 바꿀 수 있습니다.
+사이트는 이미 만들어져 있습니다. `resume-portfolio` 스킬은 레이아웃을 새로 짜지 않고, 이력서의 사실을 `content/profile.json` 하나에 정확하게 옮기는 일을 맡습니다. 여섯 템플릿이 같은 형식을 쓰기 때문에 내용을 다시 쓰지 않고 템플릿을 바꿀 수 있습니다.
 
 > [!IMPORTANT]
 > 내가 만든 `portfolios/` 폴더, PDF, `selection.json` 은 `.gitignore` 에 들어 있습니다. 이력서, 사진, 연락처는 이 저장소를 포크해도 커밋되지 않습니다.
@@ -85,7 +85,7 @@ npm install
 npm run studio
 ```
 
-http://localhost:4100 을 열면 템플릿 5종을 나란히 보고, 실제로 눌러 보고, 하나를 고를 수 있습니다. 처음 실행할 때는 빌드 때문에 몇 분 걸립니다.
+http://localhost:4100 을 열면 템플릿 6종을 나란히 보고, 실제로 눌러 보고, 하나를 고를 수 있습니다. 처음 실행할 때는 빌드 때문에 몇 분 걸립니다.
 
 > [!TIP]
 > 스킬 이름을 쓰지 않아도 됩니다. "내 이력서로 사이트 만들어 줘"처럼 말로 요청해도 스킬이 실행됩니다.
@@ -94,7 +94,7 @@ http://localhost:4100 을 열면 템플릿 5종을 나란히 보고, 실제로 �
 
 ## 템플릿
 
-[데모 사이트](https://roadkwonai.github.io/resume-studio/)에서 다섯 템플릿의 실제 화면을 데스크톱, 태블릿, 휴대폰 크기로 볼 수 있습니다.
+[데모 사이트](https://roadkwonai.github.io/resume-studio/)에서 여섯 템플릿의 실제 화면을 데스크톱, 태블릿, 휴대폰 크기로 볼 수 있습니다.
 
 | 템플릿 | 추천 대상 | 구성 | 준비 자료 |
 | --- | --- | --- | --- |
@@ -103,6 +103,7 @@ http://localhost:4100 을 열면 템플릿 5종을 나란히 보고, 실제로 �
 | [Sawad](https://roadkwonai.github.io/resume-studio/preview/sawad/) | 경력이 짧거나 빠르게 공개하려는 디자이너, 개발자 | 다중 페이지 | 프로필 사진, 프로젝트 썸네일 |
 | [Nightly](https://roadkwonai.github.io/resume-studio/preview/nightly/) | 측정 가능한 성과가 있는 엔지니어, 컨설턴트 | 다중 페이지 | 개선 전후 수치, 대표 이미지 |
 | [Kernel Dev](https://roadkwonai.github.io/resume-studio/preview/kernel-dev/) | 사진 없이 글로만 구성하려는 개발자 | 단일 페이지 | 사진 불필요 |
+| [Fastfolio](https://roadkwonai.github.io/resume-studio/preview/fastfolio/) | 프로젝트 이미지와 후기가 있는 프론트엔드 개발자 | 단일 페이지 | 프로필 사진, 프로젝트 이미지 |
 
 자료 양을 기준으로 고르면 실패가 적습니다. 프로젝트 수치가 없으면 Nightly의 핵심 장면이 빠지고, 프로젝트가 두 개뿐이면 Soren Hale의 페이지가 많이 사라집니다.
 
@@ -311,7 +312,7 @@ PDF에 전화번호나 주소가 남아 있으면 알려 줘.
 
 | 명령 | 하는 일 |
 | --- | --- |
-| `npm run studio` | 갤러리와 템플릿 5종 실행. `-- --rebuild` 로 다시 빌드 |
+| `npm run studio` | 갤러리와 템플릿 6종 실행. `-- --rebuild` 로 다시 빌드 |
 | `npm run new -- <템플릿> <이름> <profile.json>` | 템플릿을 복사해 포트폴리오 생성. 템플릿 자리에 `selected` 를 쓰면 갤러리 선택을 따름 |
 | `npm run validate -- <파일>` | `profile.json` 형식 검사 |
 | `npm run verify -- <이름>` | 형식, 프로덕션 빌드, 데모 내용 잔재 검사 |
@@ -338,15 +339,15 @@ npm run dev -w @resume/portfolio-my-site
 | 경로 | 내용 |
 | --- | --- |
 | `gallery/` | 통합 웹 |
-| `templates/<id>/` | 독립 실행되는 Next.js 앱 5개 |
-| `templates/<id>/content/profile.json` | 사람에 관한 모든 내용. 다섯 템플릿이 같은 형식을 씁니다 |
+| `templates/<id>/` | 독립 실행되는 Next.js 앱 6개 |
+| `templates/<id>/content/profile.json` | 사람에 관한 모든 내용. 여섯 템플릿이 같은 형식을 씁니다 |
 | `templates/<id>/content/site.ko.json` | 메뉴, 버튼 같은 화면 문구 |
 | `shared/profile.ts` | `profile.json` 규격. 고친 뒤 `npm run sync` |
 | `portfolios/<이름>/` | 내가 만든 포트폴리오. 커밋되지 않습니다 |
 | `.claude/skills/resume-portfolio/` | 스킬 원본 |
 | `.agents/skills/resume-portfolio/` | Codex와 Antigravity가 읽는 사본. `npm run sync` 로 맞춥니다 |
 
-포트는 갤러리 4100, 템플릿 4101~4105, 포트폴리오 4200부터입니다. `npm run studio` 는 localhost에서만 받습니다.
+포트는 갤러리 4100, 템플릿 4101~4106, 포트폴리오 4200부터입니다. `npm run studio` 는 localhost에서만 받습니다.
 
 <a id="toc-8"></a>
 

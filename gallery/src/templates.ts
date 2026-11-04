@@ -74,6 +74,18 @@ export const templates: Template[] = [
     palette: "검은 배경과 초록색 글자",
     needs: "사진 불필요",
   },
+  {
+    id: "fastfolio",
+    no: "6",
+    name: "Fastfolio",
+    port: 4106,
+    tone: "사진과 카드 중심의 깔끔한 개발자 이력서",
+    blurb: "큰 인물 사진, 기술 알약, 프로젝트 카드, 여닫는 경력, 흐르는 후기를 한 페이지에 담습니다.",
+    fit: "프로젝트 이미지와 후기가 있는 프론트엔드 개발자",
+    pages: "단일 페이지, 6개 섹션",
+    palette: "어두운 회색 배경과 흰색 버튼",
+    needs: "프로필 사진 1장, 프로젝트 이미지 2~4장",
+  },
 ];
 
 export const byId = (id: string) => templates.find((t) => t.id === id);

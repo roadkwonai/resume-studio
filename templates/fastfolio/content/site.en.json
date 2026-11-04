@@ -1,0 +1,11 @@
+{
+  "nav": { "skills": "Skills", "projects": "Projects", "experience": "Experience", "testimonials": "Testimonials", "contact": "Contact Me", "menu": "Open menu", "close": "Close menu" },
+  "hero": { "works": "See my works" },
+  "skills": { "tag": "TECH STACK", "title": "Tools I Build With", "sub": "A curated set of technologies I rely on to build modern web experiences" },
+  "projects": { "tag": "PROJECTS", "title": "Projects I’ve Shipped", "sub": "A range of projects demonstrating how I turn ideas into functional experiences", "source": "Source Code", "live": "Live Website" },
+  "experience": { "tag": "EXPERIENCE", "title": "Where I’ve Worked", "sub": "A summary of my professional journey and the impact I’ve made", "cv": "Download My CV", "toggle": "Show or hide details" },
+  "testimonials": { "tag": "TESTIMONIALS", "title": "Don't just take my words for it", "sub": "Words from people who’ve worked with me and experienced my process and results firsthand" },
+  "contact": { "headline": "Let’s Build Something Great" },
+  "footer": { "copyright": "© {year} — Copyright. All Rights reserved" },
+  "notFound": { "title": "Page not found", "home": "Back to home" }
+}

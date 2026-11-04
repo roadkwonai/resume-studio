@@ -206,7 +206,7 @@ export const installs = [
 ];
 
 export const commands = [
-  ["npm run studio", "갤러리와 템플릿 5종을 실행합니다. 주소는 localhost:4100입니다."],
+  ["npm run studio", "갤러리와 템플릿 6종을 실행합니다. 주소는 localhost:4100입니다."],
   ["npm run new -- <템플릿> <이름> <profile.json>", "템플릿을 복사해 portfolios/<이름>/ 을 만듭니다."],
   ["npm run validate -- <파일>", "profile.json 의 형식을 검사합니다."],
   ["npm run verify -- <이름>", "형식, 프로덕션 빌드, 데모 내용 잔재를 한 번에 검사합니다."],

@@ -1,6 +1,6 @@
 /* Hallmark · shape: app screen · genre: editorial · theme: custom (layout from the awesome-design-skills editorial DESIGN.md, faces replaced by request)
  * paper: #fcfbf8 · accent: #111111 · display: Pretendard · body: Pretendard
- * nav: masthead, then a top bar on the bench · signature: five full pages side by side, panning like film strips · states: loading, server down, saved, save failed
+ * nav: masthead, then a top bar on the bench · signature: full template pages side by side, panning like film strips · states: loading, server down, saved, save failed
  * axes: light/grotesk-sans/neutral · posture: paper page, the templates carry all colour · contrast: pass · v2.0.0 */
 /* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 · weakest: H, one sans family carries both hierarchy levels so size and weight do the work */
 /* lint note 26a: sloplint cannot blur an iframe once focus is inside it; the ring is .stage:focus-within::after, confirmed in a browser (rest none, focused solid). 23 dismissed: the paint is template screenshots, not accent. */
@@ -361,7 +361,7 @@ h3 {
 .sheet {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 0;
   margin: 0;
   padding: 0;

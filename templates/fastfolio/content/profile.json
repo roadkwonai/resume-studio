@@ -1,0 +1,68 @@
+{
+  "locale": "en",
+  "basics": {
+    "name": "Snilloc Hemingson",
+    "label": "Frontend Engineer",
+    "headline": "Frontend Engineer.",
+    "summary": "Hi, I’m Snilloc Hemingson, a frontend engineer in the United States building fast, accessible web experiences. I focus on modern JavaScript frameworks and clean, scalable interfaces.",
+    "about": ["I build fast, polished, and user-friendly products that deliver real value"],
+    "email": "hello@snilloc.example",
+    "availability": "Available for work",
+    "photo": "/sites/fastfolio/images/portrait.png",
+    "photoAlt": "Photo of me smiling",
+    "resumeFile": "https://docs.google.com/",
+    "profiles": [
+      { "network": "GitHub", "url": "https://github.com/" },
+      { "network": "X", "url": "https://x.com/" },
+      { "network": "LinkedIn", "url": "https://www.linkedin.com/" }
+    ]
+  },
+  "skills": [
+    {
+      "group": "Tech stack",
+      "items": [
+        { "name": "HTML5", "icon": "/sites/fastfolio/images/html.svg" },
+        { "name": "CSS3", "icon": "/sites/fastfolio/images/css.svg" },
+        { "name": "JavaScript", "icon": "/sites/fastfolio/images/javascript.png" },
+        { "name": "React", "icon": "/sites/fastfolio/images/react.png" },
+        { "name": "Nextjs", "icon": "/sites/fastfolio/images/nextjs.webp" },
+        { "name": "Redux", "icon": "/sites/fastfolio/images/redux.png" },
+        { "name": "TailwindCSS", "icon": "/sites/fastfolio/images/tailwind.png" },
+        { "name": "Sass", "icon": "/sites/fastfolio/images/sass.webp" },
+        { "name": "GSAP", "icon": "/sites/fastfolio/images/gsap.png" },
+        { "name": "TypeScript", "icon": "/sites/fastfolio/images/typescript.png" },
+        { "name": "Netlify", "icon": "/sites/fastfolio/images/netlify.svg" },
+        { "name": "Git", "icon": "/sites/fastfolio/images/git.svg" }
+      ]
+    }
+  ],
+  "projects": [
+    { "slug": "clouddesk", "name": "CloudDesk", "summary": "A modern dashboard interface designed to help teams manage tasks, track progress, and collaborate seamlessly in real time.", "image": "/sites/fastfolio/images/project-1.jpg", "imageAlt": "Project Mockup", "url": "https://example.com/", "repo": "https://github.com/" },
+    { "slug": "matcha-haven", "name": "Matcha Haven", "summary": "A clean, calming website for a matcha brand, designed to showcase products, tell the brand story, and create a smooth, delightful shopping experience.", "image": "/sites/fastfolio/images/project-2.png", "imageAlt": "Project Mockup", "url": "https://example.com/", "repo": "https://github.com/" },
+    { "slug": "finova", "name": "Finova", "summary": "A sleek fintech platform designed to simplify payments, track expenses, and give users clear insights into their financial activity.", "image": "/sites/fastfolio/images/project-3.jpg", "imageAlt": "Project Mockup", "url": "https://example.com/", "repo": "https://github.com/" },
+    { "slug": "eventra", "name": "Eventra", "summary": "A modern event discovery platform that helps users find, explore, buy tickets, and stay updated on events happening around them.", "image": "/sites/fastfolio/images/project-4.jpg", "imageAlt": "Project Mockup", "url": "https://example.com/", "repo": "https://github.com/" }
+  ],
+  "work": [
+    { "company": "Paystack", "position": "Frontend Engineer", "start": "2023", "summary": "", "highlights": ["Built and maintained responsive user interfaces using modern JavaScript frameworks", "Collaborated with designers to deliver clean, user-focused experiences", "Optimized performance and improved page load times across key products"] },
+    { "company": "Hubtel", "position": "Frontend Engineer", "start": "2022", "end": "2023", "summary": "", "highlights": ["Built responsive customer-facing interfaces for web products", "Worked closely with product and design teams to improve usability", "Optimized UI performance and reusable component structure"] },
+    { "company": "Meta", "position": "UI Engineer", "start": "2021", "end": "2022", "summary": "", "highlights": ["Developed polished interface components for internal tools and product experiences", "Improved design consistency across multiple user flows", "Collaborated with cross-functional teams to ship high-quality features"] },
+    { "company": "Google", "position": "Frontend Lead", "start": "2020", "end": "2021", "summary": "", "highlights": ["Crafted scalable web interfaces with a focus on speed and accessibility", "Contributed to clean component systems and maintainable codebases", "Helped refine user experiences through testing and iteration"] }
+  ],
+  "testimonials": [
+    { "name": "Daniel Carter", "role": "Product Designer", "company": "Stripe", "avatar": "/sites/fastfolio/images/t1.png", "quote": "Working with Snilloc was seamless. His attention to detail and ability to translate design into smooth, functional interfaces really stood out." },
+    { "name": "Michael Brown", "role": "UI/UX Designer", "company": "Adobe", "avatar": "/sites/fastfolio/images/t2.png", "quote": "He has a strong eye for design and knows how to bring ideas to life on the web. Collaboration with him is always easy and productive." },
+    { "name": "Emily Watson", "role": "Frontend Developer", "company": "Shopify", "avatar": "/sites/fastfolio/images/t3.png", "quote": "Snilloc writes some of the cleanest code I’ve seen. He’s thoughtful, consistent, and always focused on performance and user experience." },
+    { "name": "Sarah Johnson", "role": "Software Engineer", "company": "Microsoft", "avatar": "/sites/fastfolio/images/t4.png", "quote": "Snilloc is reliable and detail-oriented. He takes feedback well and continuously improves both the product and his workflow." },
+    { "name": "James Wilson", "role": "Product Manager", "company": "Atlassian", "avatar": "/sites/fastfolio/images/t5.png", "quote": "He understands product thinking, not just code. That makes a big difference when building features that actually matter to users." },
+    { "name": "Olivia Martinez", "role": "Creative Developer", "company": "Webflow", "avatar": "/sites/fastfolio/images/t6.png", "quote": "His work is clean, modern, and polished. He consistently delivers interfaces that feel intuitive and well-crafted." }
+  ],
+  "contact": { "headline": "Let’s Build Something Great", "note": "Let’s bring your ideas to life with thoughtful design and code" },
+  "extras": {
+    "fastfolio": {
+      "avatar": "/sites/fastfolio/images/avatar.png",
+      "contactUrl": "https://cal.com/",
+      "ctaImage": "/sites/fastfolio/images/cta.png",
+      "ticker": ["React", "Redux", "TailwindCSS", "Sass", "GSAP", "Nextjs", "JavaScript"]
+    }
+  }
+}

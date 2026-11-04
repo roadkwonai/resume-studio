@@ -1,4 +1,4 @@
-// One command for the whole gallery: builds what is missing, then serves the five templates and the gallery on localhost.
+// One command for the whole gallery: builds what is missing, then serves the templates and the gallery on localhost.
 // Usage: npm run studio [-- --rebuild]
 import { execFileSync, spawn } from "node:child_process";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
