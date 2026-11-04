@@ -122,27 +122,26 @@ a:focus-visible, button:focus-visible, pre:focus-visible {
 
 .flow li {
   display: grid;
-  grid-template-columns: 7.5rem minmax(0, 1fr);
+  grid-template-columns: 2.5rem minmax(0, 1fr);
   gap: var(--space-md);
   padding: var(--space-md) 0;
   border-bottom: 1px solid var(--color-rule);
 }
 
-.flow h2 {
-  font-size: var(--text-sm);
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 1.8;
+.flow span {
+  font-size: var(--text-2xl);
+  line-height: 1.2;
   color: var(--color-muted);
 }
 
-.flow p, .flow pre { margin: 0; }
-.flow pre { white-space: pre-wrap; }
-
-.flow-result {
+.flow h2 {
   font-size: var(--text-xl);
-  font-weight: 700;
   line-height: 1.35;
+}
+
+.flow p {
+  margin: var(--space-2xs) 0 0;
+  color: var(--color-ink-2);
 }
 
 /* sections */

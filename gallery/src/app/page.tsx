@@ -51,18 +51,27 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <ol className="flow" aria-label="이력서 한 줄이 사이트 문구가 되는 과정">
+          <ol className="flow" aria-label="사용 순서">
             <li>
-              <h2>이력서</h2>
-              <p>2021.03~현재 ○○페이 백엔드 개발, 정산 배치 처리시간 6시간→40분</p>
+              <span>1</span>
+              <div>
+                <h2>템플릿 고르기</h2>
+                <p>실제 화면을 비교하고 마음에 드는 템플릿을 고릅니다.</p>
+              </div>
             </li>
             <li>
-              <h2>profile.json</h2>
-              <pre>{`"company": "○○페이",\n"start": "2021-03",\n"highlights": [...]`}</pre>
+              <span>2</span>
+              <div>
+                <h2>이력서 넘기기</h2>
+                <p>PDF 파일이나 노션 주소를 AI에 전달합니다.</p>
+              </div>
             </li>
             <li>
-              <h2>사이트</h2>
-              <p className="flow-result">정산 배치 처리 시간을 6시간에서 40분으로 단축</p>
+              <span>3</span>
+              <div>
+                <h2>사이트 확인</h2>
+                <p>AI가 내용을 옮기고 검사한 뒤 결과를 알려 줍니다.</p>
+              </div>
             </li>
           </ol>
         </header>
