@@ -1,0 +1,22 @@
+{
+  "kernel-dev": {
+    "width": 1440,
+    "height": 6634
+  },
+  "nightly": {
+    "width": 1440,
+    "height": 12850
+  },
+  "sawad": {
+    "width": 1440,
+    "height": 5446
+  },
+  "soren-hale": {
+    "width": 1440,
+    "height": 16828
+  },
+  "stackbit-os": {
+    "width": 1440,
+    "height": 4695
+  }
+}

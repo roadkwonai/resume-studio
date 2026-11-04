@@ -1,0 +1,148 @@
+{
+  "locale": "en",
+  "basics": {
+    "name": "Ryan Reyner",
+    "shortName": "Ryan",
+    "handle": "ryan",
+    "label": "Full-stack engineer",
+    "headline": "Human thinking. Production code.",
+    "summary": "I’m Ryan Reyner, a full-stack developer turning complex ideas into fast interfaces and dependable systems.",
+    "about": [
+      "I work where product thinking meets engineering. I like clear requirements, small pull requests, and interfaces that feel effortless. From the first wireframe to the deployment pipeline, I make the pieces work together.",
+      "Away from the keyboard: street photography, slow coffee, and finding the simplest route through a complicated problem."
+    ],
+    "email": "hello@example.com",
+    "location": { "city": "Singapore", "country": "SG", "timezone": "UTC+8" },
+    "availability": "AVAILABLE FOR SELECT COLLABORATIONS / 2026",
+    "photo": "/sites/kerneldev/images/portrait.png",
+    "photoAlt": "Reyhan Aditya, full-stack developer, in a monochrome portrait with green Matrix lighting",
+    "profiles": [
+      { "network": "GitHub", "url": "https://github.com/" },
+      { "network": "LinkedIn", "url": "https://www.linkedin.com/" },
+      { "network": "X", "url": "https://x.com/" }
+    ]
+  },
+  "metrics": [
+    { "value": "01", "label": "ENGINEER / END-TO-END" },
+    { "value": "03", "label": "PROJECTS TO EXPLORE" },
+    { "value": "06", "label": "STACK DISCIPLINES" },
+    { "value": "∞", "label": "CURIOSITY / ALWAYS ON" }
+  ],
+  "principles": [
+    "CLARITY BEFORE COMPLEXITY",
+    "ACCESSIBILITY IS PART OF QUALITY",
+    "MEASURE, THEN OPTIMIZE",
+    "LEAVE THE CODE BETTER"
+  ],
+  "work": [
+    { "company": "Independent", "position": "Product engineer", "start": "2023", "summary": "Partnering with small teams on web products, internal tools, and design systems. Scope, implementation, review, and handoff." },
+    { "company": "Studio practice", "position": "Full-stack development", "start": "2021", "end": "2023", "summary": "Built front-end patterns, API integrations, and release workflows through collaborative product projects." }
+  ],
+  "education": [
+    { "institution": "Computer science", "area": "Engineering foundation", "start": "2017", "end": "2021", "summary": "Algorithms, databases, distributed systems, and human–computer interaction. Continued learning through hands-on builds." }
+  ],
+  "awards": [
+    { "title": "Credentials & continuous learning", "issuer": "FOCUS / CLOUD · SECURITY · ACCESSIBILITY", "summary": "Cloud architecture · secure application design · accessible front-end development" }
+  ],
+  "skills": [
+    { "group": "Front-end", "items": [
+      { "name": "React" },
+      { "name": "Next.js" },
+      { "name": "TypeScript", "note": "Accessible interfaces, reusable patterns, and responsive systems." }
+    ] },
+    { "group": "Back-end", "items": [
+      { "name": "Node.js" },
+      { "name": "Python" },
+      { "name": "PostgreSQL", "note": "REST and GraphQL APIs, authentication flows, and data modeling." }
+    ] },
+    { "group": "DevOps", "items": [
+      { "name": "Docker" },
+      { "name": "GitHub Actions" },
+      { "name": "Linux", "note": "CI/CD, cloud deployments, logs, and observability." }
+    ] },
+    { "group": "Tools & languages", "items": [
+      { "name": "Git" },
+      { "name": "VS Code" },
+      { "name": "Figma" },
+      { "name": "Framer" },
+      { "name": "Claude" },
+      { "name": "ChatGPTPlaywright", "note": "JavaScript, TypeScript, Python, and SQL." }
+    ] },
+    { "group": "Engineering", "items": [
+      { "name": "Design systems, API architecture, testing, performance profiling, documentation, and code review." }
+    ] },
+    { "group": "Principles in practice", "items": [
+      { "name": "Progressive enhancement, reusable boundaries, and small changes with clear ownership." }
+    ] }
+  ],
+  "projects": [
+    {
+      "slug": "cal-com",
+      "name": "Cal.com",
+      "kind": "SCHEDULING INFRASTRUCTURE",
+      "summary": "An open-source scheduling platform: calendars, booking flows, and team availability.",
+      "tags": ["Next.js", "TypeScript", "Prisma"],
+      "url": "https://cal.com",
+      "repo": "https://github.com/calcom/cal.com"
+    },
+    {
+      "slug": "medusa",
+      "name": "Medusa",
+      "kind": "COMPOSABLE COMMERCE",
+      "summary": "A modular commerce platform built around flexible APIs and merchant workflows.",
+      "tags": ["Node.js", "TypeScript", "PostgreSQL"],
+      "url": "https://medusajs.com",
+      "repo": "https://github.com/medusajs/medusa"
+    },
+    {
+      "slug": "excalidraw",
+      "name": "Excalidraw",
+      "kind": "COLLABORATIVE CANVAS",
+      "summary": "A lightweight sketching canvas with a clear interface and local-first interaction.",
+      "tags": ["React", "TypeScript", "Canvas"],
+      "url": "https://excalidraw.com",
+      "repo": "https://github.com/excalidraw/excalidraw"
+    }
+  ],
+  "services": [
+    { "slug": "first-product", "name": "Your first product", "summary": "A focused MVP with clear user flows, a maintainable foundation, and room to learn." },
+    { "slug": "faster-experience", "name": "A faster experience", "summary": "Audit the bottlenecks. Improve loading, interaction, accessibility, and the parts users notice." },
+    { "slug": "stronger-system", "name": "A stronger system", "summary": "Reusable UI, dependable APIs, and a release pipeline your team can understand." }
+  ],
+  "process": [
+    { "title": "Define the signal", "summary": "Align on the goal, constraints, users, and what success should look like." },
+    { "title": "Build in the open", "summary": "Prototype early. Ship small slices. Review working software together." },
+    { "title": "Deploy with care", "summary": "Test the important flows, document the system, and hand over a stable release." }
+  ],
+  "faq": [
+    { "question": "What kinds of projects are a good fit?", "answer": "Web products, SaaS interfaces, internal tools, and focused front-end or full-stack improvements." },
+    { "question": "Can you work with our existing team?", "answer": "Yes. I can collaborate with designers and engineers, follow your conventions, and work through reviewable changes." },
+    { "question": "How do we scope the work?", "answer": "Start with the goal, current system, timeline, and constraints. We agree on milestones and deliverables before implementation." },
+    { "question": "What happens after launch?", "answer": "The handoff includes documentation and a walkthrough. Ongoing support can be scoped around your team’s needs." }
+  ],
+  "contact": {
+    "headline": "Let’s find the useful next step.",
+    "note": "Open to product collaborations, focused freelance work, and remote engineering roles."
+  },
+  "features": { "legal": true },
+  "extras": {
+    "kernel-dev": {
+      "brand": "kernel.dev",
+      "terminal": {
+        "whoami": "Full-stack developer. Curious by default.",
+        "mission": "Build useful things. Keep the system simple.",
+        "status": "Ready for your next challenge."
+      },
+      "portraitNote": "PRODUCT MINDSET. SYSTEMS THINKING.",
+      "locationNote": "REMOTE WORLDWIDE",
+      "projectsIntro": "Three open-source projects to explore: interfaces, commerce, and developer workflows.",
+      "projectsNote": "OPEN-SOURCE SPOTLIGHT / CREDIT BELONGS TO THE ORIGINAL MAINTAINERS.",
+      "processStages": ["DISCOVER", "DEVELOP", "DELIVER"],
+      "projects": {
+        "cal-com": { "path": "~/builds/cal.com", "mock": "[ MON  TUE  WED  THU ]\n09:00   ▓▓   10:30\n11:00   ▓▓   14:00" },
+        "medusa": { "mock": "STORE / API\nproducts → cart → order\n[████████] READY" },
+        "excalidraw": { "mock": "┌──────┐  ┌──────┐\n│ IDEA │→ │ SHIP │\n└──────┘  └──────┘" }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "nav": { "primary": "주요 메뉴", "open": "메뉴 열기", "close": "메뉴 닫기", "backToTop": "맨 위로" },
+  "boot": {
+    "version": "v1.0.26",
+    "lines": ["프로필 초기화 중...", "경력 데이터 불러오는 중...", "프로젝트 목록 동기화 중...", "개발자 노드 연결 중..."],
+    "granted": "접속 승인_"
+  },
+  "header": { "downloadCv": "이력서 다운로드", "clock": "{city} 현재 시각: {time}" },
+  "sections": {
+    "profile": "프로필",
+    "bio": "소개",
+    "principles": "일하는 원칙",
+    "performance": "성과 지표",
+    "tech": "기술 스택",
+    "experience": "경력",
+    "projects": "주요 프로젝트",
+    "openSource": "오픈소스",
+    "contact": "문의하기"
+  },
+  "asides": {
+    "experience": "참여한 제품, 플랫폼, 팀",
+    "projects": "주요 제품과 시스템",
+    "openSource": "오픈소스 개발과 기여 활동"
+  },
+  "profile": { "experience": "경력:", "focus": "주력 분야:", "responseTime": "응답 시간:", "status": "상태:", "online": "온라인" },
+  "tech": { "items": "{n}개 항목", "year": "{n}년", "years": "{n}년" },
+  "projects": { "caseStudy": "사례 보기", "livePreview": "서비스 보기", "github": "GitHub" },
+  "openSource": { "map": "신호 패턴", "stars": "스타", "pulls": "풀 리퀘스트", "viewRepo": "저장소 보기" },
+  "code": { "label": "포트폴리오 예시 소스 코드" },
+  "contact": { "email": "이메일", "location": "위치", "formTitle": "새_메시지.SYS" },
+  "form": {
+    "namePlaceholder": "이름",
+    "nameLabel": "이름",
+    "emailPlaceholder": "이메일",
+    "emailLabel": "이메일",
+    "companyPlaceholder": "회사/팀",
+    "companyLabel": "회사 또는 팀",
+    "messagePlaceholder": "메시지",
+    "messageLabel": "메시지",
+    "budgetPlaceholder": "예산",
+    "budgetLabel": "예산",
+    "submit": "보내기",
+    "subject": "{name} 님의 프로젝트 문의"
+  },
+  "footer": { "statuses": ["방화벽 작동 중", "보안 연결", "노드 온라인"], "top": "맨 위로" },
+  "notFound": { "title": "페이지를 찾을 수 없습니다", "home": "홈으로 돌아가기" }
+}

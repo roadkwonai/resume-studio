@@ -1,0 +1,1571 @@
+{
+  "locale": "en",
+  "basics": {
+    "name": "Soren Hale",
+    "shortName": "Soren",
+    "initials": "SH",
+    "handle": "soren",
+    "label": "Frontend developer",
+    "headline": "Frontend developer shipping interfaces that feel instant.",
+    "summary": "Eight years building product interfaces for fintech and developer tools. React, TypeScript, and a stubborn eye on the last hundred milliseconds.",
+    "about": [
+      "I build product interfaces that feel instant and stay that way. Eight years in fintech and developer tools taught me that speed is a feature, accessibility is not optional, and the best code is the code the next person can read.",
+      "My first job was email templates and landing pages in Bergen. The build took four minutes, so I fixed it at night. That is how I found out I liked the part of the work that makes everyone else faster.",
+      "Sensor charts on the GPU at Tidewater, one console in place of forty internal tools at Ledgerline, the merchant dashboard at Kestrel Pay. Every time, the number that mattered was how long a person waited.",
+      "I join a team for six to twelve weeks, agree on the number we are moving, and ship against it every Friday. When I leave, the next developer gets a written handover and code they can read."
+    ],
+    "email": "hello@sorenhale.dev",
+    "phone": "+47 21 55 01 42",
+    "location": {
+      "city": "Oslo",
+      "country": "Norway",
+      "timezone": "Europe/Oslo"
+    },
+    "availability": "Open to work from November",
+    "responseTime": "Replies within one working day",
+    "photo": "/sites/sorenhale/images/LoIqKcaRWqQnjoY49EI6dshKY.webp",
+    "photoAlt": "Soren Hale, frontend developer, in a navy work jacket against a dark wall",
+    "aboutImage": "/sites/sorenhale/images/oiAGfMgu0PR7p7gXMkWT7I25swE.webp",
+    "aboutImageAlt": "A dark desk at night with a closed laptop, a notebook and a lamp-lit plant",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "url": "https://github.com/"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/"
+      },
+      {
+        "network": "Bluesky",
+        "url": "https://bsky.app/"
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "value": "8",
+      "label": "Years shipping product"
+    },
+    {
+      "value": "46",
+      "label": "Interfaces launched"
+    },
+    {
+      "value": "99",
+      "label": "Average Lighthouse"
+    }
+  ],
+  "principles": [
+    "Measure first",
+    "Ship on Friday",
+    "Keyboard and screen reader, always",
+    "Less JavaScript",
+    "Write it down",
+    "Say no early"
+  ],
+  "work": [
+    {
+      "company": "Soren Hale",
+      "position": "Independent frontend developer",
+      "start": "2023",
+      "location": "Oslo",
+      "summary": "Product builds, performance work and design systems for fintech and developer tool teams across Europe.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "WebGL"
+      ]
+    },
+    {
+      "company": "Kestrel Pay",
+      "position": "Staff frontend engineer",
+      "start": "2021",
+      "end": "2023",
+      "location": "Oslo",
+      "summary": "Led the merchant dashboard: live data, a new table engine and the performance budget every team now ships against.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "WebSocket"
+      ]
+    },
+    {
+      "company": "Ledgerline",
+      "position": "Senior frontend engineer",
+      "start": "2020",
+      "end": "2021",
+      "location": "Stockholm",
+      "summary": "Designed the shell and the shared library that replaced forty internal tools with one console.",
+      "tags": [
+        "React",
+        "Module Federation",
+        "Turborepo"
+      ]
+    },
+    {
+      "company": "Tidewater",
+      "position": "Frontend engineer",
+      "start": "2019",
+      "end": "2020",
+      "location": "Copenhagen",
+      "summary": "Built the GPU charting layer for sensor data and the accessible table view behind every chart.",
+      "tags": [
+        "TypeScript",
+        "WebGL",
+        "Web Workers"
+      ]
+    },
+    {
+      "company": "Pilcrow Studio",
+      "position": "Frontend developer",
+      "start": "2018",
+      "end": "2019",
+      "location": "Oslo",
+      "summary": "Shipped marketing sites and two web apps for clients in publishing and travel. Learned to estimate.",
+      "tags": [
+        "JavaScript",
+        "Vue",
+        "Sass"
+      ]
+    },
+    {
+      "company": "Brygge Digital",
+      "position": "Junior web developer",
+      "start": "2018",
+      "end": "2018",
+      "location": "Bergen",
+      "summary": "First job: email templates, landing pages and the build script nobody else wanted to touch.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oslo",
+      "area": "Informatics, Programming and System Architecture",
+      "degree": "MSc",
+      "start": "2016",
+      "end": "2018"
+    },
+    {
+      "institution": "University of Bergen",
+      "area": "Computer Science",
+      "degree": "BSc",
+      "start": "2013",
+      "end": "2016"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        {
+          "name": "TypeScript",
+          "level": "Daily",
+          "years": 8,
+          "note": "Strict mode, no any. Types are the first draft of the docs."
+        },
+        {
+          "name": "JavaScript",
+          "level": "Daily",
+          "years": 8,
+          "note": "The platform underneath everything else, and still where the bugs live."
+        },
+        {
+          "name": "CSS",
+          "level": "Daily",
+          "years": 8,
+          "note": "Grid, container queries and custom properties before any library."
+        },
+        {
+          "name": "GLSL",
+          "level": "Weekly",
+          "years": 4,
+          "note": "Shaders for charts and the occasional hero that earns its place."
+        }
+      ]
+    },
+    {
+      "group": "Frameworks",
+      "items": [
+        {
+          "name": "React",
+          "level": "Daily",
+          "years": 8,
+          "note": "Server components where they help, plain state where they do not."
+        },
+        {
+          "name": "Next.js",
+          "level": "Daily",
+          "years": 6,
+          "note": "The default for products that need a server and a deadline."
+        },
+        {
+          "name": "Astro",
+          "level": "Weekly",
+          "years": 3,
+          "note": "For docs and content sites that should ship almost no JavaScript."
+        },
+        {
+          "name": "Svelte",
+          "level": "Comfortable",
+          "years": 2,
+          "note": "Small tools and prototypes; I read it more often than I write it."
+        }
+      ]
+    },
+    {
+      "group": "Tooling",
+      "items": [
+        {
+          "name": "Vite",
+          "level": "Daily",
+          "years": 5,
+          "note": "Fast feedback is a feature. Builds measured in seconds, not coffee."
+        },
+        {
+          "name": "Node.js",
+          "level": "Weekly",
+          "years": 7,
+          "note": "Build scripts, small APIs and the glue between services."
+        },
+        {
+          "name": "Storybook",
+          "level": "Weekly",
+          "years": 6,
+          "note": "Every component in isolation, with its states written down."
+        },
+        {
+          "name": "Figma",
+          "level": "Weekly",
+          "years": 7,
+          "note": "I read design files fluently and push tokens back into them."
+        }
+      ]
+    },
+    {
+      "group": "Testing",
+      "items": [
+        {
+          "name": "Playwright",
+          "level": "Daily",
+          "years": 5,
+          "note": "End-to-end tests on the flows that make money, on every pull request."
+        },
+        {
+          "name": "Vitest",
+          "level": "Daily",
+          "years": 4,
+          "note": "Unit tests that run before I have switched windows."
+        },
+        {
+          "name": "Testing Library",
+          "level": "Weekly",
+          "years": 6,
+          "note": "Tests that use the interface the way a person does."
+        },
+        {
+          "name": "Lighthouse CI",
+          "level": "Weekly",
+          "years": 5,
+          "note": "A performance budget the build enforces, so nobody has to argue."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "northwind-checkout",
+      "name": "Northwind Checkout",
+      "summary": "A checkout that is ready before the customer has finished reaching for their card.",
+      "kind": "Product",
+      "client": "Northwind",
+      "role": "Lead frontend developer",
+      "date": "2025",
+      "tags": [
+        "React",
+        "TypeScript",
+        "XState",
+        "Vite"
+      ],
+      "image": "/sites/sorenhale/images/NBnpKynwHgwRWuLCUi30GU6c55I.webp",
+      "imageAlt": "A laptop with a dark dashboard and a phone on a desk at dusk",
+      "gallery": [
+        {
+          "src": "/sites/sorenhale/images/2WjUAFcUDXvbjWZP0hm9HOlGw.webp",
+          "alt": "A laptop with a dark dashboard, a phone and a hand reaching in, in an office at dusk"
+        },
+        {
+          "src": "/sites/sorenhale/images/efILB5vAaQdAg5mJ68nJffsiZw.webp",
+          "alt": "Phone wireframe sketches on paper and a hand with a pen"
+        }
+      ],
+      "problem": "Northwind sells outdoor gear in nine countries, and four in ten carts were abandoned on the payment step. The page waited for three services before it drew anything.",
+      "solution": "- The payment form now renders from the server with the cart already in it; the card fields hydrate on their own.\n- The whole flow is one state machine, so a slow network can no longer leave the button in two states at once.\n- Fonts, the logo and the first product image are the only things in the critical path. Everything else waits.",
+      "result": "Largest Contentful Paint on a mid-range Android went from 2.9 s to 0.8 s. Completed checkouts rose 11% in the first full month, and support tickets that mention the word **stuck** fell by two thirds.\n\n> We had been tuning the backend for a year. Soren found the two seconds in the browser in his first week.",
+      "metrics": [
+        {
+          "label": "LCP on a mid-range phone",
+          "before": "2.9 s",
+          "after": "0.8 s"
+        }
+      ]
+    },
+    {
+      "slug": "ledgerline-console",
+      "name": "Ledgerline Console",
+      "summary": "Forty internal tools moved into one console, on one design system, with one way to ship.",
+      "kind": "Tooling",
+      "client": "Ledgerline",
+      "role": "Frontend architect",
+      "date": "2024",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Module Federation",
+        "Turborepo"
+      ],
+      "image": "/sites/sorenhale/images/YQjsAqZ8Nd96dGC0RfDYxu6u30.webp",
+      "imageAlt": "A developer reading code on two monitors in a dark studio under an orange lamp",
+      "gallery": [
+        {
+          "src": "/sites/sorenhale/images/YItPlNlcS1S3Ky7dGDQzt9HHGI.webp",
+          "alt": "A developer at two monitors at night with city lights behind"
+        },
+        {
+          "src": "/sites/sorenhale/images/i1illdqXQlghzBmcv2IF4GHs.webp",
+          "alt": "A desk lamp and a closed notebook against a blue city dusk"
+        }
+      ],
+      "problem": "Ledgerline's operations teams worked in forty separate tools, each with its own login, its own table component and its own idea of a date picker.",
+      "solution": "- One shell that owns routing, auth and layout; each team ships its own module into it.\n- A shared component library with typed props and visual tests on every pull request.\n- A build that only rebuilds what a change touches.",
+      "result": "A merge now reaches production in 95 seconds instead of 14 minutes. New tools start from a template and are usable on day two. Six teams deleted their private UI kits within the quarter.",
+      "metrics": [
+        {
+          "label": "From merge to production",
+          "before": "14 min",
+          "after": "95 s"
+        }
+      ]
+    },
+    {
+      "slug": "kestrel-pay-dashboard",
+      "name": "Kestrel Pay Dashboard",
+      "summary": "Live payment data on a table of 200,000 rows that still answers a click at once.",
+      "kind": "Product",
+      "client": "Kestrel Pay",
+      "role": "Senior frontend developer",
+      "date": "2024",
+      "tags": [
+        "React",
+        "TypeScript",
+        "TanStack Virtual",
+        "WebSocket"
+      ],
+      "image": "/sites/sorenhale/images/RvqLqXxA1KxZVVyP8RgneMp9weU.webp",
+      "imageAlt": "A laptop with the dark Kestrel Pay dashboard and the same screen on a phone",
+      "gallery": [
+        {
+          "src": "/sites/sorenhale/images/B5IPnk63vjDSGdcS9NAK5ifWYQ0.webp",
+          "alt": "A developer at a monitor at dusk beside a desk lamp"
+        },
+        {
+          "src": "/sites/sorenhale/images/2HzhqsKZ9DbP0DVR1vMOTGk.webp",
+          "alt": "Two developers working late on laptops, city lights outside"
+        }
+      ],
+      "problem": "Merchants keep the Kestrel dashboard open all day. Every new payment re-rendered the whole table, and by the afternoon a filter click took a third of a second to answer.",
+      "solution": "- Rows are virtualised and keyed by payment id; a live update touches one row, never the list.\n- Filters run in a worker and return in chunks, so typing never waits for a sort.\n- The socket batches updates per frame instead of per message.",
+      "result": "Interaction to Next Paint on the busiest view fell from 380 ms to 48 ms at the 75th percentile. Memory after eight hours open is flat.",
+      "metrics": [
+        {
+          "label": "INP on the transactions table",
+          "before": "380 ms",
+          "after": "48 ms"
+        }
+      ]
+    },
+    {
+      "slug": "tidewater-charts",
+      "name": "Tidewater Charts",
+      "summary": "A charting layer that pans through a million points without dropping a frame.",
+      "kind": "Experiment",
+      "client": "Tidewater",
+      "role": "Frontend and WebGL developer",
+      "date": "2023",
+      "tags": [
+        "TypeScript",
+        "WebGL",
+        "regl",
+        "Web Workers"
+      ],
+      "image": "/sites/sorenhale/images/Oo5Oq1wI38K7gQCYHnJkwVTV0.webp",
+      "imageAlt": "A large monitor full of orange line charts and a heat map in a dark studio",
+      "gallery": [
+        {
+          "src": "/sites/sorenhale/images/2HzhqsKZ9DbP0DVR1vMOTGk.webp",
+          "alt": "Two developers working late on laptops, city lights outside"
+        },
+        {
+          "src": "/sites/sorenhale/images/efILB5vAaQdAg5mJ68nJffsiZw.webp",
+          "alt": "Phone wireframe sketches on paper and a hand with a pen"
+        }
+      ],
+      "problem": "Tidewater's analysts explore sensor data from offshore wind farms. The old SVG charts gave up at around twenty thousand points.",
+      "solution": "- Lines and scatter plots draw on the GPU; axes, labels and tooltips stay in the DOM so they remain selectable and readable by a screen reader.\n- Data is decimated per zoom level in a worker, with the raw points fetched only when the user gets close.\n- Every chart has a table view with the same data, one key press away.",
+      "result": "A million points pan at a steady 60 frames a second on a three year old laptop. Analysts stopped exporting to spreadsheets to look at a week of data.",
+      "metrics": [
+        {
+          "label": "Pan and zoom at 1M points",
+          "before": "12 fps",
+          "after": "60 fps"
+        }
+      ]
+    },
+    {
+      "slug": "halden-design-system",
+      "name": "Halden Design System",
+      "summary": "Sixty-two components, one token file and no accessibility exceptions.",
+      "kind": "Tooling",
+      "client": "Halden",
+      "role": "Design systems lead",
+      "date": "2023",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Storybook",
+        "Radix"
+      ],
+      "image": "/sites/sorenhale/images/aWNEv0jaZCUVP73sfGcnomorc8.webp",
+      "imageAlt": "A monitor with a colour-block layout on a studio desk",
+      "gallery": [
+        {
+          "src": "/sites/sorenhale/images/B5IPnk63vjDSGdcS9NAK5ifWYQ0.webp",
+          "alt": "A developer at a monitor at dusk beside a desk lamp"
+        },
+        {
+          "src": "/sites/sorenhale/images/i1illdqXQlghzBmcv2IF4GHs.webp",
+          "alt": "A desk lamp and a closed notebook against a blue city dusk"
+        }
+      ],
+      "problem": "Halden builds scheduling software for clinics. Five product teams had drifted into five slightly different products.",
+      "solution": "- Tokens are the single source: colour, type and spacing are generated for web, iOS and the Figma library from one file.\n- Every component ships with keyboard behaviour, focus order and a written usage note. Nothing merges without them.\n- A weekly office hour instead of a rulebook.",
+      "result": "The product average on Lighthouse accessibility went from 71 to 100. The time to build a new settings screen dropped from four days to one.",
+      "metrics": [
+        {
+          "label": "Lighthouse accessibility, product average",
+          "before": "71",
+          "after": "100"
+        }
+      ]
+    },
+    {
+      "slug": "brattvik-onboarding",
+      "name": "Brattvik Onboarding",
+      "summary": "Opening an account went from eleven screens to four.",
+      "kind": "Product",
+      "client": "Brattvik Bank",
+      "role": "Senior frontend developer",
+      "date": "2022",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Zod",
+        "Playwright"
+      ],
+      "image": "/sites/sorenhale/images/W04tE8eZ69zxc4Q1NRn83H76bFI.webp",
+      "imageAlt": "A developer at a monitor at dusk with the city behind him",
+      "gallery": [
+        {
+          "src": "/sites/sorenhale/images/2WjUAFcUDXvbjWZP0hm9HOlGw.webp",
+          "alt": "A laptop with a dark dashboard, a phone and a hand reaching in, in an office at dusk"
+        },
+        {
+          "src": "/sites/sorenhale/images/efILB5vAaQdAg5mJ68nJffsiZw.webp",
+          "alt": "Phone wireframe sketches on paper and a hand with a pen"
+        }
+      ],
+      "problem": "Brattvik's sign-up asked for everything up front and lost most people at the identity check.",
+      "solution": "- One question per screen, saved as you go, so a dropped connection never costs an answer.\n- Validation runs on the same schema in the browser and on the server.\n- The identity check opens in place instead of in a new tab.",
+      "result": "Completed applications rose from 38% to 71%. The median time to open an account is now under four minutes.",
+      "metrics": [
+        {
+          "label": "Applications completed",
+          "before": "38%",
+          "after": "71%"
+        }
+      ]
+    },
+    {
+      "slug": "loopdocs",
+      "name": "Loopdocs",
+      "summary": "Developer docs that load at once and search as you type.",
+      "kind": "Web",
+      "client": "Loopdocs",
+      "role": "Frontend developer",
+      "date": "2022",
+      "tags": [
+        "Astro",
+        "TypeScript",
+        "Pagefind",
+        "MDX"
+      ],
+      "image": "/sites/sorenhale/images/hq4OVH2kOH0rOJuAakwLGUem0A.webp",
+      "imageAlt": "A developer typing at two monitors at night",
+      "gallery": [
+        {
+          "src": "/sites/sorenhale/images/YItPlNlcS1S3Ky7dGDQzt9HHGI.webp",
+          "alt": "A developer at two monitors at night with city lights behind"
+        },
+        {
+          "src": "/sites/sorenhale/images/2HzhqsKZ9DbP0DVR1vMOTGk.webp",
+          "alt": "Two developers working late on laptops, city lights outside"
+        }
+      ],
+      "problem": "Loopdocs hosts API documentation for other companies. Search was a round trip to a server and the sidebar re-rendered on every page.",
+      "solution": "- Pages are static; only the search box and the code tabs are interactive.\n- The search index ships in small pieces and loads the moment the box gets focus.\n- Code samples remember the language you picked last.",
+      "result": "The first search result now shows in 0.4 s instead of 1.9 s, and the docs score 100 on every Lighthouse category.",
+      "metrics": [
+        {
+          "label": "Time to the first search result",
+          "before": "1.9 s",
+          "after": "0.4 s"
+        }
+      ]
+    },
+    {
+      "slug": "parcelway-tracking",
+      "name": "Parcelway Tracking",
+      "summary": "The tracking page three million people open every month, at a seventh of the weight.",
+      "kind": "Web",
+      "client": "Parcelway",
+      "role": "Frontend developer",
+      "date": "2021",
+      "tags": [
+        "Preact",
+        "TypeScript",
+        "Vite",
+        "Workbox"
+      ],
+      "image": "/sites/sorenhale/images/QGaH4G8vwnW6nZEdtREoL2NDp4.webp",
+      "imageAlt": "A dark city map with thin gold route lines",
+      "gallery": [
+        {
+          "src": "/sites/sorenhale/images/B5IPnk63vjDSGdcS9NAK5ifWYQ0.webp",
+          "alt": "A developer at a monitor at dusk beside a desk lamp"
+        },
+        {
+          "src": "/sites/sorenhale/images/i1illdqXQlghzBmcv2IF4GHs.webp",
+          "alt": "A desk lamp and a closed notebook against a blue city dusk"
+        }
+      ],
+      "problem": "Most people open a tracking link once, on a phone, on the move. Parcelway was sending them a full single page app.",
+      "solution": "- The status and the map are in the first response; the app shell is gone.\n- The page works offline after the first visit and updates itself when the parcel moves.\n- One image, sized for the screen that asked for it.",
+      "result": "JavaScript went from 640 kB to 92 kB. The page is usable in under a second on a 3G connection.",
+      "metrics": [
+        {
+          "label": "JavaScript shipped",
+          "before": "640 kB",
+          "after": "92 kB"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "frontend-build",
+      "name": "Frontend build",
+      "summary": "I join your team or work from a design file and take the frontend the whole way: architecture, components, state, tests and the release pipeline. You get working software every week, not a big reveal at the end.",
+      "tagline": "Your product's interface, from the first component to the production deploy.",
+      "includes": [
+        "Architecture note before any code",
+        "Typed component library",
+        "Tests on every critical flow",
+        "A handover call and written docs"
+      ],
+      "steps": [
+        "Architecture note",
+        "First deploy",
+        "One flow a week",
+        "Handover"
+      ],
+      "price": "From €9,500",
+      "duration": "4 to 8 weeks"
+    },
+    {
+      "slug": "performance-audit",
+      "name": "Performance audit",
+      "summary": "I profile your product on real devices and on your real traffic, then hand you a ranked list: the change, the expected gain and the effort. The first three fixes come as pull requests.",
+      "tagline": "A measured list of what is slow, why, and what each fix is worth.",
+      "includes": [
+        "Field and lab measurements",
+        "Ranked findings with numbers",
+        "Three fixes as pull requests",
+        "A budget your CI can enforce"
+      ],
+      "steps": [
+        "Field data",
+        "Profiling",
+        "Ranked report",
+        "Three fixes"
+      ],
+      "price": "From €3,200",
+      "duration": "1 week"
+    },
+    {
+      "slug": "design-system",
+      "name": "Design system",
+      "summary": "I build the system with your designers and the teams who will use it: tokens, accessible components, documentation and the process for changing it. Adoption is part of the job, not an afterthought.",
+      "tagline": "One set of tokens and components your whole team actually uses.",
+      "includes": [
+        "Token pipeline for code and Figma",
+        "Accessible components with usage notes",
+        "Visual and interaction tests",
+        "Migration plan for existing screens"
+      ],
+      "steps": [
+        "Inventory",
+        "Tokens",
+        "Components",
+        "Adoption"
+      ],
+      "price": "From €12,000",
+      "duration": "6 to 10 weeks"
+    },
+    {
+      "slug": "team-embed",
+      "name": "Team embed",
+      "summary": "For teams with a deadline, a rewrite or a gap to cover. I take on the hard parts, review code, and leave your developers faster than I found them.",
+      "tagline": "A senior frontend developer inside your team, three days a week.",
+      "includes": [
+        "Three fixed days a week",
+        "Code review and pairing",
+        "Weekly written update",
+        "No lock-in after month three"
+      ],
+      "steps": [
+        "Read first",
+        "The hard part",
+        "Review and pairing",
+        "Hand back"
+      ],
+      "price": "From €6,400 a month",
+      "duration": "3 months minimum"
+    }
+  ],
+  "process": [
+    {
+      "title": "The first call",
+      "summary": "Thirty minutes. You describe the product and the deadline. I ask about the team, the codebase and what has already been tried."
+    },
+    {
+      "title": "Architecture note",
+      "summary": "Two pages: routes, data flow, state, what gets tested and what does not. Nothing is built until you have signed it off."
+    },
+    {
+      "title": "First deploy",
+      "summary": "A real screen on a real URL behind a login, with CI, a preview for every pull request and the performance budget switched on."
+    },
+    {
+      "title": "One flow a week",
+      "summary": "Each flow is finished before the next one starts: components, empty and error states, tests. You never wait for a big reveal."
+    },
+    {
+      "title": "Hardening",
+      "summary": "Real devices, slow networks, keyboard only. The numbers are read at the 75th percentile, not on my laptop."
+    },
+    {
+      "title": "Handover",
+      "summary": "Docs in the repository, a recorded walkthrough and a call with whoever maintains it next."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "We had been tuning the backend for a year. Soren found two seconds in the browser in his first week, and checkout conversion has not been below the old record since.",
+      "name": "Ingrid Solvang",
+      "role": "VP Engineering",
+      "company": "Northwind",
+      "avatar": "/sites/sorenhale/images/0YJi935knEI050Ruc62VxyDuo0.webp"
+    },
+    {
+      "quote": "He writes the kind of pull request you learn from. Our juniors started copying his commit messages, then his tests, then his habit of measuring before arguing.",
+      "name": "Marcus Oyelaran",
+      "role": "Engineering manager",
+      "company": "Kestrel Pay",
+      "avatar": "/sites/sorenhale/images/DYXYtVPtrLgBRHlGpf2spqT3I.webp"
+    },
+    {
+      "quote": "The design system shipped on time, and more to the point, people use it. Soren spent as much effort on the teams as on the components.",
+      "name": "Hana Takeda",
+      "role": "Head of design",
+      "company": "Halden",
+      "avatar": "/sites/sorenhale/images/bKCYb8caoOC39QRbQtLSgyq0UI.webp"
+    },
+    {
+      "quote": "I gave him a vague brief and a hard date. I got a plan in two days, a working build every Friday and no surprises at the end.",
+      "name": "Jonas Lindqvist",
+      "role": "Founder",
+      "company": "Loopdocs",
+      "avatar": "/sites/sorenhale/images/gyZ6MhO7dYUyZCRwueJtdqGy8.webp"
+    },
+    {
+      "quote": "Our analysts stopped exporting data to look at it. A million points, sixty frames a second, and it still works with a keyboard.",
+      "name": "Amara Nwosu",
+      "role": "Product lead",
+      "company": "Tidewater",
+      "avatar": "/sites/sorenhale/images/0UzWw70BfdCoQXVbRUtmsgId64s.webp"
+    }
+  ],
+  "writing": [
+    {
+      "slug": "the-last-hundred-milliseconds",
+      "title": "The last hundred milliseconds",
+      "date": "2026-09-18",
+      "summary": "Getting a page from fast to instant is a different job from getting it from slow to fast.",
+      "body": "Most performance work is removal. You find the two megabyte bundle, the blocking font, the image nobody sized, and you take them away. That gets a page from four seconds to one, and it is satisfying work because every change shows up on the chart.\n\nThe last hundred milliseconds are not like that. Nothing is obviously wrong any more. The page is already fast by any score you care to run, and it still does not feel instant.\n\n## Measure the wait, not the load\n\nPeople do not experience your load event. They experience the gap between wanting something and seeing it. So I measure three moments: the first thing they can read, the first thing they can tap, and how long that first tap takes to answer.\n\n```ts\nnew PerformanceObserver((list) => {\n  for (const entry of list.getEntries()) {\n    if (entry.duration > 100) report(entry.name, entry.duration)\n  }\n}).observe({ type: \"event\", buffered: true, durationThreshold: 40 })\n```\n\nForty lines of this in production told me more than a month of lab runs. The slow interaction was never the one I would have guessed.\n\n## Spend the budget on purpose\n\n- Put the answer in the first response, even if it is a cached one.\n- Hydrate the thing under the thumb first.\n- Let everything else arrive late and quietly.\n\nOn the Northwind checkout the pay button was the last thing to become interactive, because it sat at the bottom of the component tree. Moving it to the front of the queue cost one afternoon and was worth more than the previous two weeks.\n\n## Know when to stop\n\n> Fast is a number. Instant is a feeling, and it starts at about a hundred milliseconds.\n\nBelow that line people stop noticing, so I stop too. The work is boring and specific, which is why it is rarely done, and why it is worth a lot to the few products that do it.",
+      "tag": "Performance",
+      "image": "/sites/sorenhale/images/z5MQSE0EqfjxmDrgOPiYdNc.webp",
+      "imageAlt": "A brass clock and a sealed envelope on a dark desk",
+      "readingTime": "2 min"
+    },
+    {
+      "slug": "what-a-design-system-is-for",
+      "title": "What a design system is actually for",
+      "date": "2026-08-27",
+      "summary": "It is not for consistency. It is for making the right thing the easy thing.",
+      "body": "Every design system pitch starts with a slide of fourteen slightly different buttons. Consistency is the symptom people can see, so it is the one that gets funded.\n\nThe real job is quieter. A developer on a deadline should reach for the accessible, tested, on-brand component because it is the fastest option they have. If the system is slower than writing a div, the div wins, and no amount of governance changes that.\n\n## Three tests I use\n\n- Can a new developer build a settings page on day two without asking anyone?\n- When the brand colour changes, is it one pull request?\n- Does the system say no clearly, with a reason?\n\nIf the answer to all three is yes, the fourteen buttons take care of themselves.\n\n## Make the right thing the short thing\n\nMost of the work is in the types. A component that cannot be given a wrong combination of props needs no documentation for that combination.\n\n```tsx\ntype ButtonProps =\n  | { kind: \"solid\"; icon?: \"arrow\" }\n  | { kind: \"ghost\"; icon?: \"arrow\" | \"down\" }\n  | { kind: \"quiet\"; icon?: never }\n\nexport function Button(props: ButtonProps & { label: string }) {\n  // three looks, and no fourth one to argue about\n}\n```\n\nAt Halden the token file is the single source. Colour, type and spacing are generated for the web, for the apps and for the design library from that one file. Nobody copies a hex value, so nobody copies the wrong one.\n\n## Adoption is the product\n\nI spend as much time with the teams as on the components: the first two screens are migrated together, and there is a weekly hour where anyone can bring a case the system does not cover. Half of those cases become a component. The other half become a written no.\n\nA system is finished when people stop mentioning it. That took about nine months.",
+      "tag": "Tooling",
+      "image": "/sites/sorenhale/images/zK2OZpX1uE07fIeIvdLQkUHaoaE.webp",
+      "imageAlt": "Hands laying out six blank cards in a grid on a dark desk",
+      "readingTime": "2 min"
+    },
+    {
+      "slug": "an-inp-budget-you-can-keep",
+      "title": "An INP budget you can keep",
+      "date": "2026-07-30",
+      "summary": "How I set an interaction budget with a team, and what we do on the day it breaks.",
+      "body": "Interaction to Next Paint is the first web vital that measures what a product feels like after it has loaded. It is also the easiest one to lose slowly: every feature adds a few milliseconds and no single pull request looks guilty.\n\n## Pick the number together\n\nI ask the team to use the product on a four year old phone for ten minutes. The number we agree on after that is always lower than the one I would have proposed. For most products it lands at 200 ms at the 75th percentile, and 100 ms for the two or three interactions that make money.\n\n## Report the interaction, not the score\n\nA number on a dashboard tells you that something is slow. It does not tell you what. So the report carries the element.\n\n```ts\nimport { onINP } from \"web-vitals/attribution\"\n\nonINP(({ value, attribution }) => {\n  if (value <= 200) return\n  report({\n    ms: Math.round(value),\n    target: attribution.interactionTarget,\n    phase: attribution.inputDelay > attribution.processingDuration ? \"input delay\" : \"handler\",\n  })\n})\n```\n\nAfter a week the list sorts itself. On the Kestrel dashboard nine tenths of the slow interactions were one filter on one table.\n\n## Make it somebody's Tuesday\n\nA budget with no owner is a wish. Ours has a name on it each sprint and a chart on the wall. The owner does not fix everything; they notice first and ask the right team.\n\n## When it breaks\n\nWe do not revert. We find the interaction, fix that one, and write down what caused it in a file called `slow.md` that now has thirty one entries.\n\n- Twelve were work done on every keystroke that could wait for a pause.\n- Nine were lists that rendered rows nobody could see.\n- Six were third party scripts.\n\nThe file is the most useful onboarding document we have. New developers read it and stop making the first twelve mistakes.",
+      "tag": "Performance",
+      "image": "/sites/sorenhale/images/eu2ycWJ1o6hZeP3wrCLj81OZI.webp",
+      "imageAlt": "A notebook with a jagged line trace and a pen under a brass lamp",
+      "readingTime": "2 min"
+    },
+    {
+      "slug": "code-review-is-writing",
+      "title": "Code review is writing",
+      "date": "2026-06-19",
+      "summary": "The comment you leave is read by a person on a deadline. Write it for them.",
+      "body": "I have reviewed a few thousand pull requests. The ones that went well had very little to do with how right I was, and a lot to do with how the comment read to a person who was tired, on a deadline and proud of the work.\n\n## Say what you understood first\n\nHalf of all review arguments are two people describing different code. One sentence at the top removes most of them: this moves the price calculation to the server and keeps the old path behind a flag. If that sentence is wrong, the author learns something important before I have criticised anything.\n\n## Separate must from would\n\nI mark every comment. It takes five characters and it changes the whole conversation.\n\n```\nmust:   this drops the aria-label, so the icon button has no name\nshould: the retry lives in three places now, worth one helper\nnit:    name could say what it returns\nask:    why a ref here and not state? I may be missing something\n```\n\nA review with one `must` and six `nit` lines is an approval with homework. A review with seven unmarked comments reads as seven objections.\n\n## Approve more than you block\n\n- If the change is safe and better than what was there, I approve and leave the comments.\n- If I would have done it differently but it works, I say so once and approve.\n- I block for correctness, accessibility and anything that is expensive to undo.\n\n## Review the description too\n\nThe pull request text is the only documentation most changes ever get. I ask for three things in it: what changed, how to see it, and what was deliberately left out. When the description is good I can review the idea first and the code second, which is the right order.\n\nA review is a small piece of writing with one reader. Treat it like one and most of the friction goes away. The juniors on my last team started copying the prefixes within a month, and review time fell by about a third.",
+      "tag": "Career",
+      "image": "/sites/sorenhale/images/vJGNvpwSkEldofFYvRXS9FSn5Ao.webp",
+      "imageAlt": "An open notebook, loose pages and a pen on dark walnut",
+      "readingTime": "2 min"
+    },
+    {
+      "slug": "server-components-after-a-year",
+      "title": "Server components, a year in",
+      "date": "2026-05-08",
+      "summary": "What moved to the server, what moved back, and the one rule that survived.",
+      "body": "A year ago I moved a mid-sized product to React Server Components. Forty routes, a team of six, a deadline that did not move. This is the honest version of how it went.\n\n## What stayed on the server\n\nAnything that reads data and does not respond to a finger: tables, detail pages, navigation, the first render of most forms. These got simpler. The data fetching sits next to the markup that uses it and there is no loading state to design, because the page arrives with the data in it.\n\n```tsx\n// app/invoices/page.tsx: no client JavaScript at all\nexport default async function Invoices() {\n  const rows = await db.invoices.recent(50)\n  return (\n    <Table>\n      {rows.map((r) => <InvoiceRow key={r.id} invoice={r} />)}\n    </Table>\n  )\n}\n```\n\n## What moved back\n\nAnything that has to answer in under fifty milliseconds. Filters, drag and drop, the command palette. We tried to keep the filters on the server for a month, with the URL as state. On a good connection it was fine. On a train it was not.\n\n## What surprised us\n\n- The bundle fell by 38%, mostly libraries that only ever formatted dates and money.\n- Caching became the hard problem. We wrote one page of rules and still broke them twice.\n- Tests got easier. A server component is a function that returns markup.\n\n## The rule that survived\n\nA component belongs on the client only if **the user can change it faster than the network can**. Everything else is a document, and documents are what servers are for.\n\nWe wrote that sentence on the wall in month three and it has settled every argument since. Would I do the migration again? Yes, but in a quarter, not a sprint, and with the caching rules written first.",
+      "tag": "React",
+      "image": "/sites/sorenhale/images/7DroGlwR7hxu0yGBcqwU9ua7Y.webp",
+      "imageAlt": "A desk with a lamp and a notebook by a rainy city window at night",
+      "readingTime": "2 min"
+    },
+    {
+      "slug": "estimates-that-hold",
+      "title": "Estimates that hold",
+      "date": "2026-03-21",
+      "summary": "Why I quote in ranges, what goes in the gap, and how often I have been wrong.",
+      "body": "I have kept a spreadsheet of every estimate I have given since 2019, next to what the work really took. Sixty three rows. On average I was 22% under. I have not been under since I changed three things.\n\n## Ranges, not numbers\n\nFour to six weeks tells a client what I know and what I do not. Five weeks only pretends. The width of the range is information: a narrow one means I have built this before, a wide one means we should spend two days finding out before anyone signs.\n\n## Name the unknowns\n\nEvery quote lists the two or three things that could move it. If one of them happens, nobody is surprised, and the conversation is about the thing rather than about me.\n\n```\nCheckout rebuild        4 to 6 weeks\n\nMoves the range:\n  - the payment provider's sandbox is as slow as last time   +1 week\n  - address lookup needs a second supplier for two countries +3 days\n  - design for the error states arrives after week 2         +1 week\n```\n\nClients read that block more carefully than anything else I send.\n\n## Ship in week one\n\nSomething real, deployed, however small. It is the cheapest way to find out what the estimate missed: the build takes nine minutes, the staging data is two years old, the login needs a ticket to another team.\n\n## What the spreadsheet says now\n\n- Work I had done before: within 10% every time.\n- Work with one unknown: the top of the range, almost always.\n- Work with three unknowns: I should have sold a discovery week instead.\n\nThe last line is the one that changed my business. A paid week of finding out is easier to sell than it sounds, and it has never once made the real quote larger than the guess would have been wrong.",
+      "tag": "Career",
+      "image": "/sites/sorenhale/images/BQFf2oU9b6Jedr9NuWHfUWAZUk.webp",
+      "imageAlt": "A folder, a pen and a magnifying glass under a brass lamp",
+      "readingTime": "2 min"
+    }
+  ],
+  "openSource": {
+    "stats": [
+      {
+        "value": "6",
+        "label": "projects"
+      },
+      {
+        "value": "5,660",
+        "label": "stars"
+      },
+      {
+        "value": "85,400",
+        "label": "downloads"
+      }
+    ],
+    "repos": [
+      {
+        "name": "use-latency",
+        "summary": "A React hook that measures how long every interaction really takes, in production.",
+        "slug": "use-latency",
+        "url": "https://github.com/",
+        "stars": "2,140",
+        "downloads": "48,200",
+        "license": "MIT",
+        "install": "npm install use-latency",
+        "body": "use-latency is a 900 byte React hook around the Event Timing API. It tells you which interactions were slow for a real visitor, and which component was under their finger at the time.\n\n## Usage\n\n```tsx\nimport { useLatency } from \"use-latency\"\n\nexport function App() {\n  useLatency({\n    over: 200,\n    report: (entry) => send(\"/vitals\", entry),\n  })\n  return <Routes />\n}\n```\n\n## What you get\n\n- `entry.duration` in milliseconds, measured from input to the next paint\n- `entry.target` as a short selector, and the nearest component name in development\n- `entry.kind`: pointer, keyboard or drag\n\n## Why it exists\n\nIt started as a debugging script on a payments dashboard. Lab tools said the table was fine; the people using it said it was not. The hook proved them right in an afternoon.\n\n> No dependencies. It does nothing at all in browsers without the Event Timing API.",
+        "kind": "Library",
+        "image": "/sites/sorenhale/images/pHOBF7LHy4BbDr36flWPxPYRixo.webp"
+      },
+      {
+        "name": "glyphfield",
+        "summary": "Draws any picture as source code on a canvas. It runs the portrait at the top of this site.",
+        "slug": "glyphfield",
+        "url": "https://github.com/",
+        "stars": "1,260",
+        "downloads": "9,400",
+        "license": "MIT",
+        "install": "npm install glyphfield",
+        "body": "glyphfield draws any picture as text on a canvas. It samples the light of the image per cell and sets one glyph from the text you give it, brighter cells first. The portrait at the top of this site runs on it.\n\n## Usage\n\n```ts\nimport { glyphfield } from \"glyphfield\"\n\nconst field = glyphfield(canvas, {\n  image: \"/portrait.webp\",\n  text: source,       // any string, it repeats\n  cell: 9,            // px\n  ink: \"#F1F2EC\",\n})\n\nfield.reveal()        // glyphs settle once\n```\n\n## Notes\n\n- One canvas, no dependencies, 2.4 kB\n- Pauses when it is off screen or the tab is hidden\n- Respects reduced motion: it draws the final frame and stops\n\nThe image must be served from the same origin, or with CORS headers, because the pixels are read.",
+        "kind": "Experiment",
+        "image": "/sites/sorenhale/images/pdpM5ZpkjW3FJZ62wHeZYKUF4.webp"
+      },
+      {
+        "name": "tinyflip",
+        "summary": "Layout animations in 1.1 kB, using the FLIP technique and nothing else.",
+        "slug": "tinyflip",
+        "url": "https://github.com/",
+        "stars": "890",
+        "downloads": "12,600",
+        "license": "MIT",
+        "install": "npm install tinyflip",
+        "body": "tinyflip animates layout changes with the FLIP technique: measure, change the DOM, then animate the difference with a transform. It is 1.1 kB and does not know about any framework.\n\n## Usage\n\n```ts\nimport { flip } from \"tinyflip\"\n\nconst play = flip(list.children)   // first: measure\nlist.append(list.firstElementChild) // change the DOM any way you like\nplay({ duration: 320 })             // invert and play\n```\n\n## Good to know\n\n- Only `transform` and `opacity` are animated, so nothing triggers layout while it runs\n- Elements that entered or left get a fade; pass `enter` and `exit` to change it\n- With reduced motion the change is instant\n\nIt works with any renderer because the two calls sit on either side of whatever updates your DOM.",
+        "kind": "Library",
+        "image": "/sites/sorenhale/images/OXEQQ8bdmGvOph7lbqliYervcNk.webp"
+      },
+      {
+        "name": "a11y-probe",
+        "summary": "A command line check that tabs through your page and tells you where focus got lost.",
+        "slug": "a11y-probe",
+        "url": "https://github.com/",
+        "stars": "640",
+        "downloads": "8,900",
+        "license": "MIT",
+        "install": "npx a11y-probe https://your-site.com",
+        "body": "a11y-probe opens your page in a headless browser, presses Tab until focus is back where it started and prints every stop: what was focused, whether you could see it, and the name a screen reader would announce.\n\n## Usage\n\n```bash\nnpx a11y-probe https://your-site.com/checkout --width 390\n\n 1  a      \"Skip to content\"        ring ok\n 2  a      \"Northwind home\"         ring ok\n 3  button \"\"                       NO NAME\n 4  input  \"Card number\"            ring ok\n 5  div    (focus lost)             NOT VISIBLE\n```\n\n## What it catches\n\n- Controls with no accessible name\n- Focus that lands on something invisible or off screen\n- Focus traps, and menus you cannot leave with Escape\n\nIt exits with code 1 when anything fails, so it can sit in CI next to your tests.",
+        "kind": "Tool",
+        "image": "/sites/sorenhale/images/1AehyHUZKh0JRaCcsVJqyNjCfk.webp"
+      },
+      {
+        "name": "tokens-to-css",
+        "summary": "Turns a design token file into typed CSS custom properties, with dark mode built in.",
+        "slug": "tokens-to-css",
+        "url": "https://github.com/",
+        "stars": "410",
+        "downloads": "6,300",
+        "license": "MIT",
+        "install": "npm install -D tokens-to-css",
+        "body": "tokens-to-css reads the token file your design tool exports and writes three things from it: CSS custom properties, a typed TypeScript map and a variables file the design library can import back.\n\n## Usage\n\n```bash\nnpx tokens-to-css tokens.json --out src/tokens\n```\n\n```css\n:root {\n  --color-ground: #0b0c0e;\n  --color-accent: #c6ff3d;\n  --space-4: 16px;\n}\n@media (prefers-color-scheme: light) {\n  :root { --color-ground: #f6f6f1; }\n}\n```\n\n## Details\n\n- Aliases are resolved, and kept as `var()` references where that is useful\n- Dark and light modes come from token sets, not from duplicated files\n- The TypeScript map makes a typo in a token name a compile error",
+        "kind": "Tool",
+        "image": "/sites/sorenhale/images/AXiA433zY758QPQ734IwJYbDpps.webp"
+      },
+      {
+        "name": "shader-notes",
+        "summary": "Forty small WebGL sketches, each one under fifty lines and explained line by line.",
+        "slug": "shader-notes",
+        "url": "https://github.com/",
+        "stars": "320",
+        "license": "CC BY 4.0",
+        "install": "npx degit sorenhale/shader-notes",
+        "body": "Forty small WebGL sketches. Each one is under fifty lines and every line has a comment, because I keep this notebook to stay honest about what I actually understand.\n\n## A page from it\n\n```glsl\n// 07: soft circle\nprecision mediump float;\nuniform vec2 u_res;\n\nvoid main() {\n  vec2 p = (gl_FragCoord.xy * 2.0 - u_res) / u_res.y; // centre, keep the aspect\n  float d = length(p) - 0.5;                           // distance to a circle\n  float a = smoothstep(0.01, -0.01, d);                // one pixel of softness\n  gl_FragColor = vec4(vec3(a), 1.0);\n}\n```\n\n## What is in it\n\n- Noise, from value noise to fractal sums\n- Signed distance fields and how to combine them\n- Lighting with three numbers\n- A few happy accidents, kept because they taught me something\n\nEvery sketch runs in the browser with a slider for each uniform.",
+        "kind": "Experiment",
+        "image": "/sites/sorenhale/images/xh7hi06SnOdBxKKmGI2XGTqKs.webp"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "When are you available?",
+      "answer": "I take on one main project at a time and usually book four to six weeks ahead. The status line at the top of the site is kept up to date."
+    },
+    {
+      "question": "Do you work alone or with a team?",
+      "answer": "Both. I am often the only frontend developer on a small product, and just as often I join an existing team for a few months. For design and backend I work with people I have shipped with before."
+    },
+    {
+      "question": "How do you price a project?",
+      "answer": "A fixed range for a defined scope, or a monthly rate for an embed. Every quote lists what is included and the two or three things that could change it."
+    },
+    {
+      "question": "Do you only work in React?",
+      "answer": "React and TypeScript are where I am fastest. I have shipped with Svelte, Vue and plain web components, and I will tell you early if your stack is one I should not be learning on your budget."
+    },
+    {
+      "question": "Can you work without a finished design?",
+      "answer": "Yes. I can build from wireframes and a brand guide, and I make the detailed decisions in the browser where they can be tested. For a full visual identity I bring in a designer."
+    },
+    {
+      "question": "Will you work in our existing codebase?",
+      "answer": "That is most of my work. I start with a short audit so we both know what is there, then follow your conventions unless there is a measured reason to change one."
+    },
+    {
+      "question": "What happens when the project ends?",
+      "answer": "You get the code, the tests, written documentation and a recorded walkthrough. I stay available for questions for thirty days at no charge."
+    },
+    {
+      "question": "Which hours do you work?",
+      "answer": "Central European time, with a fixed overlap until 18:00 for teams in the Americas. I reply to messages within one working day."
+    }
+  ],
+  "now": [
+    {
+      "title": "Shipping transactions v3 at Kestrel Pay",
+      "body": "The last table in the dashboard moves to the new engine this month. Target: every interaction under 50 ms on a mid-range laptop."
+    },
+    {
+      "title": "Booking one project from November",
+      "body": "A build or a performance audit, six to twelve weeks. One project at a time, so the first good fit takes the slot."
+    },
+    {
+      "title": "tinyflip 2.0 is in beta",
+      "body": "Shared layout transitions across routes, still under 1.5 kB. Breaking changes are written up in the repository before the release."
+    },
+    {
+      "title": "Reading the CSS anchor positioning spec",
+      "body": "Slowly, with a notebook. I want to delete a popover library from two client projects by the end of the year."
+    },
+    {
+      "title": "Not taking: rewrites without a number",
+      "body": "If nobody can say how slow the current thing is, the first week is an audit, not a rewrite. I say this before the contract."
+    },
+    {
+      "title": "Off the grid for one week in August",
+      "body": "Hiking in Jotunheimen with no laptop. Messages were answered on the 26th, as promised."
+    }
+  ],
+  "uses": [
+    {
+      "group": "Hardware",
+      "items": [
+        {
+          "name": "14-inch laptop, 36 GB",
+          "note": "Three years old and still faster than any build I give it. I will replace it when the battery gives up."
+        },
+        {
+          "name": "27-inch 5K display",
+          "note": "One screen, not two. Text is sharp enough to read diffs for hours."
+        },
+        {
+          "name": "Mid-range Android phone",
+          "note": "The test device. If the site is fast on this, it is fast."
+        },
+        {
+          "name": "Split mechanical keyboard",
+          "note": "Linear switches, blank keycaps. It took a month to get my speed back."
+        },
+        {
+          "name": "Vertical mouse",
+          "note": "Wrists first. I use it for design files and nothing else."
+        }
+      ]
+    },
+    {
+      "group": "Editor",
+      "items": [
+        {
+          "name": "VS Code",
+          "note": "Minimap off, sidebar on the right, format on save. Fewer than fifteen extensions."
+        },
+        {
+          "name": "JetBrains Mono, 13 px",
+          "note": "The same typeface as the labels on this site. Ligatures off."
+        },
+        {
+          "name": "A dark theme I maintain",
+          "note": "Low contrast for the chrome, full contrast for the code. It lives in the lab."
+        },
+        {
+          "name": "Ghostty and zsh",
+          "note": "A plain prompt: directory, branch, exit code. Everything else is an alias."
+        }
+      ]
+    },
+    {
+      "group": "Apps",
+      "items": [
+        {
+          "name": "Figma",
+          "note": "For reading design files and pushing tokens back into them."
+        },
+        {
+          "name": "Linear",
+          "note": "Issues written as outcomes, one per pull request."
+        },
+        {
+          "name": "Obsidian",
+          "note": "Plain markdown notes. Every project gets one decisions file."
+        },
+        {
+          "name": "WebPageTest and Lighthouse CI",
+          "note": "A budget the build enforces, and a filmstrip when it fails."
+        },
+        {
+          "name": "Raycast",
+          "note": "Clipboard history, window halves and a script that opens the right repository."
+        }
+      ]
+    },
+    {
+      "group": "Desk",
+      "items": [
+        {
+          "name": "Standing desk, 160 cm",
+          "note": "Up for calls and reviews, down for anything that needs thinking."
+        },
+        {
+          "name": "A chair that was worth it",
+          "note": "Bought used from an office that closed. The best money on this list."
+        },
+        {
+          "name": "Open-back headphones",
+          "note": "No noise cancelling; the office is quiet and I like hearing the door."
+        },
+        {
+          "name": "A paper notebook, dot grid",
+          "note": "Layouts get drawn here before any file is opened."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "headline": "Tell me what you are building.",
+    "note": "A few lines are enough to start. I read every message myself and reply with questions, a rough range and the first date I am free.",
+    "budgets": [
+      "Under €5k",
+      "€5–10k",
+      "€10–25k",
+      "€25k+",
+      "Not sure yet"
+    ]
+  },
+  "features": {
+    "legal": true
+  },
+  "extras": {
+    "soren-hale": {
+      "heroLines": [
+        "Frontend developer",
+        "shipping interfaces",
+        "that *feel instant.*"
+      ],
+      "eyebrow": "Frontend developer · React, TypeScript, WebGL",
+      "commits": {
+        "home": {
+          "repo": "soren/northwind-checkout",
+          "subject": "feat(checkout): cut LCP 2.9s → 0.8s",
+          "meta": "+212 −1,048 · merged 3 days ago"
+        },
+        "now": {
+          "repo": "soren/now",
+          "subject": "docs(now): update for October",
+          "meta": "edited this week"
+        },
+        "stack": {
+          "repo": "soren/stack",
+          "subject": "chore(stack): drop two tools, add none",
+          "meta": "16 tools · 4 groups"
+        }
+      },
+      "facts": {
+        "about": [
+          {
+            "label": "years",
+            "value": "8"
+          },
+          {
+            "label": "products shipped",
+            "value": "46"
+          },
+          {
+            "label": "teams joined",
+            "value": "6"
+          }
+        ],
+        "work": [
+          {
+            "label": "products shipped",
+            "value": "46"
+          },
+          {
+            "label": "average Lighthouse",
+            "value": "99"
+          }
+        ],
+        "services": [
+          {
+            "label": "project at a time",
+            "value": "1"
+          },
+          {
+            "label": "to a first reply",
+            "value": "1 day"
+          }
+        ],
+        "writing": [
+          {
+            "label": "a month, roughly",
+            "value": "1"
+          }
+        ]
+      },
+      "bench": {
+        "eyebrow": "The numbers",
+        "heading": "Numbers, not *adjectives.*",
+        "lead": "Every launch is measured on a mid-range phone and a throttled connection before it goes out. These are the medians, not the best run of the day.",
+        "note": "median of the last 12 launches",
+        "more": "See the launches behind them",
+        "vitalsTitle": "Core Web Vitals",
+        "vitalsNote": "field data, 75th percentile",
+        "scores": [
+          {
+            "label": "Performance",
+            "score": 98
+          },
+          {
+            "label": "Accessibility",
+            "score": 100
+          },
+          {
+            "label": "Best practices",
+            "score": 100
+          },
+          {
+            "label": "SEO",
+            "score": 100
+          }
+        ],
+        "vitals": [
+          {
+            "short": "LCP",
+            "name": "Largest Contentful Paint",
+            "value": "0.8 s",
+            "v": 0.8,
+            "budget": "2.5 s",
+            "b": 2.5
+          },
+          {
+            "short": "INP",
+            "name": "Interaction to Next Paint",
+            "value": "48 ms",
+            "v": 48,
+            "budget": "200 ms",
+            "b": 200
+          },
+          {
+            "short": "CLS",
+            "name": "Cumulative Layout Shift",
+            "value": "0.01",
+            "v": 0.01,
+            "budget": "0.1",
+            "b": 0.1
+          }
+        ]
+      },
+      "story": [
+        {
+          "when": "2018 to 2019",
+          "title": "I started with the build script nobody wanted."
+        },
+        {
+          "when": "2019 to 2023",
+          "title": "Then three product teams, each one closer to the user."
+        },
+        {
+          "when": "2023 to now",
+          "title": "Now I work on my own, one project at a time."
+        }
+      ],
+      "principleNotes": [
+        "No rewrite starts before there is a number for how slow it is today. Otherwise nobody can tell when it is done.",
+        "A real deploy every week, however small. A demo that runs on my laptop is not progress.",
+        "Accessibility is part of the first build. Added at the end, it costs three times as much and still feels bolted on.",
+        "The fastest code is the code that never reaches the phone. HTML and CSS get the first try.",
+        "Decisions go in the repository, next to the code they explain. Chat threads are where reasons go to disappear.",
+        "If a deadline or a tool is wrong for the job, you hear it in week one, with the reason."
+      ],
+      "now": {
+        "updated": "Updated October 2026",
+        "dates": [
+          "2026-10-06",
+          "2026-10-01",
+          "2026-09-22",
+          "2026-09-14",
+          "2026-09-02",
+          "2026-08-18"
+        ],
+        "line": "Building transactions v3 for Kestrel Pay, and booking one new project from November.",
+        "rows": [
+          [
+            "Building",
+            "Kestrel Pay, transactions v3"
+          ],
+          [
+            "Maintaining",
+            "use-latency, 2.1k stars"
+          ],
+          [
+            "Reading",
+            "The CSS anchor positioning spec"
+          ],
+          [
+            "Based in",
+            "Oslo, working CET hours"
+          ]
+        ]
+      },
+      "process": [
+        {
+          "when": "Before",
+          "get": "A written quote within two working days"
+        },
+        {
+          "when": "Week 0",
+          "get": "The note, a timeline and a price range"
+        },
+        {
+          "when": "Week 1",
+          "get": "A link you can open on your phone"
+        },
+        {
+          "when": "Weeks 2 to 6",
+          "get": "A Friday build and a short written update"
+        },
+        {
+          "when": "Week 7",
+          "get": "A before and after report"
+        },
+        {
+          "when": "Last week",
+          "get": "The docs, the recording and thirty days of questions"
+        }
+      ],
+      "services": {
+        "frontend-build": {
+          "steps": [
+            {
+              "when": "Week 0",
+              "summary": "Two pages: routes, data flow, state, what gets tested and what does not. You sign it off before any code exists."
+            },
+            {
+              "when": "Week 1",
+              "summary": "A real screen on a real URL behind a login, with CI, a preview per pull request and the performance budget switched on."
+            },
+            {
+              "when": "Weeks 2 to 6",
+              "summary": "Each flow is finished before the next one starts: components, empty and error states, tests. A written update every Friday."
+            },
+            {
+              "when": "Last week",
+              "summary": "Docs in the repository, a recorded walkthrough and a call with whoever maintains it next."
+            }
+          ],
+          "faqs": [
+            {
+              "question": "Do you need finished designs?",
+              "answer": "No. Wireframes and a brand guide are enough. I settle the details in the browser, where they can be tested on a real phone."
+            },
+            {
+              "question": "Who owns the code?",
+              "answer": "You do, from the first commit. It lives in your repository and runs in your CI."
+            },
+            {
+              "question": "What if the scope changes?",
+              "answer": "The quote lists the two or three things that could move it. If one of them happens I tell you the same day, with the new range."
+            }
+          ]
+        },
+        "performance-audit": {
+          "steps": [
+            {
+              "when": "Day 1",
+              "summary": "I read what your real visitors get: the 75th percentile for LCP, INP and CLS, split by page type and device."
+            },
+            {
+              "when": "Days 2 to 3",
+              "summary": "The slowest five journeys, traced on a mid-range Android and a three year old laptop. Every finding gets a cause, not a guess."
+            },
+            {
+              "when": "Day 4",
+              "summary": "One list, ordered by what each fix is worth: the change, the expected gain in milliseconds and the effort in days."
+            },
+            {
+              "when": "Day 5",
+              "summary": "The top three land as pull requests, with before and after traces, plus a budget file your CI can enforce."
+            }
+          ],
+          "faqs": [
+            {
+              "question": "Do you need production access?",
+              "answer": "Read access to the repository and to your analytics is enough. I never need customer data."
+            },
+            {
+              "question": "What if nothing is slow?",
+              "answer": "Then the report is short and says so, with the numbers. It has happened twice."
+            },
+            {
+              "question": "Can you fix everything you find?",
+              "answer": "The first three fixes are included. The rest can be a follow-up build, or your team takes the list."
+            }
+          ]
+        },
+        "design-system": {
+          "steps": [
+            {
+              "when": "Weeks 1 to 2",
+              "summary": "Every button, input and table that exists today, counted and grouped. The teams see their own drift on one page."
+            },
+            {
+              "when": "Weeks 3 to 4",
+              "summary": "Colour, type and spacing in one file, generated for code and for the design library from the same source."
+            },
+            {
+              "when": "Weeks 5 to 8",
+              "summary": "Built in the order your teams need them, each with keyboard behaviour, a usage note and visual tests."
+            },
+            {
+              "when": "Weeks 9 to 10",
+              "summary": "Two real screens migrated with each team, a contribution guide and a weekly office hour that outlives me."
+            }
+          ],
+          "faqs": [
+            {
+              "question": "We already have a component library.",
+              "answer": "Good. I start from it. Most systems need fewer components and better ones, not a rewrite."
+            },
+            {
+              "question": "Does it work with our design tool?",
+              "answer": "Tokens export to the common variable formats, so the library and the code stay in step."
+            },
+            {
+              "question": "How do you get teams to use it?",
+              "answer": "By making it the fastest option they have, and by sitting with them for the first two screens."
+            }
+          ]
+        },
+        "team-embed": {
+          "steps": [
+            {
+              "when": "Week 1",
+              "summary": "I ship one small fix on day two and spend the rest of the week reading the code, the backlog and the last three incidents."
+            },
+            {
+              "when": "Weeks 2 to 4",
+              "summary": "I take the piece nobody has had time for: the rewrite, the migration, the slow table."
+            },
+            {
+              "when": "Every week",
+              "summary": "Reviews answered within a working day, two pairing slots your developers can book."
+            },
+            {
+              "when": "Month 3",
+              "summary": "A written state of the frontend: what is solid, what is fragile and what I would do next."
+            }
+          ],
+          "faqs": [
+            {
+              "question": "Which days do you work?",
+              "answer": "Three fixed days a week, agreed up front, with an overlap until 18:00 Oslo time for teams in the Americas."
+            },
+            {
+              "question": "Can we extend?",
+              "answer": "Month by month after the first three, with thirty days notice on either side."
+            },
+            {
+              "question": "Do you join our stand-ups?",
+              "answer": "Yes, on my days. On the others I read the channel and answer what is blocking."
+            }
+          ]
+        }
+      },
+      "stackLevels": [
+        {
+          "level": "Daily",
+          "meaning": "On most working days. Ask me anything."
+        },
+        {
+          "level": "Weekly",
+          "meaning": "In regular use. I ship with it without looking things up."
+        },
+        {
+          "level": "Comfortable",
+          "meaning": "I can deliver with it, a little slower."
+        }
+      ],
+      "repoAlts": {
+        "use-latency": "City avenues at dusk seen from above",
+        "glyphfield": "Concrete letterforms in hard light, black and white",
+        "tinyflip": "Dark navy satin with one streak of gold light",
+        "a11y-probe": "A grid of light and shadow on concrete",
+        "tokens-to-css": "A dark metal lattice grid on black stone",
+        "shader-notes": "Water beads on dark navy paint, close up"
+      },
+      "jobKeys": {
+        "Soren Hale": "independent"
+      },
+      "languages": [
+        [
+          "Norwegian",
+          "Native"
+        ],
+        [
+          "English",
+          "Fluent"
+        ],
+        [
+          "Swedish",
+          "Working"
+        ],
+        [
+          "German",
+          "Basic"
+        ]
+      ],
+      "talks": [
+        {
+          "title": "The last hundred milliseconds",
+          "place": "Nordic Frontend Days",
+          "year": "2025"
+        },
+        {
+          "title": "A performance budget the build enforces",
+          "place": "Oslo Frontend Meetup",
+          "year": "2024"
+        },
+        {
+          "title": "Tables with a hundred thousand rows",
+          "place": "Fjordstack Oslo",
+          "year": "2023"
+        }
+      ],
+      "uses": {
+        "links": {
+          "A dark theme I maintain": "/lab",
+          "WebPageTest and Lighthouse CI": "/stack"
+        },
+        "config": {
+          "title": "Editor config",
+          "file": "settings.json",
+          "label": "Editor config",
+          "after": 2,
+          "code": "{\n  // the whole list; everything else is the default\n  \"editor.fontFamily\": \"JetBrains Mono\",\n  \"editor.fontSize\": 13,\n  \"editor.fontLigatures\": false,\n  \"editor.formatOnSave\": true,\n  \"editor.minimap.enabled\": false,\n  \"workbench.sideBar.location\": \"right\",\n  \"typescript.preferences.importModuleSpecifier\": \"non-relative\"\n}\n"
+        }
+      },
+      "copy": {
+        "meta": {
+          "layoutTitle": "Soren Hale — Frontend Developer: Dark Portfolio for a Software Engineer",
+          "layoutDescription": "Soren Hale, frontend developer in Oslo: React, TypeScript and WebGL for fintech and developer tools.",
+          "homeTitle": "Soren Hale — Frontend Developer: Dark Portfolio for a Software Engineer",
+          "homeDescription": "Soren Hale is a frontend developer in Oslo: eight years of React, TypeScript and WebGL for fintech and developer tools, with the numbers for every project.",
+          "aboutTitle": "About Soren Hale, frontend developer in Oslo",
+          "aboutDescription": "Soren Hale is a frontend developer in Oslo with eight years in fintech and developer tools: React, TypeScript, WebGL and performance work.",
+          "contactTitle": "Contact Soren Hale: start a frontend project",
+          "contactDescription": "Write to Soren Hale about a frontend build, a performance audit or a design system. Email, phone and a short form; a reply within one working day.",
+          "faqTitle": "FAQ: availability, pricing and how I work | Soren Hale",
+          "faqDescription": "Answers about working with Soren Hale: availability, pricing, stack, existing codebases, handover and working hours.",
+          "labDescription": "Open source libraries, command line tools and WebGL experiments by Soren Hale, with install lines, usage and the numbers.",
+          "nowTitle": "Now: what I am working on this month | Soren Hale",
+          "nowDescription": "What Soren Hale is building, reading and booking this month: current projects, availability and what he is saying no to.",
+          "processTitle": "Process: how a frontend project runs | Soren Hale",
+          "processDescription": "How a project with Soren Hale runs, week by week: an architecture note first, a real deploy in week one, weekly builds and a written handover.",
+          "resumeTitle": "Resume | Soren Hale, frontend developer",
+          "resumeDescription": "The resume of Soren Hale: eight years of frontend roles in fintech and developer tools, skills by group, education and talks. Prints on one page.",
+          "reviewsTitle": "Reviews from engineering and product leads | Soren Hale",
+          "reviewsDescription": "What engineering managers, founders and product leads say about working with Soren Hale, unedited, with their name and company.",
+          "servicesTitle": "Services: frontend builds, audits, design systems | Soren Hale",
+          "servicesDescription": "Four ways to work with Soren Hale: a frontend build, a performance audit, a design system or a team embed. Scope, timeline and a from-price for each.",
+          "stackDescription": "Sixteen languages, frameworks and tools Soren Hale works in, grouped, with years of use, how often, and one honest line on each.",
+          "thanksDescription": "Soren Hale is a frontend developer in Oslo: eight years of React, TypeScript and WebGL for fintech and developer tools, with the numbers for every project.",
+          "usesTitle": "Uses: hardware, editor and apps | Soren Hale",
+          "usesDescription": "The desk, the editor setup and the apps Soren Hale works with every day, with a short reason for each. Updated when something changes.",
+          "workTitle": "Work: frontend case studies with numbers | Soren Hale",
+          "workDescription": "Eight frontend case studies from fintech and developer tools. Each one names the number that was wrong and the one that shipped.",
+          "caseTitle": "{title}: frontend case study | Soren Hale",
+          "writingTitle": "Writing: notes on performance, React and teams | Soren Hale",
+          "writingDescription": "Articles by Soren Hale on web performance, React, design systems, code review and estimating, written from real projects with code."
+        },
+        "footer": {
+          "legal": "© 2026 Soren Hale. Written by hand in Oslo."
+        },
+        "work": {
+          "heading": "{count} product(s), each one *measured.*",
+          "lead": "Every case starts with a number that was wrong and ends with the one that shipped. Open any of them for the full write-up."
+        },
+        "services": {
+          "lead": "Fixed scope, a written plan before any code, and a price you know up front. Open a row to see what is in it."
+        },
+        "log": {
+          "heading": "Eight years, every one *committed.*",
+          "lead": "Six teams, one direction: closer to the people who use the thing. The short version is below, the long one is a page away."
+        },
+        "lab": {
+          "lead": "Small libraries, command line tools and sketches. Most started as a fix for one project and stayed useful."
+        },
+        "writing": {
+          "lead": "Short, specific posts about performance, tooling and the unglamorous parts of shipping an interface."
+        },
+        "cta": {
+          "namePlaceholder": "Ada at Northwind"
+        },
+        "form": {
+          "namePlaceholder": "Ada Lindqvist"
+        },
+        "thanks": {
+          "lead": "Your message is with me now. I read everything myself and reply within one working day."
+        },
+        "aboutPage": {
+          "heading": "I build interfaces that answer *at once*.",
+          "lead": "Eight years of product work for fintech and developer tool teams, from a desk in Oslo. Most of it is React and TypeScript. All of it is measured.",
+          "storyHeading": "Eight years, in *three* parts."
+        },
+        "workPage": {
+          "heading": "{count} product(s), each one *measured.*",
+          "lead": "Every case starts with a number that was wrong and ends with the one that shipped. Filter by kind, or open any of them for the full write-up."
+        },
+        "servicesPage": {
+          "lead": "Each one has a defined scope, a timeline and a price to start from. Open one for the steps, or send a brief and I will tell you which fits."
+        },
+        "labPage": {
+          "lead": "Small tools that started as a script on a client project, and a few sketches I keep to stay honest about what I understand."
+        },
+        "nowPage": {
+          "heading": "What I am doing *this month*.",
+          "lead": "A dated list instead of a feed. It changes about once a month, and the status line at the top of the site always matches it.",
+          "note": "Edited by hand, about once a month. If the date above is older than six weeks, write and ask."
+        },
+        "processPage": {
+          "heading": "How a project runs, *week by week*.",
+          "lead": "No big reveal at the end. You see working software every Friday, and you always know what moved and why."
+        },
+        "reviewsPage": {
+          "lead": "{count} people I have shipped with, in their own words. Ask me for an introduction to any of them."
+        },
+        "stackPage": {
+          "lead": "What I reach for, how long I have used it and how often. If a tool is not here, I will say so before I learn it on your budget.",
+          "footnote": "Years are counted from the first paid project, not the first tutorial."
+        },
+        "usesPage": {
+          "heading": "The desk, the editor and the *rest*.",
+          "lead": "People ask, so here is the list. Nothing on it is sponsored, and most of it is older than you would expect.",
+          "note": "Last checked in October 2026. Nothing here is sponsored and none of the links are affiliate links."
+        },
+        "writingPage": {
+          "heading": "Notes on making the web *fast.*",
+          "lead": "Written after the project, with the numbers and the code. About one a month."
+        },
+        "legal": {
+          "updated": "October 1, 2026"
+        }
+      }
+    }
+  }
+}

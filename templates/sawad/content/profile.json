@@ -1,0 +1,286 @@
+{
+  "locale": "en",
+  "basics": {
+    "name": "Aaabad Ahmed",
+    "label": "SOFTWARE ENGINEER",
+    "headline": "A Software Engineer who has developed countless innovative solutions.",
+    "summary": "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
+    "about": [
+      "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products."
+    ],
+    "email": "your@email.com",
+    "photo": "/sites/sawad/images/profile.jpg",
+    "photoAlt": "Aaabad Ahmed",
+    "profiles": [
+      {
+        "network": "dribbble",
+        "url": "https://dribbble.com/"
+      },
+      {
+        "network": "twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "network": "instagram",
+        "url": "https://www.instagram.com/"
+      },
+      {
+        "network": "youtube",
+        "url": "mailto:your@email.com"
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "value": "+12",
+      "label": "YEARS OF EXPERIENCE"
+    },
+    {
+      "value": "+46",
+      "label": "PROJECTS COMPLETED"
+    },
+    {
+      "value": "+20",
+      "label": "WORLDWIDE CLIENTS"
+    }
+  ],
+  "principles": [
+    "DYNAMIC ANIMATION, MOTION DESIGN",
+    "FRAMER, FIGMA, WORDPRESS, REACTJS"
+  ],
+  "work": [
+    {
+      "company": "PixelForge Studios",
+      "position": "Design Lead",
+      "start": "2020-01",
+      "url": "https://www.framer.com/marketplace/creator/mejed-alkoutaini/?via=mejed_k",
+      "summary": "Led the design team in creating user-centric mobile and web applications, improving the user experience and increasing user engagement."
+    },
+    {
+      "company": "BlueWave Innovators",
+      "position": "Product Designer",
+      "start": "2017-06",
+      "end": "2019-12",
+      "url": "https://www.framer.com/marketplace/creator/mejed-alkoutaini/?via=mejed_k",
+      "summary": "Developed and implemented design strategies for new product lines, collaborated closely with engineers and product managers."
+    },
+    {
+      "company": "TrendCraft Solutions",
+      "position": "UI Designer",
+      "start": "2015-03",
+      "end": "2017-05",
+      "url": "https://www.framer.com/marketplace/creator/mejed-alkoutaini/?via=mejed_k",
+      "summary": "Designed user interfaces for e-commerce platforms, focusing on enhancing usability and visual appeal."
+    },
+    {
+      "company": "Visionary Labs",
+      "position": "Junior Designer",
+      "start": "2013-09",
+      "end": "2015-02",
+      "url": "https://www.framer.com/marketplace/creator/mejed-alkoutaini/?via=mejed_k",
+      "summary": "Assisted in the creation of wireframes and prototypes for various digital products, contributed to user research and testing."
+    }
+  ],
+  "skills": [
+    {
+      "group": "Tools",
+      "items": [
+        {
+          "name": "Framer",
+          "note": "Website Builder",
+          "url": "https://framer.com?via=mejed_k",
+          "icon": "/sites/sawad/images/tool-framer.png"
+        },
+        {
+          "name": "Figma",
+          "note": "Design Tool",
+          "url": "https://www.figma.com/",
+          "icon": "/sites/sawad/images/tool-figma.png"
+        },
+        {
+          "name": "Lemon Squeezy",
+          "note": "Payments Provider",
+          "url": "https://www.lemonsqueezy.com/",
+          "icon": "/sites/sawad/images/tool-lemon.png"
+        },
+        {
+          "name": "ChatGPT",
+          "note": "AI Assistant",
+          "url": "https://chat.openai.com/",
+          "icon": "/sites/sawad/images/tool-chatgpt.png"
+        },
+        {
+          "name": "Notion",
+          "note": "Productivity Tool",
+          "url": "https://www.notion.so/",
+          "icon": "/sites/sawad/images/tool-notion.png"
+        },
+        {
+          "name": "Nextjs",
+          "note": "React framework",
+          "url": "https://nextjs.org/",
+          "icon": "/sites/sawad/images/tool-nextjs.png"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "najmai",
+      "name": "NajmAI",
+      "kind": "SaaS Framer Template",
+      "summary": "SaaS Framer Template",
+      "url": "https://framer.link/iij2V3q?duplicateType=siteTemplate",
+      "image": "/sites/sawad/images/proj-najmai.jpg"
+    },
+    {
+      "slug": "damas",
+      "name": "Damas",
+      "kind": "Free Framer Template",
+      "summary": "Free Framer Template",
+      "url": "https://framer.link/KhRj2A5?duplicateType=siteTemplate",
+      "image": "/sites/sawad/images/proj-damas.png"
+    },
+    {
+      "slug": "majd",
+      "name": "Majd",
+      "kind": "Free Portfolio Template",
+      "summary": "Free Portfolio Template",
+      "url": "https://framer.link/BQAw2Te?duplicateType=siteTemplate",
+      "image": "/sites/sawad/images/proj-majd.png"
+    },
+    {
+      "slug": "faseelh",
+      "name": "Faseelh",
+      "kind": "Free Framer Template",
+      "summary": "Free Framer Template",
+      "url": "https://faseelh.framer.website/",
+      "image": "/sites/sawad/images/proj-faseelh.png"
+    },
+    {
+      "slug": "abjad",
+      "name": "ABJAD",
+      "kind": "Portfolio Framer Template",
+      "summary": "Portfolio Framer Template",
+      "url": "https://framer.link/7SZ272J?duplicateType=siteTemplate",
+      "image": "/sites/sawad/images/proj-abjad.png"
+    },
+    {
+      "slug": "bayt",
+      "name": "Bayt",
+      "kind": "Real Estate Framer Template",
+      "summary": "Real Estate Framer Template",
+      "url": "https://framer.link/6tghYoZ?duplicateType=siteTemplate",
+      "image": "/sites/sawad/images/proj-bayt.webp"
+    },
+    {
+      "slug": "stabraq",
+      "name": "Stabraq",
+      "kind": "Portfolio Framer Template",
+      "summary": "Portfolio Framer Template",
+      "url": "https://www.framer.com/marketplace/templates/stabraq/?via=mejed_k",
+      "image": "/sites/sawad/images/proj-stabraq.jpg"
+    }
+  ],
+  "writing": [
+    {
+      "slug": "starting-a-career-in-web-design",
+      "title": "Starting and Growing a Career in Web Design",
+      "date": "2022-04-08",
+      "summary": "As the internet continues to develop and grow exponentially, jobs related to the industry do too, particularly those that relate to web design and development.",
+      "readingTime": "6min read",
+      "image": "/sites/sawad/images/blog-1.jpg",
+      "imageAlt": "Blog Image",
+      "body": "As the internet continues to develop and grow exponentially, jobs related to the industry do too, particularly those that relate to web design and development. The prediction is that by 2029, the job outlook for these two fields will grow by 8%—significantly faster than average. Whether you’re seeking salaried employment or aiming to work in a freelance capacity, a career in web design can offer a variety of employment arrangements, competitive salaries, and opportunities to utilize both technical and creative skill sets.\n\n## What does a career in web design involve?\n\nA career in website design can involve the design, creation, and coding of a range of website types. Other tasks will typically include liaising with clients and discussing website specifications, incorporating feedback, working on graphic design and image editing, and enabling multimedia features such as audio and video. Requiring a range of creative and technical skills, web designers may be involved in work across a range of industries, including software companies, IT consultancies, web design companies, corporate organizations, and more.\n\nIn contrast with web developers, web designers tend to play a more creative role, crafting the overall vision and design of a site, and determining how to best incorporate the necessary functionality. However, there can be significant overlap between the roles.\n\n## Full-stack, back-end, and front-end web development\n\nThe U.S. Bureau of Labor Statistics (BLS) Occupational Outlook Handbook tends to group web developers and digital designers into one category. However, they define them separately, stating that web developers create and maintain websites and are responsible for the technical aspects including performance and capacity. Web or digital designers, on the other hand, are responsible for the look and functionality of websites and interfaces. They develop, create, and test the layout, functions, and navigation for usability.\n\nWeb developers can focus on the back-end, front-end, or full-stack development, and typically utilize a range of programming languages, libraries, and frameworks to do so. Web designers may work more closely with front-end engineers to establish the user-end functionality and appearance of a site.\n\n## Are web designers in demand?\n\nIn our ever-increasingly digital environment, there is a constant need for websites—and therefore for web designers and developers. With 17.4 billion websites in existence as of January 2020, the demand for web developers is only expected to rise. Web designers with significant coding experience are typically in higher demand and can usually expect a higher salary. Like all jobs, there are likely to be a range of opportunities, some of which are better paid than others.\n\nIf you're interested in pursuing a career in web design or starting a freelance business, having a professional portfolio website is essential. You can explore ready-made web design templates tailored for showcasing your work and impressing potential clients at [Templyo](https://templyo.io/templates). These templates make it easier to create stunning websites without the need for extensive coding knowledge.\n\n## Starting Your Web Design Career Online\n\nA strong career in web design needs two things working together: a **portfolio that impresses** and a **presence that keeps you visible**.\n\n- **Templyo** — ready-made Framer templates to build a professional portfolio without starting from scratch: [Templyo](https://templyo.io/) *(adjust URL if needed)*\n-\n\nYour site shows what you can build. Your social channels show you're active, credible, and worth hiring — consistently, not just when you remember to post."
+    },
+    {
+      "slug": "create-a-landing-page-that-performs-great",
+      "title": "Create a Landing Page That Performs Great",
+      "date": "2022-03-15",
+      "summary": "Whether you work in marketing, sales, or product design, you understand the importance of a quality landing page. Landing pages are standalone websites used to generate leads or sales—in other words they help you increase your revenue.",
+      "readingTime": "6min read",
+      "image": "/sites/sawad/images/blog-2.jpg",
+      "imageAlt": "Blog Image",
+      "body": "## What is a landing page?\n\nWhether you work in marketing, sales, or product design, you understand the importance of a quality landing page. Landing pages are standalone websites used to generate leads or sales—in other words, they help you increase your revenue. Unlike typical web pages, landing pages only have one call to action, or CTA, and they are usually tied to a specific marketing or advertising campaign. The hyper-focused nature of landing pages means they come with a pretty standard set of best practices.\n\n## Landing pages vs. front pages\n\nA typical front page or website in general includes a full navigation bar with tons of links throughout the page linking to other pages or pieces of content. A good landing page should only have one link, or multiple links that all point to the same thing. Having one CTA on your landing page increases conversions because there’s less distraction—fewer equally appealing options to prompt your users into leaving your landing page.\n\nYour brand’s front page has totally different goals. It should show off your brand’s personality, let people explore different features, find blogs and support articles, or even apply for a job. But they won’t necessarily purchase your product from the front page. And that’s why we need landing pages.\n\nSince landing pages are tied to specific campaigns, you don’t need to worry about users lacking information about your product. They arrived at your landing page because they were interested in an ad or post on Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web. With super-detailed campaigns pointing to easy-to-use landing pages, you’re getting high-quality leads that are actually interested in using your product.\n\n## Best practices for creating a landing page\n\nWhat makes an easy-to-use landing page? Overall, it’s clear, concise, and doesn’t give users any options except for the main CTA. In terms of copy, your landing page should have one clear message. The header of your page should promote the desired action you want visitors to take and explain the benefits of performing this action.\n\nThe visual design of your page should be very simple. Unlike your front page, this is not the place to go crazy with brand personality—so no wild animations or complex design elements. You wouldn’t want to distract visitors from performing the main action of your page.\n\nLanding page CTAs are typically buttons, sometimes accompanied by an input field if you need to collect user information. To ensure your buttons are clicked, make sure they stand out visually. This can be done by contrasting the button color with your page background and using clear copy on the button itself. For example, if you are asking visitors to book a demo, write “Book a demo” clearly on the CTA button.\n\nIf you’re looking to create a high-converting landing page but don’t know where to start, explore professional templates at [Templyo](https://Templyo.io/templates). These templates are designed to simplify the process, helping you build beautiful, effective landing pages in no time."
+    },
+    {
+      "slug": "how-can-designers-prepare-for-the-future",
+      "title": "How Can Designers Prepare for the Future?",
+      "date": "2022-02-28",
+      "summary": "Whether you work in marketing, sales, or product design, you understand the importance of a quality landing page. Landing pages are standalone websites used to generate leads or sales—in other words they help you increase your revenue.",
+      "readingTime": "6min read",
+      "image": "/sites/sawad/images/blog-3.jpg",
+      "imageAlt": "Blog Image",
+      "body": "Last month, I had the chance to attend CSS Day in Amsterdam, a two day event split between a “UI day” focusing on the intersection of design and development and a “CSS day”, with speakers who covered more in-depth, technical CSS subjects. The talks were as diverse as the background of the speakers themselves, but there was one common thread: In this era of rapid change, are we, as product people, equipped to design for automation, machine learning, and AI?\n\n## What does automation mean for designers?\n\nIt's hard to work on a product team that hasn’t automated some part of their workflow in the name of productivity. If machines can take care of the repeatable tasks and heavy lifting, designers can focus on doing more meaningful work. But how does this affect the way we use the work being created by machines?\n\nJosh Clark, founder of design studio Big Medium, provoked the audience with this very question during his talk, ‘A.I. is your New Design Material’. Some of the most impressive advancements in recent technology are things like facial recognition, predictive text, and image search, all powered by machine learning. But it's important to remember—all of these technologies are still built on code. The upside is less room for error. No real emotions, expectations, or feelings get in the way of the job it was designed to do.\n\nYet, as humans, we assume that when facial recognition fails, the whole process is inherently flawed. But was it really?\n\nAccording to Josh, that is the most fundamental thing to understand when it comes to machines. Not meeting our human expectations, doesn’t automatically make the technology itself a failure. These things were, by definition, built on logic, which begs the question: Can a robot's solution actually be wrong?\n\nThe point of introducing machine learning into our products was never to have them do all the work. Instead, algorithms and logic-based solutions ought only provide humans with better insight so as to empower us to arrive at better solutions, faster.\n\nThis fundamental understanding our users that really helps us make better products. This might be a simple example, but if a computer can figure out how to walk on it's own, maybe it's time to start investigating why and how these solutions were formed.\n\n## How do we design for the unknown future?\n\nJared Spool, Co-Founder of UIE asks, “What was the most important thing you learned yesterday, and how will it impact what you do in the future?”\n\nAs designers and researchers, we essentially always need to think about how we design products for the future, even as we’re meeting the demands of present day design. A tall order, especially when things move as fast as they have been over the last decade.\n\nTo start, Jared advocates for looking back at the ways in which our design processes have already changed.\n\nRemember when UX/UI wasn't a priority for many companies? As a consultant during a time when the Internet had yet to hit mass market appeal, Jared was able to steer many companies into a mindset that considered the user experience of a product.\n\nBut this also lets us gain input into how UX and UI has looked over the years, which might give us a better idea of what these concepts will look like moving forward. Jared describes a term called \"The UX Tipping Point\", with great actionable steps on how to get there.\n\nIn the past, designers had to fight for a seat at the table. If today you’re not starting from a place of advocating for user experience (like they were 10 years ago), they’re likely not starting at that tipping point. As a result, designers still have to ensure that the role of UX matures within the company, as well as the understanding of what makes UX important. When an organization hits the last stage, and fully embraces UX design from everything the company does, they fully hit The UX Tipping Point.\n\n## Are we designing for users or ourselves?\n\nPeople don't always know what they want, even if they think the do. As Joe Leech, a UX psychologist says, \"People want more choices, but can't deal with them.”\n\nSo how do we design for our users, if our users aren’t always telling us the truth? This is one of the most important questions, and something that extensive UX research helps us accomplish.\n\nBack in the 2000s, psychologists Sheena Iyengar and Mark Lepper ran a study regarding consumer choices. They went to a local supermarket, and instructed the store to only sell 6 varieties of jam one week, followed by 30 varieties the following week.\n\nThey ran a study on how much jam was sold, and to everyone's surprise, more jam was sold on the week with only 6 choices. But interestingly enough, when the consumers were asked which week they preferred more, they responded with the week that had 30 choices.\n\nUsing this analogy, Joe makes a point that is hard to argue with, “A designer who doesn't understand psychology is going to be more successful than an architect who doesn't understand physics\".\n\nUser research, and a wide variety of it, helps teams get as close as possible to the root of a user’s needs, over their wants. Studying responses on a larger scale is more work, but it helps form the foundation for true UX."
+    },
+    {
+      "slug": "building-a-navigation-component",
+      "title": "Building a Navigation Component with Variables",
+      "date": "2022-02-06",
+      "summary": "Whether you work in marketing, sales, or product design, you understand the importance of a quality landing page. Landing pages are standalone websites used to generate leads or sales—in other words they help you increase your revenue.",
+      "readingTime": "6min read",
+      "image": "/sites/sawad/images/blog-4.jpg",
+      "imageAlt": "Blog Image",
+      "body": "Navigation is key within any digital interface. Smart Components enable us to create custom interactive navigation components that work perfectly with the rest of your prototype.In this guide, we will cover the concepts of nesting components, adding events to elements in a component using Event Variables, and passing these through your components. One of the main benefits of using nested components is that it provides full control over its states, such as unique hover states of elements within another component.\n\n## Starting at the atomic level\n\nFramer allows you to create fully interactive and animated components, and even allows you to nest components within other components. We’re building a navigation bar component for a website that will contain two different kinds of nested components, with their own unique interactions. Our project will contain a Navigation bar that contains various nested components, namely five Nav items and one Shopping cart component. The design of our nested components, the nav list item and the shopping cart, will impact how we design our navigation bar. For this reason, an optimal workflow includes starting with the 'deepest' nested component and building up from there.\n\n## Nesting components\n\nOnce we have our two components ready, we can start creating the component in which we will nest these. Draw your navigation bar, select it on the canvas and click the Component tool in the Toolbar. To nest a different component in our new component, just drag any other component to the Component Canvas and place it within your designed navigation bar.\n\n## Triggering interactions from the navigation bar\n\nBack on the main canvas, we’d like to be able to tap 'Clothing' and navigate to an entire new Screen. If you’d connect the component using the Prototyping Connector to a new screen, we could set up an Interaction. However, this would be triggered if we tap anywhere within our component. This isn’t what we want to do, as we want to trigger this transition only from a specific element. This is where Event Variables come in, which are special types of Variables not attached to properties (like opacity or fill) but instead to events."
+    },
+    {
+      "slug": "how-to-create-an-effective-design-portfolio",
+      "title": "How to Create an Effective Design Portfolio",
+      "date": "2022-01-12",
+      "summary": "Whether you work in marketing, sales, or product design, you understand the importance of a quality landing page. Landing pages are standalone websites used to generate leads or sales—in other words they help you increase your revenue.",
+      "readingTime": "6min read",
+      "image": "/sites/sawad/images/blog-5.jpg",
+      "imageAlt": "Blog Image",
+      "body": "## What is a portfolio?\n\nA portfolio is any method used to showcase your best work. No matter the industry—fashion, architecture, or design—there are tons of ways to display your work in order to get a new job or expand your audience or customers.\n\n## Types of design portfolios\n\nDepending on the type of design work that you do, there are different portfolio formats that will be best suited for your needs. A design portfolio can be digital in the form of a website, slideshow, or PDF, but it can also be analog in the form of a print book or poster.\n\n## Graphic design portfolio\n\nWhen it comes to graphic design, designing a PDF as your portfolio is becoming more and more popular to highlight your work and PDF design skills. Using tools like InDesign and Photoshop, you can create multi-page PDFs that can be fine-tuned and formatted any way you like. With new software, like Framer, it's becoming even easier to create a PDF online and share it in no time. The result of your PDF portfolio will be a brochure or one-pager piece that shows off examples of your best work along with the descriptions of each project and more related information.\n\n## UX design portfolio\n\nFor UX designers, online portfolios are probably the most popular type today. This can be in the form of a simple one-page website with your contact information or a more thorough online gallery site. If your main discipline is web design, a portfolio website is the choice for you. It serves as an example itself of your web design skills, as well as highlighting your best work where it’s meant to be seen. Portfolio websites come with many benefits, especially as most of our work is done online. First, they can show off design properties like animation and interactivity.\n\nAs an important part of UX design, it’s essential to show these aspects so viewers get the full experience of your designs. Next, website portfolios are super easy to share. You can include the link in your social media bios as well as send the link to anyone at any time. Your work will become more readily available this way. Finally, online portfolios are a great way to show off your personality. As the more new-age mention of displaying your work, you are less constrained by the rules of the classic print portfolio.\n\nWhen going the online portfolio route, there are some drawbacks. First, website portfolios often require knowledge of code to create. This can be a blocker for many UX designers. However, there are increasingly more tools, like Framer, that allow you to create a design portfolio without code. Next, you have to keep in mind the constraints of the web, such as breakpoints, different browsers, and rendering issues that you wouldn’t have to think about in print portfolios. Finally, website portfolios can be more time-consuming to create depending on how many site pages you need.\n\nIf you’re considering building a stunning portfolio website but don’t want to start from scratch, check out the ready-made portfolio templates at [Templyo.io/templates](https://templyo.io/templates). These templates make it easy to create professional, eye-catching portfolio websites tailored to your needs.\n\nHere is a list of [designer portfolios](https://github.com/mejed-alkoutaini/designer-portfolios) for your inspiration."
+    }
+  ],
+  "contact": {
+    "budgets": [
+      "<$3k",
+      "$3k - $5k",
+      "$5k - $10k",
+      ">$10k"
+    ]
+  },
+  "features": {
+    "legal": true
+  },
+  "extras": {
+    "sawad": {
+      "siteTitle": "Sawad",
+      "siteDescription": "A sleek and modern portfolio template designed for creatives",
+      "ogImage": "/sites/sawad/images/og.png",
+      "headings": {
+        "experience": [
+          "12 YEARS OF",
+          "EXPERIENCE"
+        ],
+        "blog": [
+          "DESIGN",
+          "THOUGHTS"
+        ],
+        "tools": [
+          "PREMIUM",
+          "TOOLS"
+        ]
+      },
+      "footerCredit": [
+        {
+          "text": "Made by "
+        },
+        {
+          "text": "Templyo",
+          "url": "https://templyo.io/templates"
+        },
+        {
+          "text": " | Powered by "
+        },
+        {
+          "text": "Framer",
+          "url": "https://framer.link/BwZ7hBi"
+        }
+      ],
+      "hidePosition": true
+    }
+  }
+}

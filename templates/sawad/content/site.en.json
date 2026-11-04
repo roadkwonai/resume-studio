@@ -1,0 +1,23 @@
+{
+  "nav": { "label": "Main", "home": "Home", "projects": "Projects", "experience": "Experience", "tools": "Tools", "blog": "Thoughts" },
+  "headings": {
+    "projects": ["RECENT", "PROJECTS"],
+    "experience": ["WORK", "EXPERIENCE"],
+    "tools": ["TOOLS", "I USE"],
+    "blog": ["LATEST", "THOUGHTS"],
+    "contact": ["LET'S WORK", "TOGETHER"]
+  },
+  "present": "Present",
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your Name",
+    "email": "Email",
+    "emailPlaceholder": "Your@email.com",
+    "budget": "Budget",
+    "budgetPlaceholder": "Select…",
+    "message": "Message",
+    "messagePlaceholder": "Message",
+    "submit": "Submit",
+    "subject": "Project inquiry"
+  }
+}

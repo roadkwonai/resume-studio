@@ -1,0 +1,14 @@
+{
+  "locale": "ko",
+  "basics": {
+    "name": "윤하람",
+    "label": "주니어 개발자",
+    "headline": "작은 문제부터 끝까지 풉니다",
+    "summary": "첫 직장에서 사내 도구를 만들고 있는 개발자입니다.",
+    "about": ["사내 정산 도구를 맡아 만들고 있습니다."],
+    "email": "haram@example.com"
+  },
+  "work": [
+    { "company": "테스트컴퍼니", "position": "소프트웨어 엔지니어", "start": "2025-03", "summary": "사내 정산 도구를 개발합니다." }
+  ]
+}

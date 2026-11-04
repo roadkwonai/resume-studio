@@ -1,0 +1,192 @@
+{
+  "locale": "en",
+  "basics": {
+    "name": "Ethan Vale",
+    "initials": "EV",
+    "handle": "ethanvale",
+    "label": "Full-Stack Developer & Creative Technologist",
+    "headline": "ENGINEERING CLARITY THROUGH CODE, SYSTEMS, AND INTERFACES.",
+    "summary": "Ethan Vale, full-stack developer and creative technologist.",
+    "about": [
+      "I'm a full-stack developer and creative technologist who enjoys turning complex requirements into clean, useful, and scalable products. I care deeply about performance, maintainability, user experience, and the relationship between design and engineering.",
+      "Over the last six years, I've worked across startups, product teams, and freelance collaborations — building responsive websites, SaaS platforms, dashboards, internal tools, and interactive user interfaces."
+    ],
+    "email": "hello@ethanvale.dev",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "timezone": "Europe/Berlin",
+      "mapUrl": "https://www.google.com/maps/place/Berlin,+Germany"
+    },
+    "availability": "Available for freelance projects, remote roles, product collaborations, and technical consulting.",
+    "responseTime": "< 24h",
+    "photo": "/sites/stackbitos/images/5C98lLSBXpMoFsYdqg10YNCJWQ.png",
+    "photoAlt": "Portrait of Ethan Vale",
+    "resumeFile": "/sites/stackbitos/images/6lU2SfYyRafoIQbdgfRen01dBg.png",
+    "profiles": [
+      { "network": "GitHub", "username": "ethanvale", "url": "https://github.com/ethanvale" },
+      { "network": "LinkedIn", "username": "ethanvale", "url": "https://linkedin.com/in/ethanvale" },
+      { "network": "X / Twitter", "username": "ethanvale", "url": "https://x.com/ethanvale" }
+    ]
+  },
+  "metrics": [
+    { "value": "6+", "label": "Years of experience" },
+    { "value": "12", "label": "Production systems launched" },
+    { "value": "48", "label": "Projects delivered" },
+    { "value": "42%", "label": "Avg performance improvement" },
+    { "value": "19", "label": "Long-term clients" },
+    { "value": "99.9%", "label": "Uptime across selected builds" }
+  ],
+  "principles": [
+    "Build with clarity",
+    "Reduce unnecessary complexity",
+    "Design reusable systems",
+    "Prioritize speed and usabilit",
+    "Ship stable and maintainable solutions",
+    "Think in components, not pages"
+  ],
+  "work": [
+    {
+      "company": "Nova Systems",
+      "position": "Senior Full-Stack Developer",
+      "start": "2023",
+      "summary": "Leading development across customer-facing products and internal tools. Building scalable front-end systems, backend integrations, reusable components, and performance-oriented interfaces."
+    },
+    {
+      "company": "Pixel North Labs",
+      "position": "Full-Stack Developer",
+      "start": "2021",
+      "end": "2023",
+      "summary": "Built SaaS products, data-heavy dashboard interfaces, API integrations, and backend services for growing digital products using TypeScript, React, Node.js, and PostgreSQL."
+    },
+    {
+      "company": "Independent",
+      "position": "Frontend Developer",
+      "start": "2019",
+      "end": "2021",
+      "summary": "Partnered with startups and founders to build responsive websites, digital interfaces, landing pages, and product MVPs from concept through launch."
+    }
+  ],
+  "skills": [
+    {
+      "group": "Frontend",
+      "items": [
+        { "name": "React", "level": "Advanced", "years": 5, "progress": 87, "icon": "/sites/stackbitos/icons/45FOPH9ZiPm2Cho7hCAjlhcMpM.svg" },
+        { "name": "TypeScript", "level": "Advanced", "years": 5, "progress": 76, "icon": "/sites/stackbitos/icons/CajhqKYZb6inofhb7BrqpcLmZE.svg" },
+        { "name": "Next.Js", "level": "Advanced", "years": 3, "progress": 80, "icon": "/sites/stackbitos/icons/RqHFMm9pZn4MM0sOWl4ChGuLEs.svg" },
+        { "name": "JavaScript", "level": "Advanced", "years": 5, "progress": 97, "icon": "/sites/stackbitos/icons/Db8bWF6l94qyCzsiepkNXep0Nw.svg" },
+        { "name": "HTML5", "level": "Expert", "years": 6, "progress": 100, "icon": "/sites/stackbitos/icons/m8v8WjbZnv6rv8ncYo9c33a1Kg.svg" },
+        { "name": "CSS3", "level": "Expert", "years": 6, "progress": 93, "icon": "/sites/stackbitos/icons/dFTO3GeQJQGt6scd1KpUWT0LY.svg" },
+        { "name": "Tailwind CSS", "level": "Advanced", "years": 4, "progress": 85, "icon": "/sites/stackbitos/icons/pLBBe9swjKULIcTfzjjDiCmWnA.svg" },
+        { "name": "Framer Motion", "level": "Intermediate", "years": 2, "progress": 50, "icon": "/sites/stackbitos/icons/l9fBLRkoH5BuvCykoyWtHNjzDw.svg" }
+      ]
+    },
+    {
+      "group": "Backend",
+      "items": [
+        { "name": "Node.js", "level": "Advanced", "years": 5, "progress": 54, "icon": "/sites/stackbitos/icons/Y6scFFN3D2zLWdDw5ZNFF2HEoGI.svg" },
+        { "name": "Express", "level": "Advanced", "years": 4, "progress": 61, "icon": "/sites/stackbitos/icons/c0Uv3dkfjN904WnhaVGBrA4dg.svg" },
+        { "name": "PostgreSQL", "level": "Intermediate", "years": 3, "progress": 58, "icon": "/sites/stackbitos/icons/nifBAV1v2OxWqQjanQS63M94.svg" },
+        { "name": "MongoDB", "level": "Intermediate", "years": 3, "progress": 45, "icon": "/sites/stackbitos/icons/Ure7eIsRdeHI0MuE1x1G1x8dE.svg" },
+        { "name": "Prisma", "level": "Advanced", "years": 5, "progress": 50, "icon": "/sites/stackbitos/icons/eEbCpuj3GsWrBm22PpbWU80qY.svg" },
+        { "name": "REST APIs", "level": "Advanced", "years": 5, "progress": 89, "icon": "/sites/stackbitos/icons/fxk3axooVIKdlWUSQHX7dXnBPT8.svg" },
+        { "name": "GraphQL", "level": "Intermediate", "years": 2, "progress": 36, "icon": "/sites/stackbitos/icons/OSR7VqEf48kI3TVLszixLB5s0.svg" },
+        { "name": "Auth Systems", "level": "Advanced", "years": 4, "progress": 72, "icon": "/sites/stackbitos/icons/ZDhZdLrNUl6G2Jr5yAGRvAXy6tc.svg" }
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        { "name": "Git" }, { "name": "GitHub" }, { "name": "Docker" }, { "name": "Vercel" },
+        { "name": "Figma" }, { "name": "Framer" }, { "name": "VS Code" }, { "name": "Postman" }
+      ]
+    },
+    {
+      "group": "Engineering",
+      "items": [
+        { "name": "Design Systems" }, { "name": "Responsive Dev" }, { "name": "Accessibility" }, { "name": "Performance Opt." },
+        { "name": "CMS Integration" }, { "name": "API Architecture" }, { "name": "SEO Basics" }, { "name": "Component Libs" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "devsync",
+      "name": "DevSync",
+      "date": "2026-01",
+      "summary": "A collaborative workspace for distributed product teams combining task management, coordination, and sprint visibility.",
+      "tags": ["Next.js", "TypeScript", "Postgres"],
+      "image": "/sites/stackbitos/images/tG0UoQ4Omqfth4kbsnJmYsDszE.png",
+      "url": "https://example.com/devsync",
+      "repo": "https://github.com/"
+    },
+    {
+      "slug": "launchgrid",
+      "name": "LaunchGrid",
+      "date": "2025-02",
+      "summary": "A modular website framework for fast-moving startups to launch and scale high-converting marketing pages.",
+      "tags": ["React", "Tailwind", "Framer"],
+      "image": "/sites/stackbitos/images/H4UFEKdmUMljD9iVtTJLVOsFyt8.png",
+      "url": "https://example.com/launchgrid",
+      "repo": "https://github.com/"
+    },
+    {
+      "slug": "codeboard",
+      "name": "CodeBoard",
+      "date": "2024-03",
+      "summary": "A technical operations dashboard for service health, deployments, metrics, and incident management.",
+      "tags": ["React", "Express", "Docker"],
+      "image": "/sites/stackbitos/images/OncSoQtiPy5ilMiCfr7N74C3A.png",
+      "url": "https://example.com/codeboard",
+      "repo": "https://github.com/"
+    },
+    {
+      "slug": "pixelcart",
+      "name": "PixelCart",
+      "date": "2023-04",
+      "summary": "A custom storefront focused on speed, conversion, mobile usability, and scalable content management.",
+      "tags": ["Next.js", "Stripe", "CMS"],
+      "image": "/sites/stackbitos/images/doChD23KdqCmO2w6tek1RoOnM3M.png",
+      "url": "https://example.com/pixelcart",
+      "repo": "https://github.com/"
+    }
+  ],
+  "openSource": {
+    "stats": [
+      { "value": "438", "label": "Contributions this year" },
+      { "value": "18", "label": "Public repositories" },
+      { "value": "67", "label": "Pull requests merged" },
+      { "value": "1.2K", "label": "Stars received" }
+    ],
+    "repos": [
+      { "name": "react-motion-grid", "stars": "342", "pulls": "45", "summary": "A lightweight animated grid system for interactive React interfaces.", "url": "https://github.com/" },
+      { "name": "api-starter-kit", "stars": "512", "pulls": "89", "summary": "A scalable backend starter template for production-ready Node.js apps.", "url": "https://github.com/" },
+      { "name": "pixel-ui", "stars": "89", "pulls": "12", "summary": "A minimal pixel-inspired component library for modern interfaces.", "url": "https://github.com/" },
+      { "name": "developer-dashboard", "stars": "210", "pulls": "34", "summary": "A technical dashboard starter designed for developer tools.", "url": "https://github.com/" }
+    ]
+  },
+  "contact": {
+    "headline": "LET'S BUILD SOMETHING USEFUL.",
+    "note": "Have a product idea, technical challenge, or digital experience that needs clean execution? Send a message with your goals, timeline, and project context."
+  },
+  "features": { "legal": true },
+  "extras": {
+    "stackbit-os": {
+      "osName": "STACKBIT",
+      "siteTitle": "Stackbit OS",
+      "experience": "6+ Years",
+      "focus": "Product Engineering",
+      "quote": "My strongest work happens where product thinking, technical structure, and visual precision meet.",
+      "codeStack": ["React", "Next.js", "TypeScript"],
+      "codeStatus": "Available",
+      "codeEmail": "hello@ethan.dev",
+      "globeMarker": [13, 41],
+      "caseStudies": {
+        "devsync": "https://example.com/case-studies/devsync",
+        "launchgrid": "https://example.com/case-studies/launchgrid",
+        "codeboard": "https://example.com/case-studies/codeboard",
+        "pixelcart": "https://example.com/case-studies/pixelcart"
+      }
+    }
+  }
+}

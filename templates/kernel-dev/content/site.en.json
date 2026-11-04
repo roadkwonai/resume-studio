@@ -1,0 +1,29 @@
+{
+  "nav": { "about": "About", "stack": "Stack", "projects": "Projects", "contact": "Contact", "cta": "Let’s talk ↗" },
+  "hero": { "primary": "Explore my work ↓", "secondary": "Start a conversation ↗" },
+  "terminal": { "whoami": "$ whoami", "mission": "$ cat mission.txt", "status": "$ status", "host": "kernel", "path": "~/portfolio" },
+  "sections": {
+    "about": { "label": "ABOUT", "title": "A person behind the terminal." },
+    "stack": { "label": "STACK", "title": "A focused stack. A wider perspective.", "intro": "The right tool for the problem—across the interface, the API, and the infrastructure." },
+    "experience": { "label": "EXPERIENCE", "title": "Experience, without the noise.", "present": "NOW" },
+    "projects": { "label": "PROJECTS", "title": "Open the build. Read the source.", "live": "Live preview ↗", "repo": "GitHub ↗" },
+    "useCases": { "label": "USE-CASES", "title": "What can we build together?" },
+    "process": { "label": "HOW-IT-WORKS", "title": "A clear path from idea to release." },
+    "faq": { "label": "FAQ", "title": "Before we open a new branch." },
+    "contact": { "label": "CONTACT", "title": "Your next build starts with a hello.", "intro": "Tell me what you’re building, what’s getting in the way, and where you want to go.", "email": "Send an email ↗" }
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@company.com",
+    "budget": "Budget",
+    "budgetPlaceholder": "Select a range",
+    "message": "Message",
+    "messagePlaceholder": "What are you building?",
+    "submit": "Send message ↗",
+    "subject": "Portfolio inquiry"
+  },
+  "footer": { "top": "↑ BACK TO TOP" },
+  "notFound": { "title": "404: page not found.", "home": "cd ~ ↗" }
+}

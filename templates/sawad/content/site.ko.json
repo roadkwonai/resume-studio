@@ -1,0 +1,23 @@
+{
+  "nav": { "label": "주요 메뉴", "home": "홈", "projects": "프로젝트", "experience": "경력", "tools": "사용 도구", "blog": "글" },
+  "headings": {
+    "projects": ["최근", "프로젝트"],
+    "experience": ["주요", "경력"],
+    "tools": ["사용", "도구"],
+    "blog": ["최근", "글"],
+    "contact": ["채용 및 프로젝트", "문의"]
+  },
+  "present": "현재",
+  "form": {
+    "name": "이름",
+    "namePlaceholder": "이름을 입력해 주세요",
+    "email": "이메일",
+    "emailPlaceholder": "you@example.com",
+    "budget": "예산",
+    "budgetPlaceholder": "선택…",
+    "message": "메시지",
+    "messagePlaceholder": "메시지",
+    "submit": "보내기",
+    "subject": "프로젝트 문의"
+  }
+}

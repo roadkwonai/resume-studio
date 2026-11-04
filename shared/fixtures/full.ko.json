@@ -1,0 +1,97 @@
+{
+  "locale": "ko",
+  "basics": {
+    "name": "한서진",
+    "shortName": "서진",
+    "initials": "HS",
+    "handle": "seojin-han",
+    "label": "프로덕트 엔지니어",
+    "headline": "복잡한 금융 흐름을 단순한 화면으로 만듭니다",
+    "summary": "핀테크와 물류 서비스에서 9년간 제품을 만든 엔지니어입니다. 측정할 수 있는 개선을 좋아하고, 팀이 오래 쓸 수 있는 구조를 남기는 일에 시간을 씁니다.",
+    "about": [
+      "결제 도메인에서 시작해 정산, 물류 추적, 내부 운영 도구까지 다뤘습니다. 프런트엔드와 백엔드를 가리지 않고 사용자가 멈추는 지점을 찾아 고칩니다.",
+      "최근 3년은 작은 팀을 이끌면서 디자인 시스템과 배포 파이프라인을 정리했고, 신규 입사자가 첫 주에 배포할 수 있는 환경을 만드는 데 집중했습니다."
+    ],
+    "email": "seojin@example.com",
+    "phone": "+82 10-0000-0000",
+    "website": "https://seojin.example.com",
+    "location": { "city": "서울", "country": "대한민국", "timezone": "Asia/Seoul", "mapUrl": "https://maps.google.com/?q=Seoul" },
+    "availability": "2027년 1월부터 합류 가능",
+    "responseTime": "영업일 기준 하루 안에 답장합니다",
+    "resumeFile": "/profile/resume.pdf",
+    "profiles": [
+      { "network": "GitHub", "username": "seojin-han", "url": "https://github.com/seojin-han" },
+      { "network": "LinkedIn", "username": "seojin-han", "url": "https://www.linkedin.com/in/seojin-han" }
+    ]
+  },
+  "metrics": [
+    { "value": "9년", "label": "제품 개발 경력" },
+    { "value": "31개", "label": "출시한 기능과 서비스" },
+    { "value": "42%", "label": "결제 이탈률 감소" }
+  ],
+  "principles": ["측정한 뒤에 고칩니다", "접근성은 품질의 일부입니다", "다음 사람이 읽을 코드를 씁니다"],
+  "work": [
+    { "company": "테스트페이", "position": "시니어 프로덕트 엔지니어", "start": "2022-03", "url": "https://example.com", "location": "서울", "summary": "결제 플랫폼의 웹 프런트엔드를 이끌고 정산 대시보드를 새로 만들었습니다.", "highlights": ["결제 완료까지 걸리는 시간 38% 단축", "디자인 시스템 도입으로 화면 개발 기간 절반 감소"], "tags": ["TypeScript", "React", "Node.js"] },
+    { "company": "샘플로지스", "position": "풀스택 엔지니어", "start": "2019-01", "end": "2022-02", "location": "판교", "summary": "실시간 배송 추적 서비스와 기사용 앱의 API를 개발했습니다.", "highlights": ["하루 120만 건의 위치 이벤트 처리"], "tags": ["Kotlin", "PostgreSQL", "Kafka"] },
+    { "company": "가상스튜디오", "position": "웹 개발자", "start": "2016-07", "end": "2018-12", "summary": "스타트업 고객사의 웹사이트와 초기 제품을 만들었습니다.", "tags": ["JavaScript", "Vue"] }
+  ],
+  "education": [
+    { "institution": "한국가상대학교", "area": "컴퓨터공학", "degree": "학사", "start": "2010", "end": "2016" }
+  ],
+  "awards": [{ "title": "사내 해커톤 대상", "issuer": "테스트페이", "date": "2023" }],
+  "skills": [
+    { "group": "프런트엔드", "items": [
+      { "name": "React", "level": "상", "years": 8, "progress": 92 },
+      { "name": "TypeScript", "level": "상", "years": 7, "progress": 90 },
+      { "name": "Next.js", "level": "상", "years": 5, "progress": 85 }
+    ] },
+    { "group": "백엔드", "items": [
+      { "name": "Node.js", "level": "상", "years": 7, "progress": 84 },
+      { "name": "PostgreSQL", "level": "중", "years": 5, "progress": 70 }
+    ] },
+    { "group": "도구", "items": [ { "name": "Docker", "years": 5 }, { "name": "Figma", "years": 4 }, { "name": "GitHub Actions", "years": 4 } ] }
+  ],
+  "projects": [
+    { "slug": "settlement-dashboard", "name": "정산 대시보드", "kind": "핀테크 운영 도구", "client": "테스트페이", "role": "리드 엔지니어", "date": "2024-05", "timeline": "6개월", "summary": "가맹점 정산 현황을 한 화면에서 확인하고 오류를 바로 처리하는 내부 도구입니다.", "tags": ["Next.js", "TypeScript", "PostgreSQL"], "url": "https://example.com/settlement", "repo": "https://github.com/seojin-han/settlement", "problem": "정산 담당자가 세 개의 시스템을 오가며 수작업으로 대조하고 있었습니다.", "solution": "데이터를 한 곳에 모으고 불일치 건을 자동으로 표시하는 화면을 만들었습니다.", "result": "월말 정산 작업이 사흘에서 반나절로 줄었습니다.", "metrics": [{ "label": "월말 정산 시간", "before": "3일", "after": "4시간" }], "featured": true, "body": "## 맡은 일\n\n요구사항을 정리하고 화면과 API를 함께 설계했습니다.\n\n## 배운 점\n\n운영 도구는 빠른 입력이 가장 중요한 기능이었습니다." },
+    { "slug": "delivery-tracker", "name": "실시간 배송 추적", "kind": "물류 서비스", "client": "샘플로지스", "role": "풀스택 엔지니어", "date": "2021-03", "summary": "기사 위치와 예상 도착 시간을 고객에게 실시간으로 보여주는 서비스입니다.", "tags": ["Kotlin", "Kafka", "React"], "result": "배송 문의 전화가 27% 줄었습니다.", "featured": true },
+    { "slug": "design-tokens", "name": "토큰 기반 디자인 시스템", "kind": "사내 라이브러리", "date": "2023-08", "summary": "다섯 개 제품 팀이 함께 쓰는 컴포넌트와 토큰 체계입니다.", "tags": ["React", "Storybook"] },
+    { "slug": "onboarding-kit", "name": "개발 환경 온보딩 키트", "date": "2022-11", "summary": "신규 입사자가 첫날 로컬 환경을 띄우도록 돕는 도구 모음입니다.", "tags": ["Docker", "Shell"] }
+  ],
+  "services": [
+    { "slug": "product-audit", "name": "제품 성능 진단", "tagline": "2주 안에 병목을 찾습니다", "summary": "서비스의 느린 지점을 측정하고 우선순위가 담긴 개선안을 드립니다.", "includes": ["성능 측정 리포트", "개선 우선순위 목록"], "steps": ["현황 측정", "원인 분석", "개선안 전달"], "duration": "2주" },
+    { "slug": "team-embed", "name": "팀 합류형 개발", "summary": "기존 팀에 합류해 핵심 기능을 함께 만듭니다.", "includes": ["주간 배포", "코드 리뷰"], "duration": "3개월부터" }
+  ],
+  "process": [
+    { "title": "문제 측정", "summary": "숫자로 현재 상태를 확인합니다." },
+    { "title": "작게 고치기", "summary": "되돌릴 수 있는 단위로 배포합니다." },
+    { "title": "문서로 남기기", "summary": "다음 사람이 이어받을 수 있게 정리합니다." }
+  ],
+  "testimonials": [
+    { "quote": "서진 님이 합류한 뒤로 배포가 두렵지 않은 일이 됐습니다.", "name": "박가상", "role": "엔지니어링 매니저", "company": "테스트페이" },
+    { "quote": "요구사항이 모호해도 먼저 정리해서 가져오는 동료입니다.", "name": "이샘플", "role": "프로덕트 매니저", "company": "샘플로지스" }
+  ],
+  "writing": [
+    { "slug": "settlement-lessons", "title": "정산 시스템에서 배운 것들", "date": "2026-03-14", "summary": "돈이 오가는 화면을 만들며 얻은 원칙을 정리했습니다.", "tag": "회고", "readingTime": "4분", "body": "## 숫자는 항상 맞아야 합니다\n\n정산 화면에서 가장 비싼 버그는 조용히 틀린 숫자입니다.\n\n## 되돌리기를 먼저 설계합니다\n\n사람은 실수하므로 취소 경로부터 그렸습니다." },
+    { "slug": "first-week-deploy", "title": "입사 첫 주에 배포하기", "date": "2025-11-02", "summary": "온보딩 시간을 줄인 과정을 공유합니다.", "tag": "팀", "body": "로컬 환경을 스크립트 하나로 띄우는 것부터 시작했습니다." }
+  ],
+  "openSource": {
+    "stats": [{ "value": "12", "label": "공개 저장소" }, { "value": "240", "label": "받은 별" }],
+    "repos": [
+      { "name": "ko-money-format", "slug": "ko-money-format", "summary": "원화 금액을 읽기 쉽게 표시하는 라이브러리입니다.", "url": "https://github.com/seojin-han/ko-money-format", "stars": "180", "license": "MIT", "install": "npm i ko-money-format", "kind": "라이브러리" },
+      { "name": "deploy-notes", "summary": "배포 기록을 자동으로 정리하는 도구입니다.", "url": "https://github.com/seojin-han/deploy-notes", "stars": "60" }
+    ]
+  },
+  "faq": [
+    { "question": "원격 근무가 가능한가요?", "answer": "네, 서울 기준 시간대로 원격 근무가 가능합니다." },
+    { "question": "어떤 규모의 팀을 선호하나요?", "answer": "다섯 명에서 스무 명 사이의 제품 팀을 좋아합니다." }
+  ],
+  "now": [
+    { "title": "요즘 하는 일", "body": "정산 데이터 품질 지표를 만들고 있습니다." },
+    { "title": "요즘 읽는 책", "body": "분산 시스템 설계에 관한 책을 읽고 있습니다." }
+  ],
+  "uses": [
+    { "group": "장비", "items": [ { "name": "MacBook Pro 14", "note": "주 작업 장비" }, { "name": "기계식 키보드" } ] },
+    { "group": "소프트웨어", "items": [ { "name": "VS Code" }, { "name": "Linear" } ] }
+  ],
+  "contact": { "headline": "함께 만들 일이 있다면 알려주세요", "note": "채용 제안과 프로젝트 문의 모두 환영합니다.", "budgets": ["500만 원 이하", "500만~2,000만 원", "2,000만 원 이상"] }
+}

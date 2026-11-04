@@ -1,0 +1,166 @@
+{
+  "nav": { "aria": "Main", "work": "Work", "about": "About", "services": "Services", "writing": "Writing", "contact": "Contact", "menu": "Menu", "close": "Close" },
+  "rail": { "of": " of {total} sections live", "all": "All {total} sections live" },
+  "hero": {
+    "aria": "Hero",
+    "history": "History of this headline",
+    "wait": "Ships with the last edit",
+    "showEdit": "Show edit {n} of {total}: {message}",
+    "step": "{n} of {total}",
+    "firstDraft": "First draft",
+    "shorter": "Shorter",
+    "addNumber": "Add the number"
+  },
+  "home": {
+    "about": "About",
+    "basedIn": "Based in",
+    "workingAs": "Working as",
+    "takingOn": "Taking on",
+    "nextFree": "Next free",
+    "bpLead": "Built to hold at any width.",
+    "bpRest": "Keep scrolling and this one folds down to a phone.",
+    "selectedLead": "Selected work.",
+    "selectedRest": "What changed, line by line.",
+    "allProjects": "All projects",
+    "servicesRest": "Each one branches off, does its job and merges back.",
+    "writing": "Writing",
+    "kindWords": "Kind words",
+    "approved": "Approved"
+  },
+  "moved": { "before": "Where it started: {label}", "after": "Where it sits now" },
+  "cta": { "headline": "Get in touch.", "button": "Start a conversation" },
+  "pages": {
+    "work": { "label": "Work", "lead": "Selected projects." },
+    "about": { "label": "About" },
+    "services": { "label": "Services", "leads": ["One way to work with me.", "Two ways to work with me.", "Three ways to work with me."], "leadMany": "Ways to work with me." },
+    "writing": { "label": "Writing", "lead": "Notes from the work." },
+    "contact": { "label": "Contact", "lead": "Get in touch." }
+  },
+  "about": {
+    "experience": "Experience",
+    "now": "now",
+    "story": "Story",
+    "how": "How I work",
+    "tools": "Tools I reach for",
+    "resume": "Résumé",
+    "resumeDownloadNote": "The current version, as a file.",
+    "resumeRequest": "Request my résumé",
+    "resumeDownload": "Download my résumé",
+    "resumeSubject": "Résumé request"
+  },
+  "project": {
+    "client": "Client",
+    "role": "Role",
+    "timeline": "Timeline",
+    "stack": "Built with",
+    "year": "Year",
+    "result": "Result",
+    "live": "Live site",
+    "code": "Code",
+    "problem": "The problem",
+    "did": "What I did",
+    "changed": "What changed",
+    "notes": "Notes",
+    "next": "Next project",
+    "readCase": "Read the case study",
+    "was": "was {before}",
+    "line": "{label}: {before} → {after}",
+    "lineAfter": "{label}: {after}",
+    "bpLead": "The same screen, three widths.",
+    "bpRest": "Scroll to fold it down."
+  },
+  "service": { "label": "Service", "price": "Price", "duration": "Duration", "get": "What you get", "runs": "How it runs", "fit": "A good fit when", "other": "Other services", "questions": "Questions" },
+  "post": { "next": "Next" },
+  "contact": { "email": "Email", "phone": "Phone", "basedIn": "Based in", "hours": "Hours", "nextFree": "Next free" },
+  "form": {
+    "name": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@company.example",
+    "company": "Company",
+    "optional": "Optional",
+    "need": "What you need",
+    "choose": "Choose one",
+    "permanent": "A permanent role",
+    "other": "Something else",
+    "budget": "Budget",
+    "message": "Your message",
+    "send": "Send message",
+    "opening": "Opening your mail app with the message.",
+    "subject": "Enquiry from the site"
+  },
+  "footer": {
+    "site": "Site",
+    "elsewhere": "Elsewhere",
+    "contact": "Contact",
+    "loadedBefore": "This page loaded in",
+    "loadedAfter": "on your device",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "styleGuide": "Style guide"
+  },
+  "preloader": ["Document", "Typeface", "Script", "Images", "Ready"],
+  "notFound": { "sub": "not found", "lead": "Nothing at this address.", "rest": "It may have moved, or never shipped.", "back": "Back to the home page" },
+  "legal": {
+    "label": "Legal",
+    "updatedLabel": "Last updated",
+    "updated": "October 1, 2026",
+    "placeholderLead": "Placeholder copy.",
+    "placeholder": "This text shows the layout only. Replace it with wording checked by someone qualified before you publish.",
+    "docs": {
+      "privacy-policy": {
+        "title": "Privacy policy",
+        "sections": [
+          ["What this site collects", "The contact form collects your name, email address and whatever you write in the message. Nothing else is asked for and nothing is collected in the background beyond anonymous visit counts."],
+          ["What it is used for", "To reply to you. Messages are kept for as long as the conversation is useful and deleted on request."],
+          ["Who sees it", "Only the site owner. Details are never sold or passed on."],
+          ["Your choices", "Ask for a copy of what is held about you, or for it to be removed, by writing to the address on the contact page."]
+        ]
+      },
+      "terms": {
+        "title": "Terms",
+        "sections": [
+          ["Using this site", "The writing and case studies here are offered in good faith and without warranty. Figures in case studies are published with each client's agreement."],
+          ["Engagements", "Paid work is covered by a separate written agreement that sets out scope, price and dates. Nothing on this site is an offer of work."],
+          ["Copyright", "Text and images belong to the site owner unless stated otherwise. Quote freely with a link back."]
+        ]
+      }
+    }
+  },
+  "styleGuide": {
+    "title": "Style guide · Nightly",
+    "label": "Style guide",
+    "lead": "How Nightly is put together.",
+    "rest": "Change these and the whole site follows.",
+    "colours": "Colours",
+    "type": "Type",
+    "palettes": "Other palettes",
+    "colourRows": [
+      ["Page, #0D0C0A", "The ground of every page"],
+      ["Surface, #171512", "Behind images while they load, and raised states"],
+      ["Ink, #F0ECE4", "Headings, body text and the primary button"],
+      ["Muted, #918D84", "Labels, captions and secondary text"],
+      ["Quiet, #625F58", "The second tone of two-tone headings"],
+      ["Hairline, Ink at 14%", "Rules and field underlines"],
+      ["Accent, #FFB02E", "Progress lines only. Use it sparingly"]
+    ],
+    "typeRows": [
+      ["Display", "Page titles, 72 / 56 / 40", "A page title"],
+      ["Statement", "Section statements, 48 / 40 / 30", "A section statement"],
+      ["Heading", "Smaller headings and prices, 32 / 28 / 24", "A smaller heading"],
+      ["Title", "Row and card titles, 22 / 20 / 19", "A row or card title"],
+      ["Figure", "Numbers set as text, 64 / 52 / 44", "0123456789"],
+      ["Lead", "Introductions, 22 / 20 / 18", "An introduction in a line or two."],
+      ["Article", "Long-form text in posts and legal pages, 18", "Long-form text for posts and legal pages."],
+      ["Body", "Paragraphs, 16", "A paragraph of body text."],
+      ["Label", "Labels, facts and dates, 15", "A label or a date"],
+      ["Small", "Captions and the footer, 14", "A caption"],
+      ["Nav", "Navigation and buttons, 15", "A button label"],
+      ["Name", "The name in the navigation, 16 medium", "A name"]
+    ],
+    "paletteRows": [
+      ["Graphite", "Page #0B0D10, Surface #14171C, Ink #E9EEF2, Muted #8A939C, Quiet #5A626B, Accent #6EA8FF", "Cool and a little blue. Hairline: Ink at 14%."],
+      ["Ember", "Page #100B0A, Surface #1A1312, Ink #F3E9E4, Muted #9A8C86, Quiet #675B56, Accent #FF6B4A", "Warm, with a coral accent. Hairline: Ink at 14%."],
+      ["Paper", "Page #F4F2EC, Surface #E8E5DC, Ink #15140F, Muted #6F6C64, Quiet #A5A299, Accent #C2410C", "A light version. Hairline: Ink at 14%."]
+    ]
+  }
+}

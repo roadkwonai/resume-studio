@@ -1,0 +1,734 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/sites/kerneldev/fonts/SpaceGrotesk-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/sites/kerneldev/fonts/SpaceGrotesk-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/sites/kerneldev/fonts/JetBrainsMono-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/sites/kerneldev/fonts/JetBrainsMono-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.root {
+  --bg: #070b09;
+  --surface: #0f1713;
+  --surface-2: #17261e;
+  --line: #294535;
+  --accent: #00ff88;
+  --text: #e8f3ec;
+  --muted: #9bafa2;
+  --pad: 40px;
+  --h1-size: 78px;
+  --h1-lh: 1.02;
+  --h2-size: 44px;
+  --h2-lh: 1.12;
+  --section-pad: 64px;
+  --sans: "Space Grotesk", "Space Grotesk Fallback", Arial, "Pretendard Variable", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --mono: "JetBrains Mono", "JetBrains Mono Fallback", "Pretendard Variable", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", monospace;
+
+  background: var(--bg);
+  min-height: 100vh;
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.root:lang(ko) {
+  --h1-lh: 1.2;
+  --h2-lh: 1.25;
+}
+.root:lang(ko) :where(.h1, .h2, .h3) {
+  letter-spacing: -0.02em;
+}
+.root :where(*) {
+  box-sizing: border-box;
+}
+.root :where(p, h1, h2, h3) {
+  margin: 0;
+  font-weight: 500;
+  white-space: pre-wrap;
+  text-wrap: balance;
+}
+.root a {
+  text-decoration: none;
+}
+
+.page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: calc(1120px + var(--pad) * 2);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+}
+
+/* type */
+.body {
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+.mono,
+.monoAccent,
+.link,
+.date,
+.mockLabel,
+.cardNum,
+.principle,
+.mockCode,
+.termOutput {
+  font-family: var(--mono);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+.monoAccent,
+.link,
+.date,
+.mockLabel,
+.cardNum {
+  color: var(--accent);
+  line-height: 1.55;
+}
+.h3 {
+  font-size: 23px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+  color: var(--text);
+}
+.h2 {
+  font-size: var(--h2-size);
+  line-height: var(--h2-lh);
+  letter-spacing: -0.04em;
+  color: var(--text);
+  max-width: 760px;
+}
+.link {
+  display: block;
+  width: fit-content;
+}
+
+/* boxes: border drawn as an inset overlay like the source */
+.box {
+  position: relative;
+  background: var(--surface);
+  border-radius: 6px;
+}
+.box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--line);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+  height: 88px;
+}
+.brand {
+  font-size: 23px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  white-space: nowrap;
+}
+.coreLinks {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0 18px 0 0;
+}
+.coreLinks a {
+  display: block;
+  padding: 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+.coreLinks li {
+  list-style: none;
+  padding-right: 10.5px;
+}
+
+
+/* buttons */
+.btn,
+.btnPrimary,
+.btnSecondary,
+.submit {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+.btnPrimary {
+  background: var(--accent);
+  color: #000;
+}
+.btnPrimary::after,
+.btnSecondary::after,
+.submit::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  pointer-events: none;
+}
+:lang(en) .wTalk {
+  min-width: 110px;
+}
+:lang(en) .wExplore {
+  min-width: 166px;
+}
+:lang(en) .wLive {
+  min-width: 145px;
+}
+:lang(en) .wStart {
+  min-width: 180px;
+}
+:lang(en) .wEmail {
+  min-width: 152px;
+}
+.btnSecondary {
+  background: var(--surface);
+  color: var(--text);
+}
+.btnSecondary::after {
+  border-color: var(--line);
+}
+
+/* hero */
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 54px 0 52px;
+}
+.rain {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: var(--accent);
+  pointer-events: none;
+  z-index: 0;
+}
+.hero > :not(.rain) {
+  position: relative;
+  z-index: 1;
+}
+.availability > p {
+  flex: 1;
+}
+.availability {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  flex: none;
+  border-radius: 100px;
+  background: var(--accent);
+  animation: blink 1.3s ease-in-out infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.heroSplit {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.heroCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1 1 0;
+  min-width: 0;
+}
+.h1 {
+  font-size: var(--h1-size);
+  line-height: var(--h1-lh);
+  letter-spacing: -0.04em;
+  color: var(--text);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.portrait {
+  flex: none;
+  width: 360px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.portraitImg {
+  display: block;
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.portraitInitials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-2);
+  color: var(--accent);
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 72px;
+}
+.terminal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.termOutput {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--text);
+  text-wrap: wrap;
+}
+.cursor {
+  width: 12px;
+  height: 3px;
+  background: var(--accent);
+  animation: blink 1.3s ease-in-out infinite;
+}
+
+/* metrics */
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+  padding-bottom: 56px;
+}
+.metric {
+  flex: 1 1 120px;
+  min-width: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.metricValue {
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+
+/* sections */
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: var(--section-pad) 0;
+  scroll-margin-top: 0;
+}
+.section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid var(--line);
+  pointer-events: none;
+}
+.sectionIntro {
+  max-width: 720px;
+}
+
+.bioGrid,
+.contactLayout {
+  display: flex;
+  align-items: flex-start;
+}
+.bioGrid > *,
+.contactLayout > * {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.bioGrid {
+  gap: 24px;
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.principles {
+  box-sizing: content-box;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.principle {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--text);
+}
+
+/* cards */
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+.cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: flex-start;
+}
+.cardRowProcess {
+  composes: cardRow;
+  gap: 16px;
+}
+.cardSlot {
+  flex: 1 1 200px;
+  min-width: 0;
+  min-height: 230px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 26px;
+  background: var(--surface);
+  border-radius: 6px;
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--line);
+  border-radius: inherit;
+  pointer-events: none;
+  transition: border-color 0.2s ease;
+}
+.card:hover {
+  background: var(--surface-2);
+}
+.card:hover::after {
+  border-color: var(--accent);
+}
+
+
+/* experience */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.row {
+  display: flex;
+  gap: 24px;
+  padding: 22px;
+}
+.date {
+  flex: none;
+  width: 180px;
+}
+.roleDetails {
+  flex: 1 0 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+
+/* projects */
+.projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.project {
+  flex: 1 0 280px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+.visual {
+  height: 160px;
+  overflow: hidden;
+  padding: 16px;
+  background: var(--surface-2);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  text-align: center;
+}
+.visual > * {
+  width: 100%;
+}
+
+.mockCode {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--text);
+  text-wrap: wrap;
+}
+.projectDesc {
+  min-height: 106px;
+}
+.projectActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.projectActions .btnSecondary {
+  min-width: 98px;
+}
+
+/* faq */
+.faqItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px;
+}
+
+/* contact */
+.contactLayout {
+  gap: 28px;
+}
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.formPanel {
+  box-sizing: content-box;
+  padding: 24px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input {
+  position: relative;
+  background: var(--surface-2);
+  border-radius: 4px;
+  padding: 12px;
+}
+.input::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--line);
+  border-radius: inherit;
+  pointer-events: none;
+}
+.input:focus-within::after {
+  border-color: var(--accent);
+}
+.input input,
+.input select,
+.input textarea {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 16.8px;
+}
+.input input::placeholder,
+.input textarea::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+.input textarea {
+  height: 76px;
+  resize: vertical;
+}
+.textareaWrap {
+  composes: input;
+  height: 100px;
+}
+.submit {
+  background: var(--accent);
+  color: #000;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  justify-content: center;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 110px;
+}
+
+/* tablet */
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .root {
+    --pad: 32px;
+    --h1-size: 58px;
+    --h1-lh: 1.12;
+    --h2-size: 36px;
+  }
+  .heroSplit {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 28px;
+  }
+  .portrait {
+    width: 100%;
+    max-width: 480px;
+  }
+  .cardGrid {
+    grid-auto-rows: minmax(300px, auto);
+  }
+  .cardSlot {
+    min-height: 300px;
+  }
+}
+
+/* mobile */
+@media (max-width: 809.98px) {
+  .root {
+    --pad: 20px;
+    --h1-size: 34px;
+    --h1-lh: 1.12;
+    --h2-size: 30px;
+    --h2-lh: 1.12;
+    --section-pad: 40px;
+  }
+  .coreLinks {
+    display: none;
+  }
+  .project {
+    flex-basis: 100%;
+  }
+  .hero {
+    padding: 28px 0 36px;
+  }
+  .heroSplit {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 28px;
+  }
+  .portrait {
+    width: 100%;
+    max-width: 480px;
+  }
+  .bioGrid,
+  .contactLayout {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .bioGrid > *,
+  .contactLayout > * {
+    flex: none;
+  }
+  .principles,
+  .formPanel {
+    box-sizing: border-box;
+  }
+  .cardGrid {
+    grid-auto-rows: 1fr;
+  }
+  .root:lang(ko) .cardGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .cardRow {
+    flex-direction: column;
+  }
+  .cardSlot {
+    flex: none;
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .date {
+    width: auto;
+  }
+}

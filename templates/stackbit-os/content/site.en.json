@@ -1,0 +1,47 @@
+{
+  "nav": { "primary": "Primary", "open": "Open menu", "close": "Close menu", "backToTop": "back to top" },
+  "boot": {
+    "version": "v1.0.26",
+    "lines": ["Initializing profile...", "Loading experience data...", "Syncing project archive...", "Connecting developer node..."],
+    "granted": "ACCESS GRANTED_"
+  },
+  "header": { "downloadCv": "DOWNLOAD CV", "clock": "Current time in {city}: {time}" },
+  "sections": {
+    "profile": "DEVELOPER_PROFILE",
+    "bio": "BIOGRAPHY",
+    "principles": "PRINCIPLES",
+    "performance": "PERFORMANCE_DATA",
+    "tech": "TECH_STACK",
+    "experience": "EXPERIENCE_LOG",
+    "projects": "PROJECT_ARCHIVE",
+    "openSource": "OPEN_SOURCE",
+    "contact": "CONTACT_PROTOCOL"
+  },
+  "asides": {
+    "experience": "PRODUCTS, PLATFORMS, AND TEAMS.",
+    "projects": "SELECTED PRODUCTS, SYSTEMS, AND DIGITAL EXPERIENCES.",
+    "openSource": "BUILDING IN PUBLIC AND CONTRIBUTING TO THE ECOSYSTEM."
+  },
+  "profile": { "experience": "EXPERIENCE:", "focus": "FOCUS:", "responseTime": "RESPONSE TIME:", "status": "STATUS:", "online": "Online" },
+  "tech": { "items": "{n} ITEMS", "year": "{n} Year", "years": "{n} Years" },
+  "projects": { "caseStudy": "Case Study", "livePreview": "Live Preview", "github": "GitHub" },
+  "openSource": { "map": "SIGNAL_MAP", "stars": "Stars", "pulls": "Pull requests", "viewRepo": "View repository" },
+  "code": { "label": "Sample portfolio source code" },
+  "contact": { "email": "Email", "location": "Location", "formTitle": "NEW_MESSAGE.SYS" },
+  "form": {
+    "namePlaceholder": "NAME",
+    "nameLabel": "Name",
+    "emailPlaceholder": "EMAIL",
+    "emailLabel": "Email",
+    "companyPlaceholder": "COMPANY/TEAM",
+    "companyLabel": "Company or team",
+    "messagePlaceholder": "MESSAGE",
+    "messageLabel": "Message",
+    "budgetPlaceholder": "BUDGET",
+    "budgetLabel": "Budget",
+    "submit": "SUBMIT",
+    "subject": "Project enquiry from {name}"
+  },
+  "footer": { "statuses": ["Firewall active", "Secure channel", "Node online"], "top": "BACK TO TOP" },
+  "notFound": { "title": "PAGE NOT FOUND", "home": "BACK TO HOME" }
+}

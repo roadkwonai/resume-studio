@@ -1,0 +1,29 @@
+{
+  "nav": { "about": "소개", "stack": "기술 스택", "projects": "프로젝트", "contact": "연락처", "cta": "문의하기 ↗" },
+  "hero": { "primary": "프로젝트 보기 ↓", "secondary": "문의하기 ↗" },
+  "terminal": { "whoami": "$ whoami", "mission": "$ cat mission.txt", "status": "$ status", "host": "kernel", "path": "~/portfolio" },
+  "sections": {
+    "about": { "label": "소개", "title": "자기소개" },
+    "stack": { "label": "기술 스택", "title": "주로 사용하는 기술", "intro": "화면부터 API, 인프라까지 문제에 맞는 도구를 선택합니다." },
+    "experience": { "label": "경력", "title": "주요 경력", "present": "현재" },
+    "projects": { "label": "프로젝트", "title": "주요 프로젝트", "live": "서비스 보기 ↗", "repo": "소스 코드 ↗" },
+    "useCases": { "label": "서비스", "title": "제공 서비스" },
+    "process": { "label": "진행 과정", "title": "프로젝트 진행 과정" },
+    "faq": { "label": "질문과 답변", "title": "자주 묻는 질문" },
+    "contact": { "label": "연락처", "title": "문의하기", "intro": "진행 중인 일과 현재 문제, 원하는 목표를 알려 주세요.", "email": "이메일 보내기 ↗" }
+  },
+  "form": {
+    "name": "이름",
+    "namePlaceholder": "이름을 입력해 주세요",
+    "email": "이메일",
+    "emailPlaceholder": "you@company.com",
+    "budget": "예산",
+    "budgetPlaceholder": "범위를 선택해 주세요",
+    "message": "메시지",
+    "messagePlaceholder": "문의 내용을 입력해 주세요",
+    "submit": "메시지 보내기 ↗",
+    "subject": "포트폴리오 문의"
+  },
+  "footer": { "top": "↑ 맨 위로" },
+  "notFound": { "title": "404: 페이지를 찾을 수 없습니다", "home": "cd ~ ↗" }
+}

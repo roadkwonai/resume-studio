@@ -1,0 +1,502 @@
+{
+  "locale": "en",
+  "basics": {
+    "name": "Idris Halloran",
+    "initials": "IH",
+    "label": "Software engineer",
+    "headline": "I build payment systems.",
+    "summary": "Software engineer in Edinburgh. Payment systems, queues and the interfaces on top of them, each project led by the number it moved.",
+    "about": [
+      "I started in warehouse software in Dundee, where a bug meant a lorry waiting in the yard. That is still how I think about latency.",
+      "From there I moved to card payments in Glasgow, then led an ingest pipeline through its awkward years. Since 2021 I have worked for myself from Leith, on two contracts a year. I take the ones where a slow page costs somebody money, because those teams already know which number matters.",
+      "Away from the desk I maintain Sandeel, a small feature-flag library, write a few essays a year and run badly along the Water of Leith."
+    ],
+    "email": "idris@halloran.example",
+    "location": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "timezone": "Europe/London"
+    },
+    "availability": "January 2027",
+    "responseTime": "Replies within a day.",
+    "aboutImage": "/sites/nightly/images/jFIgzHiQPoJVBTwp94isy8dgNoo.jpg",
+    "aboutImageAlt": "A desk by a window at night: a lamp, a keyboard and one monitor, with city lights outside",
+    "profiles": [
+      {
+        "network": "Code",
+        "url": "https://example.com/code"
+      },
+      {
+        "network": "Talks",
+        "url": "https://example.com/talks"
+      },
+      {
+        "network": "Feed",
+        "url": "https://example.com/feed"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Halloran Engineering",
+      "position": "Independent engineer",
+      "start": "2021",
+      "summary": "Contract work for payments and logistics teams. Two clients a year."
+    },
+    {
+      "company": "Stillwater",
+      "position": "Staff engineer",
+      "start": "2019",
+      "end": "2021",
+      "summary": "Led the ingest pipeline from 600 million to 4.1 billion requests a day."
+    },
+    {
+      "company": "Calder & Wren",
+      "position": "Senior engineer",
+      "start": "2016",
+      "end": "2019",
+      "summary": "Card payments for independent shops. Rebuilt reconciliation twice, the second time properly."
+    },
+    {
+      "company": "Northlight Systems",
+      "position": "Software engineer",
+      "start": "2014",
+      "end": "2016",
+      "summary": "Warehouse software. Learned what a night shift does to a bug report."
+    }
+  ],
+  "projects": [
+    {
+      "slug": "fernhill-pay",
+      "name": "Fernhill Pay",
+      "summary": "A payments ledger for 9,000 small shops. One codebase from the till to the back office.",
+      "kind": "Payments ledger",
+      "client": "Fernhill, Edinburgh",
+      "role": "Lead engineer, interface and API",
+      "date": "2024",
+      "timeline": "Ten weeks, 2024",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Go",
+        "Postgres"
+      ],
+      "image": "/sites/nightly/images/PJLhzKsY8Y7hZNU8S4zegf5KNU.jpg",
+      "imageAlt": "Fernhill Pay settlements screen: a total settled today, a bar chart of volume by half hour and a table of payments",
+      "gallery": [
+        {
+          "src": "/sites/nightly/images/xXCMjDHDbN8SHzdFyCiNgWMVtA.jpg",
+          "alt": "Fernhill Pay settlements screen at tablet width"
+        },
+        {
+          "src": "/sites/nightly/images/UTaCQDdiZVEHoio3COyzTZFL2I.jpg",
+          "alt": "Fernhill Pay settlements screen at phone width"
+        }
+      ],
+      "problem": "Checkout took 840 ms at the 95th percentile, and nobody could say where the time went. Shops with slow connections were giving up at the card step.",
+      "solution": "I traced one payment end to end before touching anything. Two thirds of the time was three lookups the ledger already had the answers to. I moved them into the write path, added one index and deleted a cache.",
+      "result": "Checkout now sits at 96 ms. The dashboards I used are part of the product, so the team sees a regression the day it ships.",
+      "metrics": [
+        {
+          "label": "Checkout, 95th percentile",
+          "before": "840 ms",
+          "after": "96 ms"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "slug": "harbourline",
+      "name": "Harbourline",
+      "summary": "Route planning for a coastal courier fleet, replanned every time a van falls behind.",
+      "kind": "Route planning",
+      "client": "Harbourline, Leith",
+      "role": "Engineer, routing service",
+      "date": "2023",
+      "timeline": "Five months, 2023",
+      "tags": [
+        "Rust",
+        "TypeScript",
+        "Postgres"
+      ],
+      "image": "/sites/nightly/images/NspKdLNU0xdTBkV48KsgptlIvQ8.jpg",
+      "imageAlt": "Harbourline route planner: three delivery runs drawn along a coastline, with a list of runs beside the map",
+      "problem": "Drivers followed fixed rounds drawn up years ago. One late van meant phone calls, and a third of each day's distance was avoidable.",
+      "solution": "A routing service that replans every time a van falls behind, with rules the dispatchers can read and overrule. It ran beside the old rounds for a month before it replaced them.",
+      "result": "31% fewer kilometres per parcel over twelve weeks, and the dispatch desk stopped starting at five in the morning.",
+      "metrics": [
+        {
+          "label": "Fewer kilometres driven per parcel",
+          "before": "0%",
+          "after": "31%"
+        }
+      ]
+    },
+    {
+      "slug": "sandeel",
+      "name": "Sandeel",
+      "summary": "Flags without the meeting. Ship behind a switch and roll out by percentage.",
+      "kind": "Feature flags, open source",
+      "client": "Open source",
+      "role": "Author and maintainer",
+      "date": "2022",
+      "timeline": "Since 2022",
+      "tags": [
+        "TypeScript",
+        "SQLite"
+      ],
+      "image": "/sites/nightly/images/FAAwWN071s7iJeiOvCPbcarCkM0.jpg",
+      "imageAlt": "Sandeel feature flags: a list of flags with switches and percentage roll-out bars",
+      "problem": "Every release needed a meeting because nothing could be switched off once it was live.",
+      "solution": "A small library and one table: flags with owners, expiry dates and a percentage. No dashboard service to run, and no flag lives longer than a quarter without someone saying why.",
+      "result": "From merge to live in 11 seconds behind a flag. About forty teams use it, and three of them send patches.",
+      "metrics": [
+        {
+          "label": "From merge to live, behind a flag",
+          "before": "14 min",
+          "after": "11 s"
+        }
+      ]
+    },
+    {
+      "slug": "stillwater",
+      "name": "Stillwater",
+      "summary": "Latency you can read at a glance, for every region on one screen.",
+      "kind": "Observability",
+      "client": "Stillwater",
+      "role": "Staff engineer, ingest pipeline",
+      "date": "2021",
+      "timeline": "Two years, 2019 to 2021",
+      "tags": [
+        "Go",
+        "Rust",
+        "Postgres"
+      ],
+      "image": "/sites/nightly/images/Lk4fKINLoDo8S3RTbayM77Vs.jpg",
+      "imageAlt": "Stillwater latency screen: an orange heat map of checkout latency over 24 hours, with four figures above it",
+      "problem": "The ingest pipeline fell over at 600 million requests a day and the fix on the table was a bigger cluster.",
+      "solution": "I rewrote the hot path in Go around one append-only log, with back-pressure instead of retries. We shipped it a region at a time, old and new side by side.",
+      "result": "4.1 billion requests a day on fewer machines than before, and a latency screen people could read from across the room.",
+      "metrics": [
+        {
+          "label": "Requests a day, on one pipeline",
+          "before": "0.6 bn",
+          "after": "4.1 bn"
+        }
+      ]
+    },
+    {
+      "slug": "bawbee",
+      "name": "Bawbee",
+      "summary": "A current account that opens in the time it takes to boil a kettle.",
+      "kind": "Mobile banking",
+      "client": "Bawbee",
+      "role": "Engineer, mobile and payments",
+      "date": "2021",
+      "timeline": "Fourteen months, 2021",
+      "tags": [
+        "Kotlin",
+        "Swift",
+        "Go"
+      ],
+      "image": "/sites/nightly/images/4ADiac7zFYWNhnPHuDd4w4fOe8.jpg",
+      "imageAlt": "Bawbee banking app: three phone screens showing a balance, spending by month and savings pots",
+      "problem": "The app crashed most for the people with the oldest phones, which were also the customers it was built for.",
+      "solution": "I moved balance and payment state out of the screens into one store that both platforms share, then tested on the five worst phones we could buy.",
+      "result": "99.9% of sessions end without a crash, up from 98.1%, and sign-up takes under four minutes.",
+      "metrics": [
+        {
+          "label": "Sessions that end without a crash",
+          "before": "98.1%",
+          "after": "99.9%"
+        }
+      ]
+    },
+    {
+      "slug": "tidewatch",
+      "name": "Tidewatch",
+      "summary": "On-call rotas that nobody dreads, with every gap found before Friday.",
+      "kind": "On-call scheduling",
+      "client": "Tidewatch",
+      "role": "Engineer, full stack",
+      "date": "2019",
+      "timeline": "Six months, 2019",
+      "tags": [
+        "TypeScript",
+        "React",
+        "Postgres"
+      ],
+      "image": "/sites/nightly/images/10qk6SodEg4svj21AcL3Xqw4tTs.jpg",
+      "imageAlt": "Tidewatch on-call rota: a week grid with primary and secondary shifts for five people",
+      "problem": "On-call rotas lived in a spreadsheet. Gaps were found on Friday afternoon, and the same two people took most of the night pages.",
+      "solution": "A scheduler that treats fairness as a constraint, not a favour, and flags a gap the moment it appears. Swaps take two taps.",
+      "result": "62% fewer pages after midnight within a quarter, mostly because alerts finally reached someone who could fix the cause.",
+      "metrics": [
+        {
+          "label": "Fewer pages after midnight",
+          "before": "0%",
+          "after": "62%"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "performance-audit",
+      "name": "Performance audit",
+      "summary": "Two weeks to find where the time goes. You get a ranked list, the measurements behind it and the first fix merged.",
+      "includes": [
+        "A ranked list of causes, with the measurement behind each",
+        "The first fix merged, with a test that guards it",
+        "A one-hour walkthrough for the whole team"
+      ],
+      "steps": [
+        "Week one is measuring: traces, queries and the three slowest journeys. Week two is the ranked list, and one fix shipped together so the method stays with your team."
+      ],
+      "price": "£4,800",
+      "duration": "Fixed price, two weeks"
+    },
+    {
+      "slug": "build-with-your-team",
+      "name": "Build with your team",
+      "summary": "I join as a senior engineer for a quarter and ship one thing end to end, with the tests and the handover.",
+      "includes": [
+        "One feature or service shipped end to end",
+        "Tests, dashboards and a written handover",
+        "Pairing with whoever takes it on next"
+      ],
+      "steps": [
+        "I work in your repository, your stand-up and your review queue. We agree one outcome and one number at the start, and I hand over in the last two weeks."
+      ],
+      "price": "£850",
+      "duration": "A day, eight to twelve weeks"
+    },
+    {
+      "slug": "architecture-review",
+      "name": "Architecture review",
+      "summary": "A second pair of eyes before you commit. Three sessions and a written recommendation you can argue with.",
+      "includes": [
+        "Three working sessions with the people who know the system",
+        "A written recommendation with the trade-offs named",
+        "A follow-up call a month later"
+      ],
+      "steps": [
+        "Three sessions: how it works today, where it hurts, and what I would do. Then a written recommendation, short enough to read and specific enough to argue with."
+      ],
+      "price": "£2,400",
+      "duration": "Fixed price, one week"
+    }
+  ],
+  "process": [
+    {
+      "title": "Measure first",
+      "summary": "No change without a number before it and the same number after. If it cannot be measured yet, that is the first job."
+    },
+    {
+      "title": "Small changes, shipped",
+      "summary": "A week of small merges behind a flag beats a month on a branch. Each one can be undone before lunch."
+    },
+    {
+      "title": "Write it down",
+      "summary": "Decisions go in the repository next to the code they explain, in sentences a new starter can follow."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Idris took checkout from 840 to 96 milliseconds, then left us the dashboards to keep it there. We have not had to call him back, which I think was the point.",
+      "name": "Mairi Campbell",
+      "role": "Head of engineering",
+      "company": "Fernhill"
+    },
+    {
+      "quote": "He asked for the numbers before he asked for the codebase. Three weeks later the vans were driving a third fewer kilometres.",
+      "name": "Tomasz Wilk",
+      "role": "Operations lead",
+      "company": "Harbourline"
+    },
+    {
+      "quote": "The clearest written recommendation I have had from a contractor. We disagreed with half of it and still used all of it.",
+      "name": "Priya Raman",
+      "role": "Chief technology officer",
+      "company": "Tidewatch"
+    }
+  ],
+  "writing": [
+    {
+      "slug": "the-cheapest-millisecond",
+      "title": "The cheapest millisecond is the one you never spend",
+      "date": "2026-09-12",
+      "summary": "Most of a slow checkout is work nobody asked for. How to find it before you buy a bigger machine.",
+      "body": "When a page is slow, the first suggestion is usually a bigger machine. It is rarely the cheapest fix and almost never the first one to try.\n\n## Trace one request\n\nPick a single slow request and follow it from the click to the last byte. Write down every hop and how long it took. On Fernhill's checkout that list had eleven lines, and three of them were the same lookup.\n\n## Delete before you tune\n\nThe fastest query is the one that is not sent. Most of the 840 milliseconds went on work whose answer was already in memory two functions up the stack.\n\n```\n// before: three round trips per payment\nconst shop = await db.shop(id)\nconst plan = await db.plan(shop.planId)\nconst rate = await db.rate(plan.rateId)\n\n// after: the ledger row already carries the rate\nconst { rate } = payment\n```\n\n## Keep the ruler\n\nLeave the measurement in place when you are done. A number that is on a screen every morning tends to stay where you put it.",
+      "readingTime": "7 min"
+    },
+    {
+      "slug": "double-entry-and-state",
+      "title": "What a double-entry ledger taught me about state",
+      "date": "2026-07-03",
+      "summary": "Never update a balance. Append what happened and let the sum speak.",
+      "body": "Accountants solved a problem five hundred years ago that software teams rediscover every few years: if you overwrite a value, you lose the reason it changed.\n\n## Never update a balance\n\nA balance is a sum, not a fact. Store the movements and add them up. When the total looks wrong, the rows tell you which movement to question.\n\n## Every entry has two sides\n\nMoney that leaves one account arrives in another. If the two sides do not match, the write fails. That single rule removed a whole class of bug from reconciliation.\n\n## What it costs\n\nMore rows and the occasional slow sum. Both are easier to fix than a balance nobody can explain.",
+      "readingTime": "9 min"
+    },
+    {
+      "slug": "flags-are-a-release-tool",
+      "title": "Feature flags are a release tool, not a settings page",
+      "date": "2026-04-18",
+      "summary": "A flag older than a quarter is a bug with good manners.",
+      "body": "A feature flag answers one question: is this code path on for this person yet. The trouble starts when it is asked to answer others.\n\n## Give every flag an owner and a date\n\nA flag without an expiry is a second configuration system that nobody designed. In Sandeel a flag past its date fails the build until someone extends it and says why.\n\n## Roll out by percentage\n\nOne per cent for an hour tells you more than a week in staging. Watch the number you care about, then turn the dial.\n\n## Delete the flag\n\nThe release is finished when the flag is gone, not when it reaches a hundred per cent.",
+      "readingTime": "6 min"
+    },
+    {
+      "slug": "on-call-is-a-design-problem",
+      "title": "On-call is a design problem",
+      "date": "2026-02-06",
+      "summary": "If the same alert wakes two people in a month, the rota is not what needs fixing.",
+      "body": "If the same alert wakes two people in a month, the rota is not what needs fixing.\n\n## Count the pages, not the incidents\n\nIncidents are what the company remembers. Pages are what people live through. Tidewatch started as a spreadsheet of who was woken and why.\n\n## Fairness is a constraint\n\nA schedule that leans on whoever complains least will lose them first. Make the load visible and the swaps easy.\n\n## Send alerts to the cause\n\nMost of the drop in night pages came from routing: the alert went to the team that could remove the reason for it.",
+      "readingTime": "8 min"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you work full time for one client?",
+      "answer": "During a contract, yes. I take two a year so that each gets my whole week."
+    },
+    {
+      "question": "Can you work in our time zone?",
+      "answer": "I work UK hours and overlap comfortably with Europe and the east coast of the United States."
+    },
+    {
+      "question": "Do you sign NDAs?",
+      "answer": "Yes, before the first call if you prefer. Case studies here were published with each client's agreement."
+    },
+    {
+      "question": "What if the number does not move?",
+      "answer": "Then the audit says why, in writing, and you have paid for a fortnight rather than a rewrite."
+    },
+    {
+      "question": "Would you consider a permanent role?",
+      "answer": "Occasionally. Staff or principal level, small team, a product where a slow page costs somebody money."
+    }
+  ],
+  "contact": {
+    "headline": "Have a number that needs moving?",
+    "note": "Next free in January 2027. Send the number, where it is measured, and what it costs you. I reply within a day."
+  },
+  "features": {
+    "legal": true
+  },
+  "extras": {
+    "nightly": {
+      "place": "Leith, Edinburgh",
+      "ogImage": "/sites/nightly/images/bXUnFMznZwndZgbsw6A9we5GA04.jpg",
+      "drafts": [
+        {
+          "message": "First draft",
+          "when": "Monday",
+          "text": "I am a passionate, results-driven full-stack developer who loves crafting scalable solutions."
+        },
+        {
+          "message": "Remove the adjectives",
+          "when": "Tuesday",
+          "text": "I am a full-stack developer who loves crafting solutions."
+        },
+        {
+          "message": "Say what I build",
+          "when": "Wednesday",
+          "text": "I am a software engineer who builds payment systems."
+        },
+        {
+          "message": "Shorter",
+          "when": "Thursday",
+          "text": "I build payment systems."
+        },
+        {
+          "message": "Add the number",
+          "when": "Today",
+          "text": "I build payment systems."
+        }
+      ],
+      "statement": [
+        "I build payment systems and the tools around them.",
+        "Twelve years in, I still measure before I change anything, and again after."
+      ],
+      "homeStory": [
+        "I started in warehouse software in Dundee, moved to card payments in Glasgow, and have worked for myself from Leith since 2021. Most of my work sits between a database and a person waiting for it.",
+        "I take two contracts a year and say no to the rest, which keeps the work careful. I write up what I learn, maintain one small open-source library, and answer email within a day."
+      ],
+      "workingAs": "Independent since 2021",
+      "takingOn": "Two contracts a year",
+      "hours": "Monday to Thursday, 9–5 UK time",
+      "footerNote": "Software engineer in Edinburgh. Two contracts a year, and the occasional good full-time offer.",
+      "tools": "TypeScript, Go and Rust. Postgres for almost everything, SQLite for the rest. A paper notebook for the part before any of them.",
+      "resumeNote": "The two-page version, with references, on request.",
+      "contactRest": "Tell me what it is today.",
+      "moved": {
+        "before": "Where one client started: checkout, 95th percentile",
+        "after": "Where it sits now, ten weeks later"
+      },
+      "pages": {
+        "work": {
+          "lead": "The numbers,",
+          "rest": "and the projects behind them.",
+          "text": "Payments, routing, observability and the tools around them. Each case study starts with what was measured before and after."
+        },
+        "about": {
+          "lead": "Software engineer in Edinburgh.",
+          "rest": "Twelve years between a database and a person waiting for it."
+        },
+        "services": {
+          "rest": "All of them start with a measurement.",
+          "text": "Prices are fixed where the scope is. Day rates are for work that finds its shape as it goes."
+        },
+        "writing": {
+          "rest": "A few a year, when something is worth writing down."
+        },
+        "contact": {
+          "lead": "Send me the number.",
+          "rest": "And where it hurts.",
+          "text": "Tell me what is slow, wrong or stuck, where you measure it, and when you need it better. I reply within a day."
+        }
+      },
+      "form": {
+        "namePlaceholder": "Mairi Campbell",
+        "messageLabel": "The number, and what it costs you",
+        "messagePlaceholder": "Checkout takes four seconds on a phone, and one in five people leave."
+      },
+      "projects": {
+        "fernhill-pay": {
+          "note": "was 840 ms in January 2024",
+          "line": "Checkout at 96 ms, was 840"
+        },
+        "harbourline": {
+          "note": "against fixed rounds, over twelve weeks",
+          "next": "stillwater"
+        },
+        "sandeel": {
+          "note": "was 14 minutes and a meeting",
+          "next": "bawbee"
+        },
+        "stillwater": {
+          "note": "was 600 million before the rewrite",
+          "next": "sandeel"
+        },
+        "bawbee": {
+          "note": "was 98.1% in the first month"
+        },
+        "tidewatch": {
+          "note": "within one quarter of fair rotas"
+        }
+      },
+      "services": {
+        "performance-audit": {
+          "fit": "Something is slow and the guesses have run out."
+        },
+        "build-with-your-team": {
+          "fit": "You have a clear thing to ship and not enough senior hands."
+        },
+        "architecture-review": {
+          "fit": "You are about to commit to a rewrite, a migration or a new store."
+        }
+      }
+    }
+  }
+}
