@@ -41,7 +41,7 @@ export default function Home() {
         <header className="hero">
           <div>
             <h1>이력서를 웹사이트로 만듭니다</h1>
-            <p className="standfirst">템플릿을 고르고 이력서와 사진, 포트폴리오 자료를 넘기면 AI가 사이트를 완성합니다.</p>
+            <p className="standfirst">템플릿을 고르고 이력서, 사진, 포트폴리오 자료를 전달하면 AI가 웹 이력서를 만듭니다.</p>
             <div className="actions">
               <a className="primary" href="#templates">
                 템플릿 보기
@@ -62,7 +62,7 @@ export default function Home() {
             <li>
               <span>2</span>
               <div>
-                <h2>자료 넘기기</h2>
+                <h2>자료 전달하기</h2>
                 <p>이력서, 프로필 사진, 포트폴리오 주소와 프로젝트 정보를 AI에 전달합니다.</p>
               </div>
             </li>
@@ -108,14 +108,14 @@ export default function Home() {
 
         <section id="how">
           <Head no="02" title="스킬이 하는 일">
-            resume-portfolio 스킬은 레이아웃을 새로 짜지 않고 사실을 옮기는 데 집중합니다. 상황을 고르면 단계별 작업을 볼 수 있습니다.
+            resume-portfolio 스킬은 제공한 자료로 웹 이력서를 만들고 결과를 확인합니다. 상황을 선택하면 단계별 작업을 볼 수 있습니다.
           </Head>
           <Steps />
         </section>
 
         <section id="rules">
           <Head no="03" title="스킬이 지키는 규칙">
-            사이트는 채용 담당자가 읽는 공개 문서입니다. 그래서 아래 다섯 가지는 어떤 요청에서도 지킵니다.
+            웹 이력서를 만들 때 다음 다섯 가지 원칙을 지킵니다.
           </Head>
           <ul className="rules">
             {rules.map((rule) => (
@@ -146,13 +146,13 @@ export default function Home() {
 
         <section id="install">
           <Head no="05" title="설치">
-            Claude Code, Codex, Antigravity에서 쓸 수 있습니다. 저장소 폴더에서 열면 스킬이 함께 들어 있습니다.
+            Claude Code, Codex, Antigravity에서 사용할 수 있습니다. 저장소를 열면 스킬을 바로 사용할 수 있습니다.
           </Head>
           <Install />
           <p className="note">
             <ShieldCheck size={18} aria-hidden="true" />
             <span>
-              내가 만든 <code>portfolios/</code> 폴더와 PDF는 <code>.gitignore</code>에 들어 있어 커밋되지 않습니다.
+              생성한 프로젝트의 프로필, 사진, PDF와 환경 파일은 기본적으로 Git에서 제외됩니다.
             </span>
           </p>
           <table className="ledger">
