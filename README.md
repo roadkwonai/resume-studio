@@ -357,7 +357,7 @@ npm run check
 
 ## 배포
 
-독립 프로젝트의 `.env.example`은 필요한 키의 발급 안내를 담습니다. 사용할 기능을 정한 뒤 `.env.local`로 복사하고 필요한 값만 채웁니다. 예시 파일만으로 이메일 전송이 활성화되지는 않습니다. 문의 폼은 실제 발송 방식을 구현하고 수신 주소와 환경 변수를 설정한 뒤 성공·오류를 확인해야 합니다. 기본 `mailto:` 폼은 방문자의 메일 앱을 엽니다. GitHub Pages의 정적 사이트만으로 서버 API를 실행할 수는 없습니다. Gmail·Resend 설정과 배포는 [가이드](.claude/skills/resume-portfolio/references/contact-deployment.md)를 참고합니다.
+저장소의 [`.env.example`](.env.example)과 생성되는 독립 프로젝트의 `.env.example`은 필요한 키의 발급 안내를 담습니다. 루트 설정값은 독립 프로젝트에 자동으로 전달되지 않습니다. 사용할 기능을 정한 뒤 `.env.local`로 복사하고 필요한 값만 채웁니다. 예시 파일만으로 이메일 전송이 활성화되지는 않습니다. 문의 폼은 실제 발송 방식을 구현하고 수신 주소와 환경 변수를 설정한 뒤 성공·오류를 확인해야 합니다. 기본 `mailto:` 폼은 방문자의 메일 앱을 엽니다. GitHub Pages의 정적 사이트만으로 서버 API를 실행할 수는 없습니다. Gmail·Resend 설정과 배포는 [가이드](.claude/skills/resume-portfolio/references/contact-deployment.md)를 참고합니다.
 
 이 저장소의 데모 사이트는 `main` 브랜치에 푸시할 때 [GitHub Actions](.github/workflows/pages.yml)가 빌드해 GitHub Pages에 올립니다. 데모 사이트에서는 템플릿 선택을 저장할 서버가 없어 대신 복사할 문장을 보여 줍니다.
 

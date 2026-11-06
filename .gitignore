@@ -57,6 +57,7 @@ selection.json
 .envrc
 .envrc.*
 .env.*
+!.env.example
 private/
 
 # 작업 부산물과 내부 메모
