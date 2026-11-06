@@ -20,10 +20,10 @@
   <a href="https://roadkwonai.github.io/resume-studio/">템플릿 미리보기</a> · <a href="#toc-1">빠른 시작</a> · <a href="#toc-3">작성 가이드</a> · <a href="#toc-4">샘플 프롬프트</a> · <a href="#toc-5">스킬 규칙</a> · <a href=".claude/skills/resume-portfolio/SKILL.md">스킬 원문</a>
 </p>
 
-사이트는 이미 만들어져 있습니다. `resume-portfolio` 스킬은 레이아웃을 새로 짜지 않고, 이력서의 사실을 `content/profile.json` 하나에 정확하게 옮기는 일을 맡습니다. 여섯 템플릿이 같은 형식을 쓰기 때문에 내용을 다시 쓰지 않고 템플릿을 바꿀 수 있습니다.
+`resume-portfolio` 스킬은 여섯 템플릿과 이력서·포트폴리오 자료를 바탕으로 저장소 밖에 독립 웹 이력서를 만듭니다. 자료가 충돌하거나 필요한 정보가 모호하면 확인하고, 선택한 템플릿에서 빠지는 내용이 없도록 화면과 기능을 검수합니다. 기존 사이트와 같은 결과를 새로 만들 때는 기존 프로젝트를 안전하게 복제해 활용할 수 있습니다.
 
 > [!IMPORTANT]
-> 내가 만든 `portfolios/` 폴더, PDF, `selection.json` 은 `.gitignore` 에 들어 있습니다. 이력서, 사진, 연락처는 이 저장소를 포크해도 커밋되지 않습니다.
+> 새 독립 프로젝트는 `content/profile.json`, `public/profile/`, PDF와 환경 파일을 기본적으로 Git에서 제외합니다. 이 설정은 Git에 실수로 올리는 것을 막기 위한 것이며, 배포된 사이트나 다운로드 PDF를 비공개로 만들지는 않습니다. Git 기반 배포에는 필요한 공개 파일을 별도로 준비하고 배포 결과를 확인해야 합니다.
 
 ## 설치
 
@@ -146,10 +146,10 @@ flowchart LR
 
 | 단계 | 스킬이 하는 일 |
 | --- | --- |
-| 자료와 템플릿 확인 | 이력서를 읽고 템플릿을 확인합니다. 사용자가 말한 이름이 갤러리 선택보다 우선합니다 |
+| 자료와 템플릿 확인 | 이력서와 포트폴리오를 확인하고, 자료 충돌이나 필요한 선택이 모호하면 묶어서 질문합니다 |
 | `profile.json` 작성 | 규격에 맞춰 옮기고 `npm run validate` 로 검사합니다 |
-| 포트폴리오 생성 | `portfolios/<이름>/` 을 만들고 사진과 PDF를 복사합니다 |
-| 검증 | 빌드, 데모 내용 잔재, 1440px과 390px 화면을 확인합니다 |
+| 포트폴리오 생성 | 저장소 밖에 독립 프로젝트를 만들고 사진과 PDF를 복사합니다. 기존 사이트를 재현할 때는 기존 소스에서 비밀값과 배포 연결을 제외하고 복사합니다 |
+| 검증 | 프로젝트·기술 연차·이미지·링크·PDF를 자료와 화면에 대조하고 빌드와 모바일 화면, 요청한 문의 기능을 확인합니다 |
 | 결과 보고 | 실행 주소, 사라진 섹션, 뺀 개인정보, 자료끼리 달랐던 값을 알립니다 |
 
 ### 4. 결과 확인
@@ -290,8 +290,8 @@ PDF에 전화번호나 주소가 남아 있으면 알려 줘.
 | --- | --- | --- | --- |
 | 출처 없는 내용을 쓰지 않습니다 | 결제 시스템 개발 | 결제 시스템을 개발했습니다 | 수백만 사용자의 결제 시스템이라고 늘려 쓰기 |
 | 공개해도 되는 내용만 옮깁니다 | 주민등록번호, 집 주소, 생년월일, 가족 사항, 병역 세부, 연봉 | 사이트에 옮기지 않습니다 | 전화번호를 동의 없이 공개하기 |
-| 자료가 다르면 알립니다 | 기여도 70%와 100% | 기여도를 빼고 쓴 뒤 두 값을 보고합니다 | 큰 값을 말없이 쓰기 |
-| 핵심만 추립니다 | 프로젝트 14개 | 대표 4~6개를 싣고 나머지는 경력 설명에 이름만 남깁니다 | 회사 성과를 통째로 지우기 |
+| 자료가 다르면 확인합니다 | 기여도 70%와 100% | 확인을 요청하고 불확실한 수치는 확인 전까지 생략합니다 | 큰 값을 말없이 쓰기 |
+| 요청한 범위를 따릅니다 | 프로젝트 14개 | 전체를 요청하면 모두 반영하고, 범위가 없으면 대표작을 제안합니다 | 요청한 프로젝트를 말없이 빼기 |
 | 빈 항목은 숨깁니다 | 후기 자료 없음 | 섹션과 메뉴를 표시하지 않습니다 | 그럴듯한 후기 지어내기 |
 
 > [!NOTE]
@@ -305,6 +305,9 @@ PDF에 전화번호나 주소가 남아 있으면 알려 줘.
 | [profile-guide.md](.claude/skills/resume-portfolio/references/profile-guide.md) | 이력서 항목과 `profile.json` 대응표, 작성법 |
 | [sources.md](.claude/skills/resume-portfolio/references/sources.md) | 자료가 여럿일 때 읽는 법, 충돌 처리, 추리기 기준 |
 | [templates.md](.claude/skills/resume-portfolio/references/templates.md) | 템플릿 추천 기준 |
+| [verification.md](.claude/skills/resume-portfolio/references/verification.md) | 자료, 화면, 링크, PDF와 문의 기능 검수 |
+| [recreate.md](.claude/skills/resume-portfolio/references/recreate.md) | 기존 사이트를 독립 프로젝트로 재현하는 절차 |
+| [contact-deployment.md](.claude/skills/resume-portfolio/references/contact-deployment.md) | Gmail·Resend 및 배포 환경 설정 |
 
 <a id="toc-6"></a>
 
@@ -313,10 +316,10 @@ PDF에 전화번호나 주소가 남아 있으면 알려 줘.
 | 명령 | 하는 일 |
 | --- | --- |
 | `npm run studio` | 갤러리와 템플릿 6종 실행. `-- --rebuild` 로 다시 빌드 |
-| `npm run new -- <템플릿> <이름> <profile.json>` | 템플릿을 복사해 포트폴리오 생성. 템플릿 자리에 `selected` 를 쓰면 갤러리 선택을 따름 |
+| `npm run new -- <템플릿> <이름> <profile.json> <외부 절대경로>` | 외부 경로에 포트폴리오 생성. 템플릿 자리에 `selected` 를 쓰면 갤러리 선택을 따름 |
 | `npm run validate -- <파일>` | `profile.json` 형식 검사 |
-| `npm run verify -- <이름>` | 형식, 프로덕션 빌드, 데모 내용 잔재 검사 |
-| `npm run dev -w @resume/portfolio-<이름>` | 내 포트폴리오 개발 모드 실행 |
+| `npm run verify -- <이름 또는 외부 절대경로>` | 형식, 프로덕션 빌드, 데모 내용 잔재 검사 |
+| `npm run dev` | 독립 프로젝트 폴더에서 개발 모드 실행 |
 | `npm run shots` | 갤러리 스크린샷 다시 촬영 |
 | `npm run skill:install -- <도구>` | 스킬을 전역 폴더에 복사. 도구는 `claude`, `codex`, `antigravity` |
 | `npm run pages` | GitHub Pages용 정적 사이트를 `site/` 에 생성 |
@@ -325,12 +328,13 @@ PDF에 전화번호나 주소가 남아 있으면 알려 줘.
 스킬 없이 직접 만들 때는 이렇게 합니다.
 
 ```bash
-npm run new -- stackbit-os my-site path/to/profile.json
-npm run verify -- my-site
-npm run dev -w @resume/portfolio-my-site
+npm run new -- stackbit-os my-site path/to/profile.json /절대경로/my-site-resume
+cd /절대경로/my-site-resume
+npm install
+npm run check
 ```
 
-사진과 이력서 PDF는 `portfolios/<이름>/public/profile/` 에 넣고 `profile.json` 에서 `/profile/파일명` 으로 가리킵니다.
+사진과 이력서 PDF는 독립 프로젝트의 `public/profile/` 에 넣고 `profile.json` 에서 `/profile/파일명` 으로 가리킵니다. 출력 경로를 생략하면 저장소와 같은 상위 폴더의 `<이름>-resume`에 생성됩니다. 기존 폴더는 덮어쓰지 않습니다.
 
 <a id="toc-7"></a>
 
@@ -343,7 +347,7 @@ npm run dev -w @resume/portfolio-my-site
 | `templates/<id>/content/profile.json` | 사람에 관한 모든 내용. 여섯 템플릿이 같은 형식을 씁니다 |
 | `templates/<id>/content/site.ko.json` | 메뉴, 버튼 같은 화면 문구 |
 | `shared/profile.ts` | `profile.json` 규격. 고친 뒤 `npm run sync` |
-| `portfolios/<이름>/` | 내가 만든 포트폴리오. 커밋되지 않습니다 |
+| `portfolios/<이름>/` | 이전 방식으로 만든 포트폴리오. 새 프로젝트는 기본적으로 저장소 밖에 생성됩니다 |
 | `.claude/skills/resume-portfolio/` | 스킬 원본 |
 | `.agents/skills/resume-portfolio/` | Codex와 Antigravity가 읽는 사본. `npm run sync` 로 맞춥니다 |
 
@@ -353,7 +357,7 @@ npm run dev -w @resume/portfolio-my-site
 
 ## 배포
 
-포트폴리오 폴더는 독립 앱이라 그대로 떼어내 어디든 배포할 수 있습니다. 밖으로 옮긴 뒤에는 그 폴더에서 `npm install` 을 실행합니다.
+독립 프로젝트의 `.env.example`은 필요한 키의 발급 안내를 담습니다. 사용할 기능을 정한 뒤 `.env.local`로 복사하고 필요한 값만 채웁니다. 예시 파일만으로 이메일 전송이 활성화되지는 않습니다. 문의 폼은 실제 발송 방식을 구현하고 수신 주소와 환경 변수를 설정한 뒤 성공·오류를 확인해야 합니다. 기본 `mailto:` 폼은 방문자의 메일 앱을 엽니다. GitHub Pages의 정적 사이트만으로 서버 API를 실행할 수는 없습니다. Gmail·Resend 설정과 배포는 [가이드](.claude/skills/resume-portfolio/references/contact-deployment.md)를 참고합니다.
 
 이 저장소의 데모 사이트는 `main` 브랜치에 푸시할 때 [GitHub Actions](.github/workflows/pages.yml)가 빌드해 GitHub Pages에 올립니다. 데모 사이트에서는 템플릿 선택을 저장할 서버가 없어 대신 복사할 문장을 보여 줍니다.
 

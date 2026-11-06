@@ -1,13 +1,14 @@
 // Checks a finished portfolio: profile valid, production build passes, no demo person left in the output.
-// Usage: npm run verify -- <slug>
+// Usage: npm run verify -- <slug|absolute-path>
 import { execFileSync } from "node:child_process";
 import { readFileSync, readdirSync, statSync } from "node:fs";
-import { join } from "node:path";
+import { isAbsolute, join, resolve } from "node:path";
 import { validate } from "../shared/validate.mjs";
 
 const root = new URL("..", import.meta.url).pathname;
 const slug = process.argv[2];
-const dir = join(root, "portfolios", slug ?? "");
+if (!slug) throw new Error("usage: npm run verify -- <slug|absolute-path>");
+const dir = isAbsolute(slug) ? resolve(slug) : join(root, "portfolios", slug);
 
 const errors = validate(JSON.parse(readFileSync(join(dir, "content/profile.json"), "utf8")));
 execFileSync("npx", ["next", "build"], { cwd: dir, stdio: ["ignore", "ignore", "inherit"] });
@@ -30,5 +31,5 @@ for (const file of files(join(dir, ".next/server/app"))) {
 }
 leaks.forEach((m) => errors.push(`demo content left in the build: "${m}"`));
 errors.forEach((e) => console.error(`✗ ${e}`));
-console.log(errors.length ? `${errors.length} problem(s)` : `portfolios/${slug} is clean`);
+console.log(errors.length ? `${errors.length} problem(s)` : `${dir} is clean`);
 process.exit(errors.length ? 1 : 0);

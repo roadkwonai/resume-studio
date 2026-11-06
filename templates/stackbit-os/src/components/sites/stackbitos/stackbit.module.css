@@ -1143,7 +1143,8 @@
 }
 
 .codeNumber {
-  width: 16px;
+  width: 3ch;
+  white-space: nowrap;
   flex: none;
   color: rgb(113, 128, 121);
   text-align: right;
